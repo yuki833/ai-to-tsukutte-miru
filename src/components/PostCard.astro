@@ -1,0 +1,33 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { CATEGORIES } from '../consts';
+
+interface Props { post: CollectionEntry<'posts'>; featured?: boolean; }
+const { post, featured = false } = Astro.props;
+const date = post.data.publishedAt.toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<article class:list={['post-card', { featured }]}>
+  <div class="card-top">
+    <a class="pill" href={`/categories/${post.data.category}/`}>{CATEGORIES[post.data.category].label}</a>
+    <time datetime={post.data.publishedAt.toISOString()}>{date}</time>
+  </div>
+  <h3><a href={`/articles/${post.id}/`}>{post.data.title}</a></h3>
+  <p>{post.data.description}</p>
+  <div class="tags" aria-label="タグ">
+    {post.data.tags.map((tag) => <span>#{tag}</span>)}
+  </div>
+  <a class="read" href={`/articles/${post.id}/`} aria-label={`${post.data.title}を読む`}>記事を読む <span aria-hidden="true">→</span></a>
+</article>
+
+<style>
+  .post-card { display: flex; min-height: 100%; flex-direction: column; padding: 1.5rem; border: 1px solid var(--line); border-radius: 18px; background: var(--surface); box-shadow: 0 12px 36px rgba(35, 59, 52, .045); }
+  .post-card.featured { padding: clamp(1.6rem, 4vw, 2.5rem); background: linear-gradient(145deg, #fff 45%, #edf8f4); }
+  .card-top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+  time { color: var(--muted); font-size: .78rem; }
+  h3 { margin: 1rem 0 .65rem; font-size: clamp(1.25rem, 2vw, 1.65rem); line-height: 1.45; letter-spacing: -.025em; }
+  h3 a { text-decoration: none; }
+  p { margin: 0; color: var(--muted); font-size: .92rem; }
+  .tags { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: 1rem; color: #75827e; font-size: .74rem; }
+  .read { margin-top: auto; padding-top: 1.4rem; color: var(--accent-dark); font-size: .86rem; font-weight: 800; text-decoration: none; }
+</style>

@@ -1,0 +1,21 @@
+---
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<footer>
+  <div class="container footer-inner">
+    <div>
+      <strong>{SITE_TITLE}</strong>
+      <p>{SITE_DESCRIPTION}</p>
+    </div>
+    <p class="copyright">© {new Date().getFullYear()} {SITE_TITLE}</p>
+  </div>
+</footer>
+
+<style>
+  footer { margin-top: 6rem; border-top: 1px solid var(--line); background: #eef2ec; }
+  .footer-inner { display: flex; justify-content: space-between; gap: 2rem; padding-block: 2.7rem; }
+  p { max-width: 34rem; margin: .45rem 0 0; color: var(--muted); font-size: .85rem; }
+  .copyright { align-self: flex-end; white-space: nowrap; }
+  @media (max-width: 640px) { .footer-inner { flex-direction: column; } .copyright { align-self: auto; } }
+</style>

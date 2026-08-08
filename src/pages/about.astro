@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="About" description="AIと、つくってみる。について">
+  <section class="reading about">
+    <p class="eyebrow">ABOUT THIS BLOG</p><h1>専門家になる前の、<br />学びの途中を残したい。</h1>
+    <div class="body">
+      <p>「AIと、つくってみる。」は、AI初心者が学んだことや、実際にAIを使って何かを作る過程を記録するブログです。</p>
+      <p>完成した答えだけでなく、何を使ったのか、どこでつまずいたのか、どう直したのか、そして実際に使ってどう感じたのかまで共有します。</p>
+      <h2>このブログで大切にすること</h2>
+      <ul><li>専門用語をできるだけ分かりやすくする</li><li>成功だけでなく試行錯誤も記録する</li><li>実際に手を動かして確かめる</li><li>AI初心者と同じ目線で考える</li></ul>
+      <p>最初の制作テーマは、AIと一緒にこのブログサイトそのものを作ること。サイトが育っていく過程も、記事として公開していきます。</p>
+    </div>
+  </section>
+</BaseLayout>
+<style>.about { padding-top: 5rem; } h1 { margin: 0; font-size: clamp(2.2rem, 6vw, 4.2rem); line-height: 1.35; letter-spacing: -.05em; } .body { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--line); font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: 1.04rem; line-height: 2.05; } h2 { margin-top: 3rem; font-family: "BIZ UDPGothic", sans-serif; } li + li { margin-top: .45rem; }</style>

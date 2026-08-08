@@ -1,0 +1,42 @@
+:root {
+  --ink: #17221f;
+  --muted: #5f6f69;
+  --paper: #f7f8f3;
+  --surface: #ffffff;
+  --line: #dfe6df;
+  --accent: #0a7a66;
+  --accent-dark: #075b4d;
+  --accent-soft: #dff2ec;
+  --tech: #5168d8;
+  --max: 1120px;
+  --reading: 720px;
+  font-family: "BIZ UDPGothic", "Yu Gothic UI", "Hiragino Kaku Gothic ProN", sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body { margin: 0; line-height: 1.8; }
+
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .22em; }
+a:hover { color: var(--accent-dark); }
+
+img { max-width: 100%; height: auto; }
+
+.container { width: min(calc(100% - 40px), var(--max)); margin-inline: auto; }
+.reading { width: min(calc(100% - 40px), var(--reading)); margin-inline: auto; }
+.eyebrow { margin: 0 0 .65rem; color: var(--accent); font-size: .78rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+.section-title { margin: 0; font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.35; letter-spacing: -.025em; }
+.muted { color: var(--muted); }
+.pill { display: inline-flex; align-items: center; padding: .24rem .68rem; border: 1px solid #bcded4; border-radius: 999px; color: var(--accent-dark); background: var(--accent-soft); font-size: .76rem; font-weight: 700; text-decoration: none; }
+.button { display: inline-flex; align-items: center; gap: .45rem; padding: .75rem 1.1rem; border-radius: 10px; color: #fff; background: var(--accent); font-weight: 700; text-decoration: none; }
+.button:hover { color: #fff; background: var(--accent-dark); }
+
+@media (max-width: 640px) {
+  .container, .reading { width: min(calc(100% - 28px), var(--max)); }
+  body { font-size: .96rem; }
+}

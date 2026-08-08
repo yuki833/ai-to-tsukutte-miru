@@ -1,0 +1,16 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { CATEGORIES, type CategoryKey } from '../../consts';
+
+export function getStaticPaths() { return Object.keys(CATEGORIES).map((category) => ({ params: { category } })); }
+const category = Astro.params.category as CategoryKey;
+const info = CATEGORIES[category];
+const posts = (await getCollection('posts', ({ data }) => !data.draft && data.category === category)).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+---
+<BaseLayout title={info.label} description={info.description}>
+  <section class="container page-head"><p class="eyebrow">CATEGORY</p><h1>{info.label}</h1><p>{info.description}</p></section>
+  <section class="container post-grid">{posts.length ? posts.map((post) => <PostCard post={post} />) : <p class="empty">記事を準備中です。最初の記事を楽しみにお待ちください。</p>}</section>
+</BaseLayout>
+<style>.page-head { padding: 5rem 0 2rem; } h1 { margin: 0; font-size: clamp(2.3rem, 6vw, 4.5rem); letter-spacing: -.05em; } .page-head > p:last-child, .empty { color: var(--muted); } .post-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; } @media (max-width: 680px) { .post-grid { grid-template-columns: 1fr; } }</style>

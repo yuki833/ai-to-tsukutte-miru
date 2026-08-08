@@ -1,0 +1,34 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { CATEGORIES } from '../../consts';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', ({ data }) => !data.draft);
+  return posts.map((post) => ({ params: { id: post.id }, props: { post } }));
+}
+const { post } = Astro.props;
+const { Content, headings } = await render(post);
+const date = post.data.publishedAt.toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+<BaseLayout title={post.data.title} description={post.data.description}>
+  <article>
+    <header class="article-head reading">
+      <a class="pill" href={`/categories/${post.data.category}/`}>{CATEGORIES[post.data.category].label}</a>
+      <h1>{post.data.title}</h1>
+      <p class="description">{post.data.description}</p>
+      <div class="meta"><time datetime={post.data.publishedAt.toISOString()}>{date}</time><span>・</span><span>{post.data.tags.map((tag) => `#${tag}`).join('  ')}</span></div>
+    </header>
+    <div class="article-grid container">
+      {headings.length > 0 && <aside><p>CONTENTS</p><ol>{headings.filter((h) => h.depth === 2).map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol></aside>}
+      <div class="prose"><Content /></div>
+    </div>
+  </article>
+</BaseLayout>
+<style is:global>
+  .article-head { padding: 5.5rem 0 3rem; } .article-head h1 { margin: 1.2rem 0 1rem; font-size: clamp(2rem, 5.5vw, 4rem); line-height: 1.28; letter-spacing: -.045em; } .article-head .description { color: var(--muted); font-size: 1.05rem; } .meta { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: 1.3rem; color: var(--muted); font-size: .78rem; }
+  .article-grid { display: grid; grid-template-columns: 220px minmax(0, var(--reading)); justify-content: center; gap: clamp(2rem, 6vw, 5rem); align-items: start; }
+  .article-grid aside { position: sticky; top: 9rem; padding-top: .35rem; } .article-grid aside > p { color: var(--accent); font-family: ui-monospace, monospace; font-size: .68rem; font-weight: 800; letter-spacing: .12em; } .article-grid aside ol { margin: 0; padding-left: 1.15rem; color: var(--muted); font-size: .76rem; line-height: 1.6; } .article-grid aside li + li { margin-top: .65rem; } .article-grid aside a { text-decoration: none; }
+  .prose { min-width: 0; font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: 1.04rem; line-height: 2.05; } .prose > :first-child { margin-top: 0; } .prose h2 { margin: 4rem 0 1.3rem; padding-top: .4rem; font-family: "BIZ UDPGothic", "Yu Gothic UI", sans-serif; font-size: clamp(1.45rem, 3vw, 2rem); line-height: 1.5; letter-spacing: -.025em; } .prose h2::before { display: block; width: 2.4rem; height: 4px; margin-bottom: 1rem; border-radius: 2px; background: linear-gradient(90deg, var(--accent), var(--tech)); content: ""; } .prose h3 { margin-top: 2.5rem; font-family: "BIZ UDPGothic", "Yu Gothic UI", sans-serif; } .prose p { margin-block: 1.35rem; } .prose strong { background: linear-gradient(transparent 65%, #d7eee7 65%); } .prose blockquote { margin: 2rem 0; padding: .8rem 1.4rem; border-left: 4px solid var(--accent); background: var(--accent-soft); } .prose code { padding: .12em .35em; border-radius: 4px; background: #e8ece8; font-family: ui-monospace, monospace; font-size: .88em; } .prose pre { overflow-x: auto; padding: 1.2rem; border-radius: 12px; background: #17221f; color: #edf5f1; line-height: 1.65; } .prose pre code { padding: 0; background: none; } .prose a { color: var(--accent-dark); }
+  @media (max-width: 900px) { .article-grid { grid-template-columns: minmax(0, var(--reading)); } .article-grid aside { position: static; padding: 1rem 1.2rem; border: 1px solid var(--line); border-radius: 12px; background: #fff; } }
+</style>

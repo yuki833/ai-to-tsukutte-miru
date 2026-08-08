@@ -1,0 +1,100 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { CATEGORIES } from '../consts';
+
+const posts = (await getCollection('posts', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+const [latest, ...rest] = posts;
+---
+
+<BaseLayout>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">LEARN · TRY · SHARE</p>
+        <h1>AIを学ぶ。<br /><span>一緒につくる。</span><br />そのまま伝える。</h1>
+        <p class="lead">専門家ではない今だからこそ、分からなかったことも、つまずいたことも記録する。AI初心者による、学びと制作のブログです。</p>
+        <div class="actions">
+          <a class="button" href="/articles/">記事を読む <span aria-hidden="true">→</span></a>
+          <a class="about-link" href="/about/">このブログについて</a>
+        </div>
+      </div>
+      <div class="process" aria-label="このブログの流れ">
+        <p class="process-title">THIS BLOG'S LOOP</p>
+        <ol>
+          <li><span>01</span><strong>AIを学ぶ</strong><small>まずは知る</small></li>
+          <li><span>02</span><strong>使ってみる</strong><small>手を動かす</small></li>
+          <li><span>03</span><strong>記録する</strong><small>失敗も残す</small></li>
+          <li><span>04</span><strong>共有する</strong><small>次の人へ</small></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  {latest && (
+    <section class="latest container">
+      <div class="section-head">
+        <div><p class="eyebrow">LATEST STORY</p><h2 class="section-title">最新の記事</h2></div>
+        <a href="/articles/">すべて見る →</a>
+      </div>
+      <PostCard post={latest} featured />
+    </section>
+  )}
+
+  <section class="categories">
+    <div class="container">
+      <p class="eyebrow">EXPLORE</p>
+      <h2 class="section-title">知りたいことから探す</h2>
+      <div class="category-grid">
+        {Object.entries(CATEGORIES).map(([key, category], index) => (
+          <a href={`/categories/${key}/`}>
+            <span class="category-number">0{index + 1}</span>
+            <h3>{category.label}</h3>
+            <p>{category.description}</p>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {rest.length > 0 && (
+    <section class="container more-posts">
+      <p class="eyebrow">MORE STORIES</p><h2 class="section-title">新着記事</h2>
+      <div class="post-grid">{rest.slice(0, 5).map((post) => <PostCard post={post} />)}</div>
+    </section>
+  )}
+</BaseLayout>
+
+<style>
+  .hero { padding: clamp(4.5rem, 10vw, 8.5rem) 0 5rem; overflow: hidden; background: radial-gradient(circle at 72% 35%, rgba(81,104,216,.13), transparent 22rem), linear-gradient(180deg, #f7f8f3, #eef5f0); }
+  .hero-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(280px, .65fr); gap: clamp(3rem, 7vw, 7rem); align-items: center; }
+  h1 { margin: 0; font-size: clamp(2.75rem, 7vw, 5.8rem); line-height: 1.12; letter-spacing: -.065em; }
+  h1 span { color: var(--accent); }
+  .lead { max-width: 43rem; margin: 1.7rem 0 0; color: var(--muted); font-size: clamp(1rem, 2vw, 1.1rem); }
+  .actions { display: flex; align-items: center; gap: 1.3rem; margin-top: 2rem; }
+  .about-link { color: var(--muted); font-size: .88rem; font-weight: 700; }
+  .process { padding: 1.5rem; border: 1px solid rgba(10,122,102,.2); border-radius: 22px; background: rgba(255,255,255,.7); box-shadow: 0 30px 80px rgba(31,67,57,.1); transform: rotate(1.2deg); }
+  .process-title { margin: 0 0 1rem; color: var(--tech); font-family: ui-monospace, monospace; font-size: .7rem; font-weight: 800; letter-spacing: .14em; }
+  .process ol { margin: 0; padding: 0; list-style: none; }
+  .process li { display: grid; grid-template-columns: 2.3rem 1fr auto; align-items: center; gap: .7rem; padding: .8rem 0; border-top: 1px dashed var(--line); }
+  .process li > span { color: var(--accent); font-family: ui-monospace, monospace; font-size: .75rem; }
+  .process small { color: var(--muted); }
+  .latest, .more-posts { padding-top: 5.5rem; }
+  .section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 2rem; margin-bottom: 1.5rem; }
+  .section-head > a { color: var(--accent-dark); font-size: .85rem; font-weight: 800; text-decoration: none; }
+  .categories { margin-top: 5.5rem; padding-block: 5rem; background: #172d27; color: #f8fbf9; }
+  .categories .eyebrow { color: #79d0ba; }
+  .category-grid { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 2rem; border-top: 1px solid rgba(255,255,255,.18); border-left: 1px solid rgba(255,255,255,.18); }
+  .category-grid > a { position: relative; min-height: 240px; padding: 1.5rem; border-right: 1px solid rgba(255,255,255,.18); border-bottom: 1px solid rgba(255,255,255,.18); color: inherit; text-decoration: none; transition: background .2s, transform .2s; }
+  .category-grid > a:hover { color: inherit; background: rgba(255,255,255,.06); transform: translateY(-3px); }
+  .category-number { color: #79d0ba; font-family: ui-monospace, monospace; font-size: .75rem; }
+  .category-grid h3 { margin: 2rem 0 .6rem; font-size: 1.15rem; }
+  .category-grid p { margin: 0; color: #b9c9c3; font-size: .82rem; }
+  .arrow { position: absolute; right: 1.5rem; bottom: 1rem; color: #79d0ba; font-size: 1.2rem; }
+  .post-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; margin-top: 2rem; }
+  @media (max-width: 850px) { .hero-grid { grid-template-columns: 1fr; } .process { max-width: 520px; transform: none; } .category-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .hero { padding-top: 3.5rem; } h1 { font-size: 2.85rem; } .actions { align-items: flex-start; flex-direction: column; } .category-grid, .post-grid { grid-template-columns: 1fr; } .category-grid > a { min-height: 190px; } }
+</style>
