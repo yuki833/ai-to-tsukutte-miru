@@ -1,16 +1,42 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
-<BaseLayout title="About" description="AIと、つくってみる。について">
+<BaseLayout title="About" description="AIと、つくってみる。の運営方針と、初心者に伴走したい理由。">
   <section class="reading about">
-    <p class="eyebrow">ABOUT THIS BLOG</p><h1>専門家になる前の、<br />学びの途中を残したい。</h1>
+    <p class="eyebrow">ABOUT THIS BLOG</p>
+    <h1>分からない気持ちを置き去りにせず、<br />使えるところまで一緒に。</h1>
     <div class="body">
-      <p>「AIと、つくってみる。」は、AI初心者が学んだことや、実際にAIを使って何かを作る過程を記録するブログです。</p>
-      <p>完成した答えだけでなく、何を使ったのか、どこでつまずいたのか、どう直したのか、そして実際に使ってどう感じたのかまで共有します。</p>
+      <p>「AIと、つくってみる。」は、AIに興味はあるけれど何から始めればいいか分からない人のための、実践ブログです。</p>
+      <p>私自身も、最初からAIの専門家だったわけではありません。だからこそ、最初の質問が思いつかないこと、AIの答えが正しいか不安になること、ツールが多すぎて迷うことを、初心者と同じ目線で考えられます。</p>
+
+      <aside><strong>目指すのは、難しい知識を一方的に教える人ではなく、あなたがAIを実際に使えるところまで一緒に進む伴走者です。</strong></aside>
+
       <h2>このブログで大切にすること</h2>
-      <ul><li>専門用語をできるだけ分かりやすくする</li><li>成功だけでなく試行錯誤も記録する</li><li>実際に手を動かして確かめる</li><li>AI初心者と同じ目線で考える</li></ul>
-      <p>最初の制作テーマは、AIと一緒にこのブログサイトそのものを作ること。サイトが育っていく過程も、記事として公開していきます。</p>
+      <ul>
+        <li>専門用語を、できるだけ日常の言葉に置き換える</li>
+        <li>機能紹介だけでなく、実際の使い方を見せる</li>
+        <li>成功だけでなく、つまずきや直し方も記録する</li>
+        <li>AIの回答をそのまま信じず、自分でも確かめる</li>
+        <li>読んだ人が、その場で一歩試せる内容にする</li>
+      </ul>
+
+      <h2>このサイトも、AIと一緒につくりました</h2>
+      <p>最初の実践テーマは、このブログサイトそのものを作ることでした。技術選び、開発環境の準備、エラーの修正、インターネットへの公開までAIと相談しながら進めています。</p>
+      <p>「AIを使えば何でも一瞬で完成する」と見せるのではなく、人が判断する場面や失敗も含めて公開することで、AIとの現実的な付き合い方を伝えていきます。</p>
+
+      <h2>その先に、AIラボをつくりたい</h2>
+      <p>将来は、自分の仕事や趣味を持ち込み、先生に質問しながらAIを使える「AIラボ」をつくりたいと考えています。知識を覚える場所ではなく、通うたびにできることが増える場所です。</p>
+      <p><a class="button" href="/ai-lab/">AIラボ構想を読む →</a></p>
     </div>
   </section>
 </BaseLayout>
-<style>.about { padding-top: 5rem; } h1 { margin: 0; font-size: clamp(2.2rem, 6vw, 4.2rem); line-height: 1.35; letter-spacing: -.05em; } .body { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--line); font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: 1.04rem; line-height: 2.05; } h2 { margin-top: 3rem; font-family: "BIZ UDPGothic", sans-serif; } li + li { margin-top: .45rem; }</style>
+<style>
+  .about { padding-top: 5rem; }
+  h1 { margin: 0; font-size: clamp(2.2rem, 6vw, 4.2rem); line-height: 1.35; letter-spacing: -.05em; }
+  .body { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--line); font-size: 1.02rem; line-height: 2.05; }
+  h2 { margin-top: 3.5rem; font-size: 1.45rem; line-height: 1.5; }
+  li + li { margin-top: .55rem; }
+  aside { margin: 2.5rem 0; padding: 1.6rem; border-left: 4px solid var(--accent); border-radius: 0 14px 14px 0; background: var(--accent-soft); }
+  aside strong { line-height: 1.8; }
+  .button { margin-top: .5rem; }
+</style>

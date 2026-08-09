@@ -7,6 +7,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
     <div>
       <strong>{SITE_TITLE}</strong>
       <p>{SITE_DESCRIPTION}</p>
+      <div class="footer-links"><a href="/articles/">記事一覧</a><a href="/ai-lab/">AIラボ構想</a><a href="/about/">About</a></div>
     </div>
     <p class="copyright">© {new Date().getFullYear()} {SITE_TITLE}</p>
   </div>
@@ -16,6 +17,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
   footer { margin-top: 6rem; border-top: 1px solid var(--line); background: #eef2ec; }
   .footer-inner { display: flex; justify-content: space-between; gap: 2rem; padding-block: 2.7rem; }
   p { max-width: 34rem; margin: .45rem 0 0; color: var(--muted); font-size: .85rem; }
+  .footer-links { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; font-size: .8rem; font-weight: 700; }
   .copyright { align-self: flex-end; white-space: nowrap; }
   @media (max-width: 640px) { .footer-inner { flex-direction: column; } .copyright { align-self: auto; } }
 </style>
