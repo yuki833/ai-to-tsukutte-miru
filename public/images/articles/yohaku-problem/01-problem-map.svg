@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">小さな商売で値付けの判断が難しくなる構造</title>
+  <desc id="desc">コスト上昇、少人数運営、数字の分散が重なり、利益が見えにくくなる流れを示した図</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">PROBLEM MAP</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">小さな商売の値付けで、何が起きているのか</text>
+  <g font-family="sans-serif">
+    <rect x="74" y="190" width="300" height="188" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="104" y="238" fill="#d36542" font-size="20" font-weight="700">外部環境</text>
+    <text x="104" y="286" fill="#24231f" font-size="26" font-weight="700">材料費・人件費などの</text>
+    <text x="104" y="323" fill="#24231f" font-size="26" font-weight="700">コストが上がる</text>
+    <rect x="450" y="190" width="300" height="188" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="480" y="238" fill="#2d7a65" font-size="20" font-weight="700">運営体制</text>
+    <text x="480" y="286" fill="#24231f" font-size="26" font-weight="700">一人・少人数で経理も</text>
+    <text x="480" y="323" fill="#24231f" font-size="26" font-weight="700">本業も担当する</text>
+    <rect x="826" y="190" width="300" height="188" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="856" y="238" fill="#d36542" font-size="20" font-weight="700">判断材料</text>
+    <text x="856" y="286" fill="#24231f" font-size="26" font-weight="700">原価・時間・固定費が</text>
+    <text x="856" y="323" fill="#24231f" font-size="26" font-weight="700">別々に管理される</text>
+    <path d="M224 400v48M600 400v48M976 400v48" stroke="#d36542" stroke-width="4"/>
+    <path d="M210 435l14 17 14-17M586 435l14 17 14-17M962 435l14 17 14-17" fill="none" stroke="#d36542" stroke-width="4"/>
+    <rect x="205" y="475" width="790" height="116" rx="58" fill="#172d27"/>
+    <text x="600" y="526" text-anchor="middle" fill="#fff" font-size="31" font-weight="700">売れていても、実際にいくら残るか見えにくい</text>
+    <text x="600" y="565" text-anchor="middle" fill="#bcd0c8" font-size="22">値上げ・販売数・目標利益の判断がつながらない</text>
+  </g>
+</svg>

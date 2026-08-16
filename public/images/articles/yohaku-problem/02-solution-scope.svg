@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">余白が扱う課題と解決範囲</title>
+  <desc id="desc">六つの入力を一画面にまとめ、利益や時給、必要販売数などの判断材料へ変換する流れ</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#2d7a65" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">SOLUTION SCOPE</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">計算を増やすのではなく、判断材料を一画面へ</text>
+  <g font-family="sans-serif">
+    <rect x="74" y="182" width="330" height="370" rx="22" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="108" y="231" fill="#d36542" font-size="20" font-weight="700">6つの入力</text>
+    <g fill="#24231f" font-size="24">
+      <text x="108" y="285">販売価格</text><text x="108" y="330">1件あたりの経費</text>
+      <text x="108" y="375">作業時間</text><text x="108" y="420">毎月の固定費</text>
+      <text x="108" y="465">販売見込み数</text><text x="108" y="510">目標利益</text>
+    </g>
+    <path d="M430 365h108" stroke="#d36542" stroke-width="5"/>
+    <path d="M522 350l18 15-18 15" fill="none" stroke="#d36542" stroke-width="5"/>
+    <rect x="570" y="182" width="556" height="370" rx="22" fill="#172d27"/>
+    <text x="608" y="231" fill="#efb85d" font-size="20" font-weight="700">判断材料として返す</text>
+    <g fill="#fff" font-size="24">
+      <text x="608" y="285">1件の利益・利益率</text><text x="608" y="330">実質時給・月間利益</text>
+      <text x="608" y="375">黒字化に必要な販売数</text><text x="608" y="420">目標利益に必要な販売数</text>
+      <text x="608" y="465">10％値上げした場合の変化</text>
+    </g>
+    <rect x="608" y="493" width="468" height="36" rx="18" fill="#27483e"/>
+    <text x="842" y="518" text-anchor="middle" fill="#c5d7d0" font-size="18">価格の正解ではなく、考えるための材料</text>
+  </g>
+</svg>
