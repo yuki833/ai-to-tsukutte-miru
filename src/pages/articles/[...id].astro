@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { CATEGORIES } from '../../consts';
+import { CATEGORIES, DEFAULT_OG_IMAGE, OG_IMAGES, SITE_AUTHOR, SITE_TITLE, SITE_URL } from '../../consts';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts', ({ data }) => !data.draft);
@@ -10,14 +10,44 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content, headings } = await render(post);
 const date = post.data.publishedAt.toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' });
+
+const origin = Astro.site?.origin ?? SITE_URL;
+const articleUrl = new URL(`/articles/${post.id}/`, origin).href;
+const ogImagePath = OG_IMAGES[post.id] ?? DEFAULT_OG_IMAGE;
+
+// 検索エンジンへ記事の構造を伝える。個人情報・認証情報・診断入力値は入れない。
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: post.data.title,
+  description: post.data.description,
+  inLanguage: 'ja',
+  datePublished: post.data.publishedAt.toISOString(),
+  dateModified: (post.data.updatedAt ?? post.data.publishedAt).toISOString(),
+  image: new URL(ogImagePath, origin).href,
+  url: articleUrl,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
+  author: { '@type': 'Person', name: SITE_AUTHOR },
+  publisher: { '@type': 'Organization', name: SITE_TITLE },
+  articleSection: CATEGORIES[post.data.category].label,
+  keywords: post.data.tags.join(', '),
+};
 ---
-<BaseLayout title={post.data.title} description={post.data.description}>
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description}
+  image={ogImagePath}
+  type="article"
+  publishedAt={post.data.publishedAt}
+  updatedAt={post.data.updatedAt}
+  jsonLd={jsonLd}
+>
   <article>
     <header class="article-head reading">
       <a class="pill" href={`/categories/${post.data.category}/`}>{CATEGORIES[post.data.category].label}</a>
       <h1>{post.data.title}</h1>
       <p class="description">{post.data.description}</p>
-      <div class="meta"><time datetime={post.data.publishedAt.toISOString()}>{date}</time><span>・</span><span>{post.data.tags.map((tag) => `#${tag}`).join('  ')}</span></div>
+      <div class="meta"><time datetime={post.data.publishedAt.toISOString()}>{date}</time>{post.data.updatedAt && <><span>・</span><span>更新 <time datetime={post.data.updatedAt.toISOString()}>{post.data.updatedAt.toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' })}</time></span></>}<span>・</span><span>{post.data.tags.map((tag) => `#${tag}`).join('  ')}</span></div>
     </header>
     <div class="article-grid container">
       {headings.length > 0 && <aside><p>CONTENTS</p><ul>{headings.filter((h) => h.depth === 2).map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ul></aside>}

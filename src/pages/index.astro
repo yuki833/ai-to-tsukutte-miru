@@ -2,12 +2,24 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
+import { SITE_AUTHOR, SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from '../consts';
 
 const posts = (await getCollection('posts', ({ data }) => !data.draft))
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+
+const origin = Astro.site?.origin ?? SITE_URL;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE_TITLE,
+  description: SITE_DESCRIPTION,
+  inLanguage: 'ja',
+  url: new URL('/', origin).href,
+  author: { '@type': 'Person', name: SITE_AUTHOR },
+};
 ---
 
-<BaseLayout>
+<BaseLayout jsonLd={jsonLd}>
   <section class="hero">
     <div class="container hero-grid">
       <div>
