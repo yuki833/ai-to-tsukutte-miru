@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">症状から原因を推測して直すと、直さなくてよいものを直してしまう</title>
+  <desc id="desc">画面に出ないという症状から「連携が壊れた」と推測して対処した経路と、記録を見て「遅れているだけ」と確かめた経路を並べた図</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">SYMPTOM AND CAUSE</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">同じ症状から、二つの結論が出る</text>
+  <g font-family="sans-serif">
+    <rect x="74" y="182" width="286" height="150" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="104" y="228" fill="#7a7362" font-size="20" font-weight="700">見えた症状</text>
+    <text x="104" y="274" fill="#24231f" font-size="26" font-weight="700">画面に、それが</text>
+    <text x="104" y="308" fill="#24231f" font-size="26" font-weight="700">出てこない</text>
+
+    <path d="M372 257 L432 257" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M424 249 L436 257 L424 265 Z" fill="#b8ae9a"/>
+
+    <rect x="444" y="120" width="330" height="176" rx="20" fill="#fff" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="474" y="166" fill="#d36542" font-size="20" font-weight="700">推測でそのまま進む</text>
+    <text x="474" y="212" fill="#24231f" font-size="26" font-weight="700">「壊れているはずだ」</text>
+    <text x="474" y="252" fill="#5d564a" font-size="21">もっともらしい原因を</text>
+    <text x="474" y="280" fill="#5d564a" font-size="21">そのまま結論にする</text>
+
+    <rect x="444" y="330" width="330" height="176" rx="20" fill="#fff" stroke="#a9cbbe" stroke-width="2"/>
+    <text x="474" y="376" fill="#2d7a65" font-size="20" font-weight="700">記録を見てから進む</text>
+    <text x="474" y="422" fill="#24231f" font-size="26" font-weight="700">「いつ、何が起きたか」</text>
+    <text x="474" y="462" fill="#5d564a" font-size="21">画面ではなく履歴を</text>
+    <text x="474" y="490" fill="#5d564a" font-size="21">数字で確かめる</text>
+
+    <path d="M786 208 L846 208" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M838 200 L850 208 L838 216 Z" fill="#b8ae9a"/>
+    <path d="M786 418 L846 418" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M838 410 L850 418 L838 426 Z" fill="#b8ae9a"/>
+
+    <rect x="858" y="120" width="268" height="176" rx="20" fill="#fbeee9" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="888" y="166" fill="#d36542" font-size="20" font-weight="700">結果</text>
+    <text x="888" y="212" fill="#24231f" font-size="26" font-weight="700">直さなくてよい</text>
+    <text x="888" y="246" fill="#24231f" font-size="26" font-weight="700">ものを直しにいく</text>
+
+    <rect x="858" y="330" width="268" height="176" rx="20" fill="#e9f2ee" stroke="#a9cbbe" stroke-width="2"/>
+    <text x="888" y="376" fill="#2d7a65" font-size="20" font-weight="700">結果</text>
+    <text x="888" y="422" fill="#24231f" font-size="26" font-weight="700">遅れているだけ</text>
+    <text x="888" y="456" fill="#24231f" font-size="26" font-weight="700">と分かる</text>
+
+    <rect x="74" y="546" width="1052" height="86" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="104" y="584" fill="#24231f" font-size="24" font-weight="700">分かれ目は、賢さではなく「確かめたかどうか」</text>
+    <text x="104" y="616" fill="#5d564a" font-size="21">正常なときの数字を知っていれば、異常かどうかを推測しなくてよくなる</text>
+  </g>
+</svg>
