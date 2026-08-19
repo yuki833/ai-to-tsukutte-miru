@@ -1,0 +1,19 @@
+# Cloudflare Pages のレスポンスヘッダー設定。
+# 2026-08-18のセキュリティ点検で追加した（SEC-01）。
+# 変更したら本番デプロイ後に必ず curl -I で実際の応答を確認する。
+#
+# CSPの根拠（2026-08-18に本番HTMLを実測）
+#   - 外部スクリプトは Cloudflare Web Analytics のビーコン1本だけ
+#   - インラインJSは無し。JSON-LD は type="application/ld+json" で実行されない
+#   - CSSは自サイトの1ファイル + Astroが生成するインライン <style> が1つ
+#   - 外部の画像・フォント・API呼び出しは無し
+# よって既定を 'self' に閉じ、ビーコンの分だけ開ける。
+
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()
+  Cross-Origin-Opener-Policy: same-origin
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
