@@ -8,6 +8,13 @@ export const SITE_AUTHOR = 'ユキ';
 export const SITE_LOCALE = 'ja_JP';
 export const SITE_X_HANDLE = '@yuki_ai_tsukuru';
 
+// Bing Webmaster Tools のサイト所有権確認コード。
+// Bingの「HTMLメタタグ」方式で表示される content の値だけをここへ入れる。
+// 例: <meta name="msvalidate.01" content="ABC123..." /> なら 'ABC123...' の部分。
+// 空文字のときはタグを出力しない。秘密情報ではないが、アカウント由来の値なので
+// 文書やログへは書かない（SAFE-01）。
+export const BING_SITE_VERIFICATION = 'C058177F68DA892C4270A29503A02EEC';
+
 // SNSと検索結果で使うカード画像。1200x630のPNGだけを指定する（SVGはX・Facebookが表示しない）。
 export const DEFAULT_OG_IMAGE = '/og/default.png';
 

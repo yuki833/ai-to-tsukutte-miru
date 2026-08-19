@@ -9,6 +9,7 @@ import {
   SITE_TITLE,
   SITE_URL,
   SITE_X_HANDLE,
+  BING_SITE_VERIFICATION,
 } from '../consts';
 import '../styles/global.css';
 
@@ -58,6 +59,9 @@ const ogImageAlt = title ? `${title}｜${SITE_TITLE}` : SITE_TITLE;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
     <link rel="canonical" href={canonical} />
+    {BING_SITE_VERIFICATION && (
+      <meta name="msvalidate.01" content={BING_SITE_VERIFICATION} />
+    )}
     <link rel="alternate" type="application/rss+xml" title={`${SITE_TITLE} の更新`} href="/rss.xml" />
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
