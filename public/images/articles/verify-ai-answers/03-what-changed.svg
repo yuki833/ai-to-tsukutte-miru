@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">「壊れている」と「遅れている」は別物</title>
+  <desc id="desc">この記事の事例をもとに、故障と遅延を、記録に出るもの、待てば直るか、やること、間違えるとの4項目で比較する。成功した記録と時刻を確認すると、直さなくていいものを直す誤りを避けられる。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <g font-family="sans-serif">
+    <text x="74" y="74" fill="#d36542" font-size="21" font-weight="700" letter-spacing="3">BROKEN OR LATE</text>
+    <text x="74" y="126" fill="#24231f" font-size="39" font-weight="700">「壊れている」と「遅れている」は別物</text>
+    <rect x="74" y="182" width="520" height="64" rx="16" fill="#e8e0d4" stroke="#d8d0bf" stroke-width="2"/>
+    <rect x="618" y="182" width="506" height="64" rx="16" fill="#e8ded9" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="334" y="222" text-anchor="middle" fill="#5c534a" font-size="27" font-weight="700">壊れている</text>
+    <text x="871" y="222" text-anchor="middle" fill="#b8462f" font-size="27" font-weight="700">遅れている</text>
+    <text x="74" y="278" fill="#7a7362" font-size="17">記録に出るもの</text>
+    <rect x="74" y="286" width="520" height="64" rx="14" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <rect x="618" y="286" width="506" height="64" rx="14" fill="#fff" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="94" y="326" fill="#24231f" font-size="23">エラー・失敗の記録</text>
+    <text x="638" y="326" fill="#24231f" font-size="23">成功の記録。ただし時刻が遅い</text>
+    <text x="74" y="371" fill="#7a7362" font-size="17">待てば直るか</text>
+    <rect x="74" y="379" width="520" height="64" rx="14" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <rect x="618" y="379" width="506" height="64" rx="14" fill="#fff" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="94" y="419" fill="#24231f" font-size="23" font-weight="700">直らない</text>
+    <text x="638" y="419" fill="#17795e" font-size="23" font-weight="700">直る</text>
+    <text x="74" y="464" fill="#7a7362" font-size="17">やること</text>
+    <rect x="74" y="472" width="520" height="64" rx="14" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <rect x="618" y="472" width="506" height="64" rx="14" fill="#fff" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="94" y="512" fill="#24231f" font-size="23">原因を探して直す</text>
+    <text x="638" y="512" fill="#24231f" font-size="23" font-weight="700">何もしない。様子を見る</text>
+    <text x="74" y="557" fill="#7a7362" font-size="17">間違えると</text>
+    <rect x="74" y="565" width="520" height="64" rx="14" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <rect x="618" y="565" width="506" height="64" rx="14" fill="#fff" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="94" y="605" fill="#24231f" font-size="23">—</text>
+    <text x="638" y="605" fill="#b8462f" font-size="23">直さなくていいものを直す</text>
+  </g>
+</svg>

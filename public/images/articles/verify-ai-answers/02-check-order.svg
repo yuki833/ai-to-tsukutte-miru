@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">直す前に、確かめる順番がある</title>
+  <desc id="desc">記録を見る、時刻を並べる、差を数字にする、そこで原因を言う、の4段階。順番を飛ばすと正常なものを直しかねない。実例では連携は壊れておらず、33分27秒遅れていただけだった。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <g font-family="sans-serif">
+    <text x="74" y="74" fill="#d36542" font-size="21" font-weight="700" letter-spacing="3">CHECK ORDER</text>
+    <text x="74" y="126" fill="#24231f" font-size="39" font-weight="700">直す前に、確かめる順番がある</text>
+    <rect x="74" y="182" width="560" height="104" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <circle cx="124" cy="234" r="22" fill="#d36542"/>
+    <text x="124" y="234" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="24" font-weight="700">1</text>
+    <text x="166" y="228" fill="#24231f" font-size="26" font-weight="700">記録を見る</text>
+    <text x="166" y="262" fill="#7a7362" font-size="19">推測ではなく、実際に起きたことを見る</text>
+    <rect x="74" y="302" width="560" height="104" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <circle cx="124" cy="354" r="22" fill="#d36542"/>
+    <text x="124" y="354" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="24" font-weight="700">2</text>
+    <text x="166" y="348" fill="#24231f" font-size="26" font-weight="700">時刻を並べる</text>
+    <text x="166" y="382" fill="#7a7362" font-size="19">いつ動いて、いつ終わったか</text>
+    <rect x="74" y="422" width="560" height="104" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <circle cx="124" cy="474" r="22" fill="#d36542"/>
+    <text x="124" y="474" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="24" font-weight="700">3</text>
+    <text x="166" y="468" fill="#24231f" font-size="26" font-weight="700">差を数字にする</text>
+    <text x="166" y="502" fill="#7a7362" font-size="19">「遅い」なのか「動いていない」なのか</text>
+    <rect x="74" y="542" width="560" height="104" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <circle cx="124" cy="594" r="22" fill="#d36542"/>
+    <text x="124" y="594" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="24" font-weight="700">4</text>
+    <text x="166" y="588" fill="#24231f" font-size="26" font-weight="700">そこで原因を言う</text>
+    <text x="166" y="622" fill="#7a7362" font-size="19">ここまで来て初めて</text>
+    <rect x="676" y="182" width="450" height="464" rx="20" fill="#f0e6e0" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="706" y="228" fill="#b8462f" font-size="24" font-weight="700">この順番を飛ばすと</text>
+    <text x="706" y="286" fill="#5c534a" font-size="21">「たぶん壊れている」と推測し</text>
+    <text x="706" y="320" fill="#5c534a" font-size="21">直さなくていいものを直して</text>
+    <text x="706" y="354" fill="#5c534a" font-size="21">本当の原因は残ったままになる</text>
+    <path d="M706 400 H1096" fill="none" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="706" y="444" fill="#b8462f" font-size="19" font-weight="700">実際にあったこと</text>
+    <text x="706" y="486" fill="#5c534a" font-size="20">AIは「連携が壊れています」と言った</text>
+    <text x="706" y="520" fill="#5c534a" font-size="20">実際は壊れておらず</text>
+    <text x="706" y="554" fill="#5c534a" font-size="20">33分27秒 遅れていただけだった</text>
+    <text x="706" y="588" fill="#5c534a" font-size="20">記録を見れば、すぐ分かった</text>
+  </g>
+</svg>
