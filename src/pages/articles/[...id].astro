@@ -67,49 +67,13 @@ const jsonLd = {
   @media (max-width: 900px) { .article-grid { grid-template-columns: minmax(0, var(--reading)); } .article-grid aside { position: static; padding: 1rem 1.2rem; border: 1px solid var(--line); border-radius: 12px; background: #fff; } }
 </style>
 
-<script>
-  /**
-   * コード枠に「コピー」ボタンを付ける。
-   *
-   * 2026-08-30に追加。記事「議事録をAIに書かせる」は、貼るための指示文を載せている。
-   * **コピーできなければ記事が成立しない**のに、コピー手段が無かった。
-   * スマートフォンでは、横スクロールする枠の中で25行を選択させることになっていた。
-   *
-   * 依存は入れない。クリップボードが使えない環境では、ボタンを出さない。
-   */
-  const canCopy = typeof navigator !== 'undefined' && navigator.clipboard;
-  if (canCopy) {
-    for (const pre of document.querySelectorAll('.prose pre')) {
-      const wrap = document.createElement('div');
-      wrap.className = 'code-wrap';
-      pre.parentNode.insertBefore(wrap, pre);
-      wrap.appendChild(pre);
+<!--
+  コード枠のコピーボタン。**中身は public/js/copy-code.js に置く。**
+  このサイトはCSPで script-src 'self' を出しており、.astro に <script> を書くと
+  Astroがインライン化して弾かれる（INC-042）。同一オリジンの外部ファイルなら通る。
+-->
+<script is:inline defer src="/js/copy-code.js"></script>
 
-      const btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'code-copy';
-      btn.textContent = 'コピー';
-      btn.setAttribute('aria-label', 'この内容をコピーする');
-      wrap.appendChild(btn);
-
-      btn.addEventListener('click', async () => {
-        try {
-          await navigator.clipboard.writeText(pre.innerText);
-          btn.textContent = 'コピーしました';
-          btn.classList.add('done');
-        } catch {
-          // **失敗したことを隠さない。** 手で選べるように伝える
-          btn.textContent = 'コピーできません';
-          btn.classList.add('failed');
-        }
-        setTimeout(() => {
-          btn.textContent = 'コピー';
-          btn.classList.remove('done', 'failed');
-        }, 2000);
-      });
-    }
-  }
-</script>
 
 <style is:global>
   .code-wrap { position: relative; }
