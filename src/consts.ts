@@ -35,6 +35,7 @@ export const OG_IMAGES: Record<string, string> = {
   'why-small-business-pricing-is-hard': '/og/why-small-business-pricing-is-hard.png',
   'verify-ai-answers': '/og/verify-ai-answers.png',
   'ai-meeting-minutes': '/og/ai-meeting-minutes.png',
+  'ai-excel-formula': '/og/ai-excel-formula.png',
 };
 
 export const CATEGORIES = {

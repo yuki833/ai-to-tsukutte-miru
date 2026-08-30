@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">条件を1つ落とすと、混ざってはいけない行が合計に入る</title>
+  <desc id="desc">正しい式の結果35000に対し、分類の条件を落とすと38000、日付の条件を落とすと56000になる。いずれもエラーにならず数字が出るため、正解を知らないと気づけないことを示した図</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">SILENT ERROR</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">条件が落ちても、エラーは出ない</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="182" width="1052" height="96" rx="18" fill="#f2f7f4" stroke="#8fbfa4" stroke-width="3"/>
+    <text x="114" y="222" fill="#2f6b4f" font-size="20" font-weight="700">正しい式（条件4つ）</text>
+    <text x="114" y="256" fill="#24231f" font-size="24">担当者・分類・開始日・終了日</text>
+    <text x="1086" y="248" fill="#2f6b4f" font-size="34" font-weight="700" text-anchor="end">35,000</text>
+
+    <rect x="74" y="300" width="1052" height="112" rx="18" fill="#fdf1ef" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="114" y="340" fill="#b23a2e" font-size="20" font-weight="700">分類の条件を落とすと</text>
+    <text x="114" y="374" fill="#24231f" font-size="24">消耗品の 3,000 が混ざる</text>
+    <text x="114" y="402" fill="#7a7362" font-size="18">エラーは出ない。数字だけが変わる</text>
+    <text x="1086" y="366" fill="#b23a2e" font-size="34" font-weight="700" text-anchor="end">38,000</text>
+
+    <rect x="74" y="434" width="1052" height="112" rx="18" fill="#fdf1ef" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="114" y="474" fill="#b23a2e" font-size="20" font-weight="700">日付の条件を落とすと</text>
+    <text x="114" y="508" fill="#24231f" font-size="24">7月の 12,000 と 9月の 9,000 が混ざる</text>
+    <text x="114" y="536" fill="#7a7362" font-size="18">これもエラーは出ない</text>
+    <text x="1086" y="500" fill="#b23a2e" font-size="34" font-weight="700" text-anchor="end">56,000</text>
+
+    <rect x="74" y="570" width="1052" height="62" rx="14" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="114" y="609" fill="#24231f" font-size="22" font-weight="700">だから、正解が分かる小さいデータで先に試す。5分で終わります。</text>
+  </g>
+</svg>
