@@ -15,6 +15,12 @@ export const SITE_X_HANDLE = '@yuki_ai_tsukuru';
 // 文書やログへは書かない（SAFE-01）。
 export const BING_SITE_VERIFICATION = 'C058177F68DA892C4270A29503A02EEC';
 
+// Google Search Console のサイト所有権確認コード。
+// Search Consoleの「HTMLタグ」方式で表示される content の値だけをここへ入れる。
+// 例: <meta name="google-site-verification" content="ABC123..." /> なら 'ABC123...' の部分。
+// 空文字のときはタグを出力しない。扱いは Bing と同じ（SAFE-01）。
+export const GOOGLE_SITE_VERIFICATION = 'L00MyHArE7fVl9XqMM2M49fgajpoTcXY4oepTcaN9fo';
+
 // SNSと検索結果で使うカード画像。1200x630のPNGだけを指定する（SVGはX・Facebookが表示しない）。
 export const DEFAULT_OG_IMAGE = '/og/default.png';
 
