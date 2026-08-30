@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">指示文の下に、会議のメモを続けて貼ってから送信する</title>
+  <desc id="desc">AIの入力欄の中で、上に指示文、下に会議のメモを置き、その両方をまとめて送信するという貼り方を示した図。指示文だけを先に送ってしまう間違った順番も並べている</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">PASTE ORDER</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">1回の送信に、両方を入れる</text>
+
+  <g font-family="sans-serif">
+    <text x="74" y="188" fill="#2f6b4f" font-size="22" font-weight="700">こうする</text>
+    <rect x="74" y="206" width="516" height="360" rx="20" fill="#fff" stroke="#8fbfa4" stroke-width="3"/>
+    <text x="104" y="248" fill="#7a7362" font-size="19" font-weight="700">AIの入力欄</text>
+
+    <rect x="104" y="268" width="456" height="118" rx="12" fill="#f2f7f4" stroke="#c6ddd0" stroke-width="2"/>
+    <text x="128" y="306" fill="#2f6b4f" font-size="19" font-weight="700">① 指示文</text>
+    <text x="128" y="340" fill="#24231f" font-size="21">あなたは会議の議事録を作る</text>
+    <text x="128" y="368" fill="#24231f" font-size="21">担当者です。……</text>
+
+    <rect x="104" y="400" width="456" height="118" rx="12" fill="#f2f7f4" stroke="#c6ddd0" stroke-width="2"/>
+    <text x="128" y="438" fill="#2f6b4f" font-size="19" font-weight="700">② 会議のメモ</text>
+    <text x="128" y="472" fill="#24231f" font-size="21">・価格は据え置きで合意</text>
+    <text x="128" y="500" fill="#24231f" font-size="21">・田中さんが来週確認……</text>
+
+    <rect x="380" y="530" width="180" height="20" rx="10" fill="#2f6b4f"/>
+    <text x="470" y="546" fill="#fff" font-size="14" font-weight="700" text-anchor="middle">まとめて送信</text>
+
+    <text x="640" y="188" fill="#b23a2e" font-size="22" font-weight="700">こうしない</text>
+    <rect x="640" y="206" width="486" height="360" rx="20" fill="#fff" stroke="#e2b3a4" stroke-width="3"/>
+    <text x="670" y="248" fill="#7a7362" font-size="19" font-weight="700">AIの入力欄</text>
+
+    <rect x="670" y="268" width="426" height="118" rx="12" fill="#fdf1ef" stroke="#e8c9c2" stroke-width="2"/>
+    <text x="694" y="306" fill="#b23a2e" font-size="19" font-weight="700">① 指示文だけを送信</text>
+    <text x="694" y="340" fill="#24231f" font-size="21">あなたは会議の議事録を作る</text>
+    <text x="694" y="368" fill="#24231f" font-size="21">担当者です。……</text>
+
+    <path d="M883 396 L883 424" stroke="#c9a29a" stroke-width="3" fill="none"/>
+    <path d="M875 416 L883 428 L891 416 Z" fill="#c9a29a"/>
+
+    <rect x="670" y="440" width="426" height="86" rx="12" fill="#fdf1ef" stroke="#e8c9c2" stroke-width="2"/>
+    <text x="694" y="478" fill="#b23a2e" font-size="21" font-weight="700">「メモを貼ってください」と</text>
+    <text x="694" y="508" fill="#b23a2e" font-size="21" font-weight="700">聞き返されて、1往復むだになる</text>
+
+    <rect x="74" y="596" width="1052" height="54" rx="12" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="104" y="631" fill="#24231f" font-size="21">メモは整っていなくて構いません。誤字のある文字起こしでも、そのまま貼れます。</text>
+  </g>
+</svg>

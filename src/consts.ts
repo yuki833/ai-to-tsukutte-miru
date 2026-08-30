@@ -34,6 +34,7 @@ export const OG_IMAGES: Record<string, string> = {
   'ai-built-yohaku-price-check': '/og/ai-built-yohaku-price-check.png',
   'why-small-business-pricing-is-hard': '/og/why-small-business-pricing-is-hard.png',
   'verify-ai-answers': '/og/verify-ai-answers.png',
+  'ai-meeting-minutes': '/og/ai-meeting-minutes.png',
 };
 
 export const CATEGORIES = {
