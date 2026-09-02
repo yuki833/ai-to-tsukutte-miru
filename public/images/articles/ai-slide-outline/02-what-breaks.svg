@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">「守ること」を外すと、メモに書いていない言葉が構成案に入る</title>
+  <desc id="desc">同じ材料のメモで、指示文の「守ること」を付けた場合と外した場合の比較。付けた場合は足りない情報が要確認のまま残り、外した場合は属人化、記載漏れ、確認に時間がかかるといったメモに無い言葉が入る</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">WHAT BREAKS</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">同じメモでも、1つの段落で結果が変わる</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="182" width="510" height="290" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="114" y="232" fill="#2f6b4f" font-size="22" font-weight="700">「守ること」を付けた</text>
+    <text x="114" y="286" fill="#24231f" font-size="24" font-weight="700">2ページ目「いま困っていること」</text>
+    <text x="114" y="330" fill="#5c534a" font-size="20">・書き方が人によって違う</text>
+    <text x="114" y="366" fill="#5c534a" font-size="20">・具体例と頻度は</text>
+    <text x="140" y="400" fill="#2f6b4f" font-size="20" font-weight="700">要確認</text>
+    <text x="114" y="444" fill="#7a7362" font-size="18">メモに無いことは、空欄のまま返ってきます。</text>
+
+    <rect x="616" y="182" width="510" height="290" rx="20" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="3"/>
+    <text x="656" y="232" fill="#d36542" font-size="22" font-weight="700">「守ること」を外した</text>
+    <text x="656" y="286" fill="#24231f" font-size="24" font-weight="700">2ページ目「現状の課題」</text>
+    <text x="656" y="330" fill="#5c534a" font-size="20">・書式が統一されず</text>
+    <text x="682" y="364" fill="#d36542" font-size="20" font-weight="700">属人化している</text>
+    <text x="656" y="400" fill="#d36542" font-size="20" font-weight="700">・記載漏れで確認に時間がかかる</text>
+    <text x="656" y="444" fill="#7a7362" font-size="18">どれもメモには書いていません。もっともらしく読めます。</text>
+
+    <rect x="74" y="506" width="1052" height="102" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="114" y="552" fill="#24231f" font-size="24" font-weight="700">空欄が残った資料は直せます。埋まってしまった資料は、気づけません。</text>
+    <text x="114" y="588" fill="#7a7362" font-size="19">上司に聞かれて初めて「それはどこに書いてありましたか」となります。</text>
+  </g>
+</svg>

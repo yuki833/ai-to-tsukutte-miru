@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">相手と目的を先に決め、材料のメモを渡し、返ってきた構成案の「要確認」を人が埋める</title>
+  <desc id="desc">PowerPointの構成案をAIに作らせる3つの手順。誰に何を決めてほしいかを先に決め、困りごとと提案を分けたメモを渡し、返ってきた各ページの見出しと書く内容のうち「要確認」と書かれた部分を人が埋める流れを並べた図</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">HOW TO ASK</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">作らせるのは「見出しと書くこと」だけ</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="182" width="330" height="212" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <circle cx="124" cy="232" r="22" fill="#d36542"/>
+    <text x="124" y="240" fill="#fff" font-size="24" font-weight="700" text-anchor="middle">1</text>
+    <text x="104" y="298" fill="#24231f" font-size="26" font-weight="700">着地点を決める</text>
+    <text x="104" y="336" fill="#5c534a" font-size="19">相手・目的・説明時間</text>
+    <text x="104" y="366" fill="#5c534a" font-size="19">何を決めてほしいか</text>
+
+    <path d="M416 288 L470 288" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M462 280 L474 288 L462 296 Z" fill="#b8ae9a"/>
+
+    <rect x="486" y="182" width="330" height="212" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <circle cx="536" cy="232" r="22" fill="#d36542"/>
+    <text x="536" y="240" fill="#fff" font-size="24" font-weight="700" text-anchor="middle">2</text>
+    <text x="516" y="298" fill="#24231f" font-size="26" font-weight="700">材料を分けて渡す</text>
+    <text x="516" y="336" fill="#5c534a" font-size="19">・困っていること</text>
+    <text x="516" y="366" fill="#5c534a" font-size="19">・提案　・まだ決まっていない</text>
+
+    <path d="M828 288 L882 288" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M874 280 L886 288 L874 296 Z" fill="#b8ae9a"/>
+
+    <rect x="898" y="182" width="228" height="212" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <circle cx="948" cy="232" r="22" fill="#2f6b4f"/>
+    <text x="948" y="240" fill="#fff" font-size="24" font-weight="700" text-anchor="middle">3</text>
+    <text x="928" y="298" fill="#24231f" font-size="26" font-weight="700">要確認を埋める</text>
+    <text x="928" y="336" fill="#2f6b4f" font-size="19" font-weight="700">空欄はAIに</text>
+    <text x="928" y="366" fill="#2f6b4f" font-size="19" font-weight="700">埋めさせない</text>
+
+    <rect x="74" y="428" width="1052" height="180" rx="20" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="114" y="476" fill="#d36542" font-size="22" font-weight="700">デザインは頼まない</text>
+    <text x="114" y="522" fill="#24231f" font-size="24" font-weight="700">ここで作るのは、各ページの見出しと書く内容です。</text>
+    <text x="114" y="560" fill="#24231f" font-size="24" font-weight="700">スライドの見た目も、PowerPointのファイルも作りません。</text>
+    <text x="114" y="592" fill="#7a7362" font-size="19">手が止まるのは、たいてい見た目ではなく「説明の順番」のほうです。</text>
+  </g>
+</svg>
