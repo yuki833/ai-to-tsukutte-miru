@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">「価格が決められない」を4つの問いに分ける</title>
+  <desc id="desc">値付けの悩みを4つに分解した図。1つ目は1件売ったときに残る金額で、売れるほど増える変動費を見落としやすく、1件の利益と利益率が出る。2つ目は作業時間を含めた採算で、帳簿の利益が出ていても時間で割ると低いことがあり、実質時給が出る。3つ目は毎月の固定費を回収できる販売数で、1件も売れなくても家賃や通信費は出ていき、黒字化に必要な販売数が出る。4つ目は目標から逆算した必要販売数で、黒字になることと欲しい利益が残ることは別であり、目標利益に必要な販売数が出る。4つは別々ではなく、1つ変えると残りも動く。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">BREAK IT DOWN</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">「値段が決められない」は、大きすぎる</text>
+
+  <g font-family="sans-serif">
+    <!-- 1 -->
+    <rect x="74" y="176" width="506" height="190" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="3"/>
+    <circle cx="114" cy="220" r="22" fill="#2f6b4f"/>
+    <text x="114" y="228" text-anchor="middle" fill="#fff" font-size="22" font-weight="700">1</text>
+    <text x="152" y="228" fill="#24231f" font-size="23" font-weight="700">1件売って、残る金額</text>
+    <text x="104" y="274" fill="#7a7362" font-size="19">売れるほど増える「変動費」を</text>
+    <text x="104" y="304" fill="#7a7362" font-size="19">見落としやすい</text>
+    <text x="104" y="344" fill="#2f6b4f" font-size="19" font-weight="700">→ 1件の利益・利益率</text>
+
+    <!-- 2 -->
+    <rect x="620" y="176" width="506" height="190" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="3"/>
+    <circle cx="660" cy="220" r="22" fill="#2f6b4f"/>
+    <text x="660" y="228" text-anchor="middle" fill="#fff" font-size="22" font-weight="700">2</text>
+    <text x="698" y="228" fill="#24231f" font-size="23" font-weight="700">自分の時間を入れた採算</text>
+    <text x="650" y="274" fill="#7a7362" font-size="19">帳簿の利益が出ていても、</text>
+    <text x="650" y="304" fill="#7a7362" font-size="19">時間で割ると低いことがある</text>
+    <text x="650" y="344" fill="#2f6b4f" font-size="19" font-weight="700">→ 実質時給</text>
+
+    <!-- 3 -->
+    <rect x="74" y="394" width="506" height="190" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="3"/>
+    <circle cx="114" cy="438" r="22" fill="#2f6b4f"/>
+    <text x="114" y="446" text-anchor="middle" fill="#fff" font-size="22" font-weight="700">3</text>
+    <text x="152" y="446" fill="#24231f" font-size="23" font-weight="700">固定費を回収できる数</text>
+    <text x="104" y="492" fill="#7a7362" font-size="19">1件も売れない月でも、家賃や</text>
+    <text x="104" y="522" fill="#7a7362" font-size="19">通信費は出ていく</text>
+    <text x="104" y="562" fill="#2f6b4f" font-size="19" font-weight="700">→ 黒字化に必要な販売数</text>
+
+    <!-- 4 -->
+    <rect x="620" y="394" width="506" height="190" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="3"/>
+    <circle cx="660" cy="438" r="22" fill="#2f6b4f"/>
+    <text x="660" y="446" text-anchor="middle" fill="#fff" font-size="22" font-weight="700">4</text>
+    <text x="698" y="446" fill="#24231f" font-size="23" font-weight="700">目標から逆算した数</text>
+    <text x="650" y="492" fill="#7a7362" font-size="19">「黒字になる」と「欲しい利益が</text>
+    <text x="650" y="522" fill="#7a7362" font-size="19">残る」は、別の状態</text>
+    <text x="650" y="562" fill="#2f6b4f" font-size="19" font-weight="700">→ 目標利益に必要な販売数</text>
+
+    <rect x="74" y="606" width="1052" height="48" rx="24" fill="#efe8d9" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="600" y="637" text-anchor="middle" fill="#24231f" font-size="21" font-weight="700">4つは別々ではない。1つ変えると、残りも動く</text>
+  </g>
+</svg>

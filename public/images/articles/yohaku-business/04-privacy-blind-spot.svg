@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">AIが見た範囲と、見ていなかった範囲</title>
+  <desc id="desc">公開時のプライバシー確認で何を見て何を見落としたかの図。AIが見たのはコード、データベースに保存する列、氏名やメールアドレスや住所、入力した価格や経費で、いずれも問題なしだった。見ていなかったのはホスティング事業者が自動で作る公開URLで、そこにアカウント由来の文字列が入っていた。普段使うハンドルと一致すれば、検索から本人へたどれる。気づいたのは人間の指摘だった。直したことは5つで、公開サブドメインを個人と結び付かない名称へ変更、未使用のユーザー名とメール取得用のサンプルコードを削除、公開対象ソースを氏名とメールとハンドルで再検索、公開前プライバシーチェックリストを追加、新しいURLのSSLと表示とエラーを再確認。学びは、メールアドレスが無いから安全とは判断しないこと。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="70" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">BLIND SPOT</text>
+  <text x="74" y="120" fill="#24231f" font-family="sans-serif" font-size="38" font-weight="700">中身は見た。住所（URL）を見ていなかった</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="164" width="506" height="252" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="104" y="208" fill="#2f6b4f" font-size="22" font-weight="700">AIが見たところ</text>
+    <g fill="#24231f" font-size="19">
+      <text x="104" y="252">● アプリのコード</text>
+      <text x="104" y="288">● データベースに保存する列</text>
+      <text x="104" y="324">● 氏名・メールアドレス・住所</text>
+      <text x="104" y="360">● 入力した価格や経費</text>
+    </g>
+    <text x="104" y="398" fill="#2f6b4f" font-size="20" font-weight="700">→ どれも問題なし</text>
+
+    <rect x="620" y="164" width="506" height="252" rx="20" fill="#fdf6f3" stroke="#d36542" stroke-width="3"/>
+    <text x="650" y="208" fill="#d36542" font-size="22" font-weight="700">AIが見ていなかったところ</text>
+    <text x="650" y="252" fill="#24231f" font-size="19">● ホスティング事業者が自動で</text>
+    <text x="672" y="284" fill="#24231f" font-size="19">作る、公開URLそのもの</text>
+    <text x="650" y="324" fill="#7a7362" font-size="18">アカウント由来の文字列が入っていた。</text>
+    <text x="650" y="352" fill="#7a7362" font-size="18">普段使うハンドルと一致すれば、</text>
+    <text x="650" y="380" fill="#7a7362" font-size="18">検索から本人へたどれる。</text>
+    <text x="650" y="408" fill="#d36542" font-size="20" font-weight="700">→ 気づいたのは、人間の指摘</text>
+
+    <rect x="74" y="440" width="1052" height="150" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="3"/>
+    <text x="104" y="482" fill="#24231f" font-size="21" font-weight="700">指摘のあと、直したこと</text>
+    <g fill="#24231f" font-size="18">
+      <text x="104" y="522">1. 公開サブドメインを、個人と結び付かない名称へ変更</text>
+      <text x="104" y="554">2. 未使用のユーザー名・メール取得用サンプルコードを削除</text>
+      <text x="640" y="522">3. 公開対象ソースを氏名・メール・ハンドルで再検索</text>
+      <text x="640" y="554">4. 公開前チェックリストを追加　5. 新URLを再確認</text>
+    </g>
+
+    <rect x="74" y="608" width="1052" height="48" rx="24" fill="#24231f"/>
+    <text x="600" y="639" text-anchor="middle" fill="#fff" font-size="21" font-weight="700">「メールアドレスが無いから安全」とは判断しない</text>
+  </g>
+</svg>

@@ -154,6 +154,8 @@ npx.cmd wrangler deploy --config wrangler.deploy.jsonc
 
 AIは最初の公開時に、コードとデータベースは確認しましたが、ホスティング事業者が自動生成するURLまで「公開情報」として十分に検査できていませんでした。
 
+![AIが見た範囲と見ていなかった範囲の図。コード・保存する列・氏名やメールは確認したが、事業者が自動で作る公開URLは見ておらず、そこにアカウント由来の文字列が入っていた](/images/articles/yohaku-business/04-privacy-blind-spot.svg)
+
 指摘後、次の対応を行いました。
 
 - 公開サブドメインを個人と結び付かない名称へ変更
