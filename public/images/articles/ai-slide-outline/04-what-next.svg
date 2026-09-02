@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">この記事の前後に読むものと、次に書く記事</title>
+  <desc id="desc">次にやることの地図。まず練習用のメモのまま1回送り、要確認がいくつ返るかを見る。0なら守ることが効いていない。読む順は、議事録をAIに書かせる、この記事の資料の構成案、Excelの式をAIに書かせるの3本。あわせて読むのはAIのたぶん壊れていますを確かめた記事。次に書くのは長い文章をAIに要約させる。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="70" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">WHAT'S NEXT</text>
+  <text x="74" y="120" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">次に読むもの、次に書くもの</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="158" width="1052" height="92" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="102" y="200" fill="#2f6b4f" font-size="23" font-weight="700">まず、練習用のメモのまま1回送る。「要確認」がいくつ返ってくるかを見る。</text>
+    <text x="102" y="232" fill="#7a7362" font-size="19">0だったら、【守ること】が効いていない可能性があります。</text>
+
+    <rect x="74" y="286" width="320" height="150" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="100" y="322" fill="#7a7362" font-size="18" font-weight="700">前に読む</text>
+    <text x="100" y="358" fill="#24231f" font-size="21" font-weight="700">議事録をAIに</text>
+    <text x="100" y="386" fill="#24231f" font-size="21" font-weight="700">書かせる</text>
+    <text x="100" y="418" fill="#7a7362" font-size="17">材料のメモ作りが楽になる</text>
+
+    <path d="M404 361 h26" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M430 353 l12 8 -12 8 z" fill="#b8ae9a"/>
+
+    <rect x="440" y="286" width="320" height="150" rx="20" fill="#2f6b4f"/>
+    <text x="466" y="322" fill="#bfe0cd" font-size="18" font-weight="700">いまここ</text>
+    <text x="466" y="358" fill="#fff" font-size="21" font-weight="700">資料の構成案を</text>
+    <text x="466" y="386" fill="#fff" font-size="21" font-weight="700">AIに作らせる</text>
+    <text x="466" y="418" fill="#bfe0cd" font-size="17">この記事</text>
+
+    <path d="M770 361 h26" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M796 353 l12 8 -12 8 z" fill="#b8ae9a"/>
+
+    <rect x="806" y="286" width="320" height="150" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="832" y="322" fill="#7a7362" font-size="18" font-weight="700">次に読む</text>
+    <text x="832" y="358" fill="#24231f" font-size="21" font-weight="700">Excelの式をAIに</text>
+    <text x="832" y="386" fill="#24231f" font-size="21" font-weight="700">書かせる</text>
+    <text x="832" y="418" fill="#7a7362" font-size="17">確かめてから使う話を数字で</text>
+
+    <rect x="74" y="470" width="516" height="120" rx="20" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="100" y="506" fill="#d36542" font-size="18" font-weight="700">あわせて読む</text>
+    <text x="100" y="542" fill="#24231f" font-size="21" font-weight="700">AIの「たぶん壊れています」を</text>
+    <text x="100" y="570" fill="#24231f" font-size="21" font-weight="700">確かめたら、壊れていなかった</text>
+
+    <rect x="620" y="470" width="506" height="120" rx="20" fill="none" stroke="#b8ae9a" stroke-width="2" stroke-dasharray="10 8"/>
+    <text x="646" y="506" fill="#7a7362" font-size="18" font-weight="700">次に書く記事</text>
+    <text x="646" y="542" fill="#24231f" font-size="21" font-weight="700">長い文章をAIに要約させる</text>
+    <text x="646" y="572" fill="#7a7362" font-size="17">まだ書いていません</text>
+
+    <text x="74" y="634" fill="#7a7362" font-family="sans-serif" font-size="18">第3章で起きた「AIが補った言葉」を見抜く話は、左下の記事に実例があります。</text>
+  </g>
+</svg>

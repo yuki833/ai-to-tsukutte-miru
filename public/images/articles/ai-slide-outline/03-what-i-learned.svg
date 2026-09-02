@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">説明の順番はAIが速く、空欄を埋めるのは人にしかできない</title>
+  <desc id="desc">やってみて分かったことを3つに分けた図。説明の順番を組み立てるのはAIのほうが速い。メモに無いことを補わないかどうかは指示文しだいで、守ることを外すともっともらしい言葉で埋まる。空欄を埋めるのは人にしかできない。いちばんの発見は、AIの出来がメモの質で決まったこと。PowerPointへ移して上司に説明するところまでは確かめていない。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">WHAT I LEARNED</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">順番は出る。中身は、出ない。</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="182" width="1052" height="104" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="102" y="226" fill="#2f6b4f" font-size="21" font-weight="700">AIのほうが速い</text>
+    <text x="102" y="262" fill="#7a7362" font-size="18">説明の順番を組み立てる</text>
+    <text x="378" y="228" fill="#24231f" font-size="21">相手・目的・説明時間を渡せば、筋の通った並びが出る。</text>
+    <text x="378" y="264" fill="#24231f" font-size="21">白紙から5枚ぶんの見出しと中身の案まで、5分。</text>
+
+    <rect x="74" y="302" width="1052" height="104" rx="20" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="3"/>
+    <text x="102" y="346" fill="#d36542" font-size="21" font-weight="700">指示文しだい</text>
+    <text x="102" y="382" fill="#7a7362" font-size="18">メモに無いことを補わない</text>
+    <text x="378" y="348" fill="#24231f" font-size="21">【守ること】を外すと、もっともらしい言葉で埋まる。</text>
+    <text x="378" y="384" fill="#24231f" font-size="21">読みやすくなるぶん、自分では気づけない。</text>
+
+    <rect x="74" y="422" width="1052" height="104" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="3"/>
+    <text x="102" y="466" fill="#5c534a" font-size="21" font-weight="700">人にしかできない</text>
+    <text x="102" y="502" fill="#7a7362" font-size="18">空欄を埋める</text>
+    <text x="378" y="468" fill="#24231f" font-size="21">開始日も担当者も費用も、社内で聞かないと分からない。</text>
+    <text x="378" y="504" fill="#24231f" font-size="21">指示文をどう直しても、ここは埋まらない。</text>
+
+    <rect x="74" y="548" width="1052" height="94" rx="20" fill="#efe8d9" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="102" y="590" fill="#24231f" font-size="23" font-weight="700">いちばんの発見: AIの出来は、指示文よりも「メモの質」で決まった。</text>
+    <text x="102" y="624" fill="#7a7362" font-size="19">確かめていないこと: PowerPointへ移して上司に説明するところまではやっていない。</text>
+  </g>
+</svg>
