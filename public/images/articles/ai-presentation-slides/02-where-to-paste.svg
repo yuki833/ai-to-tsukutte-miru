@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">メモ帳に貼って文字コードをUTF-16 LEにして保存し、PowerPointのホームタブから新しいスライドの下向き矢印を開いてアウトラインからスライドを選ぶ手順</title>
+  <desc id="desc">AIの出力をPowerPointへ読み込ませる操作の場所を示した図。左はメモ帳の名前を付けて保存の画面で、文字コードの欄をUTF-16 LEにして拡張子をtxtにすること。右はPowerPointのホームタブで、新しいスライドの下向き矢印を押すとアウトラインからスライドという項目が出ること</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">WHERE</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">押す場所は2か所だけ</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="500" height="330" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="222" fill="#7a7362" font-size="20" font-weight="700">メモ帳</text>
+    <text x="110" y="262" fill="#24231f" font-size="26" font-weight="700">名前を付けて保存</text>
+
+    <rect x="110" y="288" width="428" height="62" rx="10" fill="#f6f2e9" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="130" y="316" fill="#7a7362" font-size="17">ファイルの種類</text>
+    <text x="130" y="342" fill="#24231f" font-size="21" font-weight="700">テキスト文書（*.txt）</text>
+
+    <rect x="110" y="362" width="428" height="62" rx="10" fill="#fdf6f3" stroke="#d36542" stroke-width="3"/>
+    <text x="130" y="390" fill="#d36542" font-size="17" font-weight="700">文字コード　← ここを変える</text>
+    <text x="130" y="416" fill="#24231f" font-size="21" font-weight="700">UTF-16 LE</text>
+
+    <text x="110" y="462" fill="#5c534a" font-size="19">既定のままだと、日本語が化けます。</text>
+    <text x="110" y="490" fill="#5c534a" font-size="19">メモ帳で保存すれば、改行は正しくなります。</text>
+
+    <path d="M594 340 L648 340" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M640 332 L652 340 L640 348 Z" fill="#b8ae9a"/>
+
+    <rect x="668" y="176" width="458" height="330" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="704" y="222" fill="#7a7362" font-size="20" font-weight="700">PowerPoint「ホーム」タブ</text>
+
+    <rect x="704" y="248" width="386" height="70" rx="10" fill="#f6f2e9" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="726" y="292" fill="#24231f" font-size="24" font-weight="700">新しいスライド</text>
+    <path d="M1040 284 L1060 284 L1050 298 Z" fill="#d36542"/>
+    <text x="988" y="278" fill="#d36542" font-size="16" font-weight="700">下の矢印</text>
+
+    <rect x="740" y="336" width="350" height="70" rx="10" fill="#eaf3ee" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="762" y="380" fill="#2f6b4f" font-size="24" font-weight="700">アウトラインからスライド</text>
+
+    <text x="704" y="452" fill="#5c534a" font-size="19">ボタンそのものではなく、</text>
+    <text x="704" y="482" fill="#5c534a" font-size="19">下向き矢印を押すと出てきます。</text>
+
+    <rect x="74" y="536" width="1052" height="84" rx="20" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="114" y="576" fill="#24231f" font-size="24" font-weight="700">保存したファイルを選べば、5枚のスライドになります。</text>
+    <text x="114" y="606" fill="#7a7362" font-size="19">タブで下げた行は、すべて箇条書きとして本文の枠に入ります。</text>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">枚数を決めているのは改行だけで、CRLFでないと全部が1枚になる。文字化けを決めているのは文字コードだけで、UTF-16以外は化ける。2つは別々の条件</title>
+  <desc id="desc">同じ内容を5通りの保存方法で読み込ませた実測の結果を、2つの条件に分けて示した図。左は改行の条件で、CRLFなら5枚に分かれ、LFなら全部が1枚になること。右は文字コードの条件で、UTF-16なら日本語が正しく、UTF-8やShift_JISでは化けること。枚数と文字化けは別々の原因であることを示している</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">MEASURED</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">症状で、直す場所が決まる</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="506" height="322" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="222" fill="#7a7362" font-size="20" font-weight="700">枚数を決めているのは</text>
+    <text x="110" y="264" fill="#24231f" font-size="32" font-weight="700">改行だけ</text>
+
+    <rect x="110" y="294" width="434" height="72" rx="12" fill="#eaf3ee" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="132" y="326" fill="#2f6b4f" font-size="22" font-weight="700">CRLF</text>
+    <text x="132" y="354" fill="#24231f" font-size="21" font-weight="700">5枚に分かれる</text>
+
+    <rect x="110" y="380" width="434" height="72" rx="12" fill="#fdf6f3" stroke="#d36542" stroke-width="3"/>
+    <text x="132" y="412" fill="#d36542" font-size="22" font-weight="700">LF</text>
+    <text x="132" y="440" fill="#24231f" font-size="21" font-weight="700">全部が1枚になる</text>
+
+    <text x="110" y="482" fill="#5c534a" font-size="19">メモ帳で保存すればCRLFになります。</text>
+
+    <rect x="620" y="176" width="506" height="322" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="656" y="222" fill="#7a7362" font-size="20" font-weight="700">文字化けを決めているのは</text>
+    <text x="656" y="264" fill="#24231f" font-size="32" font-weight="700">文字コードだけ</text>
+
+    <rect x="656" y="294" width="434" height="72" rx="12" fill="#eaf3ee" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="678" y="326" fill="#2f6b4f" font-size="22" font-weight="700">UTF-16</text>
+    <text x="678" y="354" fill="#24231f" font-size="21" font-weight="700">日本語が正しく入る</text>
+
+    <rect x="656" y="380" width="434" height="72" rx="12" fill="#fdf6f3" stroke="#d36542" stroke-width="3"/>
+    <text x="678" y="412" fill="#d36542" font-size="22" font-weight="700">UTF-8 ／ Shift_JIS</text>
+    <text x="678" y="440" fill="#24231f" font-size="21" font-weight="700">枚数は合うのに化ける</text>
+
+    <text x="656" y="482" fill="#5c534a" font-size="19">保存の画面で文字コード欄を見ます。</text>
+
+    <rect x="74" y="528" width="1052" height="104" rx="20" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="114" y="570" fill="#d36542" font-size="22" font-weight="700">2つは別々に効いている</text>
+    <text x="114" y="610" fill="#24231f" font-size="24" font-weight="700">「1枚になった」なら改行、「化けた」なら文字コード。同じ中身を5通りで保存して確かめました。</text>
+  </g>
+</svg>

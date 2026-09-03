@@ -37,6 +37,7 @@ export const OG_IMAGES: Record<string, string> = {
   'ai-meeting-minutes': '/og/ai-meeting-minutes.png',
   'ai-excel-formula': '/og/ai-excel-formula.png',
   'ai-slide-outline': '/og/ai-slide-outline.png',
+  'ai-presentation-slides': '/og/ai-presentation-slides.png',
 };
 
 export const CATEGORIES = {

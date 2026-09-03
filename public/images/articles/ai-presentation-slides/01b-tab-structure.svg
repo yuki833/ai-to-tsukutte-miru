@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">行頭から書いた行がスライドの見出しになり、タブ1つ下げた行がその箇条書きになる。PowerPointはタブの数だけを見ている</title>
+  <desc id="desc">アウトラインの書き方とスライドの対応を示した図。左のテキストでは、行頭から書いた行が見出しで、タブ文字1つぶん下げた行が中身。右のスライドでは、行頭の行がタイトルの位置に、下げた行が本文の箇条書きに入る。空白での字下げは字下げとして読まれないこと、行頭の記号や番号はそのまま文字として入ってしまうことを添えている</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">THE ONLY RULE</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">決まりごとは、タブ1つだけ</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="180" width="486" height="288" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="222" fill="#7a7362" font-size="19" font-weight="700">AIに出させるテキスト</text>
+
+    <rect x="106" y="244" width="422" height="52" rx="8" fill="#fdf6f3" stroke="#d36542" stroke-width="2"/>
+    <text x="122" y="277" fill="#24231f" font-size="22" font-weight="700">いま困っていること</text>
+    <text x="380" y="234" fill="#d36542" font-size="16" font-weight="700">行頭から</text>
+
+    <rect x="150" y="308" width="378" height="44" rx="8" fill="#f6f2e9" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="166" y="337" fill="#5c534a" font-size="19">書き方が担当者ごとに異なる</text>
+    <rect x="150" y="362" width="378" height="44" rx="8" fill="#f6f2e9" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="166" y="391" fill="#5c534a" font-size="19">困った例は要確認</text>
+
+    <path d="M120 330 L142 330" stroke="#2f6b4f" stroke-width="3" fill="none"/>
+    <path d="M120 384 L142 384" stroke="#2f6b4f" stroke-width="3" fill="none"/>
+    <text x="106" y="440" fill="#2f6b4f" font-size="19" font-weight="700">この下がりぶんが、タブ文字1つ</text>
+
+    <path d="M576 324 L630 324" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M622 316 L634 324 L622 332 Z" fill="#b8ae9a"/>
+
+    <rect x="650" y="180" width="476" height="288" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="682" y="222" fill="#7a7362" font-size="19" font-weight="700">できるスライド</text>
+    <rect x="682" y="242" width="412" height="196" rx="10" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="708" y="296" fill="#24231f" font-size="28" font-weight="700">いま困っていること</text>
+    <text x="708" y="348" fill="#5c534a" font-size="20">・書き方が担当者ごとに異なる</text>
+    <text x="708" y="386" fill="#5c534a" font-size="20">・困った例は要確認</text>
+
+    <rect x="74" y="498" width="1052" height="134" rx="20" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="114" y="540" fill="#d36542" font-size="22" font-weight="700">やってはいけない2つ</text>
+    <text x="114" y="580" fill="#24231f" font-size="24" font-weight="700">空白での字下げ　→　字下げとして読まれず、見出しが増えます。</text>
+    <text x="114" y="614" fill="#24231f" font-size="24" font-weight="700">行頭の記号や番号　→　その記号ごと、スライドの文字になります。</text>
+  </g>
+</svg>
