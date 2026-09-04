@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">頼み方だけを変えて同じ文章を送った結果。要約してとだけ頼むと金額・人数・社名・宿題・決めることがすべて消え、元のメモに無い言葉が入る。読む人と使いみちを書くと数字と宿題が残る</title>
+  <desc id="desc">同じ会議メモを2通りの頼み方で要約させた結果を左右に並べた図。左は「要約して」だけで頼んだ場合で、金額・人数・社名・誰が何をするか・決めることの5つがすべて消え、元のメモに無い言い回しが入る。右は読む人と使いみちと出力の形を書いた場合で、5つとも残る。下に、空欄が残った文章は直せるが、それらしい言葉で埋まった文章は書いた本人も気づけないという注意を置いている</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">MEASURED</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">同じ文章。頼み方だけを変えた</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="506" height="330" rx="20" fill="#fdf6f3" stroke="#d36542" stroke-width="3"/>
+    <text x="110" y="220" fill="#d36542" font-size="20" font-weight="700">「要約して」だけ</text>
+    <text x="110" y="262" fill="#24231f" font-size="30" font-weight="700">5つとも消えた</text>
+    <text x="110" y="308" fill="#24231f" font-size="21">金額（400円・80万円・4万円）</text>
+    <text x="110" y="344" fill="#24231f" font-size="21">人数（238名・260名）</text>
+    <text x="110" y="380" fill="#24231f" font-size="21">社名（A社・B社・C社）</text>
+    <text x="110" y="416" fill="#24231f" font-size="21">誰が何をするか（宿題3つ）</text>
+    <text x="110" y="452" fill="#24231f" font-size="21">決めること</text>
+    <text x="110" y="488" fill="#d36542" font-size="19" font-weight="700">代わりに「費用面」「関係部署」が入った</text>
+
+    <rect x="620" y="176" width="506" height="330" rx="20" fill="#eaf3ee" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="656" y="220" fill="#2f6b4f" font-size="20" font-weight="700">読む人・使いみち・出力の形を書く</text>
+    <text x="656" y="262" fill="#24231f" font-size="30" font-weight="700">5つとも残った</text>
+    <text x="656" y="308" fill="#24231f" font-size="21">金額はそのままの数字で</text>
+    <text x="656" y="344" fill="#24231f" font-size="21">人数もそのままの数字で</text>
+    <text x="656" y="380" fill="#24231f" font-size="21">社名も残る</text>
+    <text x="656" y="416" fill="#24231f" font-size="21">誰が何をするかも残る</text>
+    <text x="656" y="452" fill="#24231f" font-size="21">先頭に「決めること：」</text>
+    <text x="656" y="488" fill="#2f6b4f" font-size="19" font-weight="700">最後の行に「省いたもの：」が付く</text>
+
+    <rect x="74" y="536" width="1052" height="104" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="114" y="578" fill="#7a7362" font-size="22" font-weight="700">要約のこわいところ</text>
+    <text x="114" y="618" fill="#24231f" font-size="24" font-weight="700">空欄が残った文章は直せます。それらしい言葉で埋まった文章は、書いた本人も気づけません。</text>
+  </g>
+</svg>

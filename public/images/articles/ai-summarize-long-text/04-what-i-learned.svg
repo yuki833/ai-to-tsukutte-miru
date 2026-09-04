@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">要約の良し悪しは残ったものでは判断できない。滑らかな要約のほうが印象は良い。違いが出るのは落ちたものを見たときで、省いたものの一行がそれを見せる</title>
+  <desc id="desc">2つの要約を、残ったもので比べた場合と落ちたもので比べた場合に分けた図。残ったもので比べると、読みやすさは「要約して」だけのほうが良く、判断がつかない。落ちたもので比べると、片方は落ちた話が分からず、もう片方は最後の行に並ぶという違いが出る。結論として、落ちること自体ではなく、落ちたことが見えないほうが問題であることを示している</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">WHAT I LEARNED</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">残ったものでは、良し悪しが分からない</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="506" height="296" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="220" fill="#7a7362" font-size="20" font-weight="700">残ったもので比べると</text>
+    <text x="110" y="262" fill="#24231f" font-size="30" font-weight="700">判断がつかない</text>
+    <text x="110" y="312" fill="#24231f" font-size="22">「要約して」だけ　　読みやすさ　良い</text>
+    <text x="110" y="352" fill="#24231f" font-size="22">指示文を使う　　　　読みやすさ　ふつう</text>
+    <rect x="110" y="382" width="434" height="60" rx="12" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="132" y="420" fill="#d36542" font-size="21" font-weight="700">滑らかなほうが、印象は良いくらい</text>
+
+    <rect x="620" y="176" width="506" height="296" rx="20" fill="#eaf3ee" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="656" y="220" fill="#2f6b4f" font-size="20" font-weight="700">落ちたもので比べると</text>
+    <text x="656" y="262" fill="#24231f" font-size="30" font-weight="700">はっきり分かれる</text>
+    <text x="656" y="312" fill="#24231f" font-size="22">「要約して」だけ　　落ちた話は分からない</text>
+    <text x="656" y="352" fill="#24231f" font-size="22">指示文を使う　　　　最後の行に並ぶ</text>
+    <rect x="656" y="382" width="434" height="60" rx="12" fill="#fff" stroke="#2f6b4f" stroke-width="2"/>
+    <text x="678" y="420" fill="#2f6b4f" font-size="21" font-weight="700">違いは、この一行だけ</text>
+
+    <rect x="74" y="502" width="1052" height="130" rx="20" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="114" y="546" fill="#d36542" font-size="22" font-weight="700">要約を短くするほど、何かは必ず落ちます</text>
+    <text x="114" y="590" fill="#24231f" font-size="26" font-weight="700">落ちること自体は問題ではありません。</text>
+    <text x="114" y="622" fill="#24231f" font-size="26" font-weight="700">落ちたことが見えないのが問題です。</text>
+  </g>
+</svg>

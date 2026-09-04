@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">何のための要約かを先に書き、元の文章を貼って送り、AIが書いた省いたものを見て戻すものを決める3つの流れ。大事なのは1と3で、2は貼るだけ</title>
+  <desc id="desc">要約を頼むときの3つの手順を左から並べた図。1つ目は誰が読むか・何に使うか・何字かを先に書くこと。2つ目は元の文章を貼って送るだけで、迷うところがないこと。3つ目はAIが最後に書いた省いたものを読んで、本文へ戻すものを決めること。1と3が要点で、2は作業にすぎないことを示している</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">HOW IT GOES</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">大事なのは、貼る前と読んだあと</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="330" height="290" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="106" y="222" fill="#2f6b4f" font-size="20" font-weight="700">1　ここが大事</text>
+    <text x="106" y="266" fill="#24231f" font-size="30" font-weight="700">何のための</text>
+    <text x="106" y="304" fill="#24231f" font-size="30" font-weight="700">要約かを書く</text>
+    <text x="106" y="352" fill="#5c534a" font-size="20">誰が読むか</text>
+    <text x="106" y="384" fill="#5c534a" font-size="20">何に使うか</text>
+    <text x="106" y="416" fill="#5c534a" font-size="20">何字にするか</text>
+    <text x="106" y="448" fill="#7a7362" font-size="18">書かないと数字が消えます</text>
+
+    <rect x="436" y="176" width="330" height="290" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="468" y="222" fill="#7a7362" font-size="20" font-weight="700">2　貼るだけ</text>
+    <text x="468" y="266" fill="#24231f" font-size="30" font-weight="700">元の文章を</text>
+    <text x="468" y="304" fill="#24231f" font-size="30" font-weight="700">貼って送る</text>
+    <text x="468" y="352" fill="#5c534a" font-size="20">迷うところはありません</text>
+
+    <rect x="798" y="176" width="330" height="290" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="830" y="222" fill="#2f6b4f" font-size="20" font-weight="700">3　ここが大事</text>
+    <text x="830" y="266" fill="#24231f" font-size="30" font-weight="700">省いたものを</text>
+    <text x="830" y="304" fill="#24231f" font-size="30" font-weight="700">見て、戻す</text>
+    <text x="830" y="352" fill="#5c534a" font-size="20">落ちた話は</text>
+    <text x="830" y="384" fill="#5c534a" font-size="20">要約を読んでも</text>
+    <text x="830" y="416" fill="#5c534a" font-size="20">気づけません</text>
+
+    <path d="M410 321 L430 321" stroke="#b8ae9b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M772 321 L792 321" stroke="#b8ae9b" stroke-width="4" stroke-linecap="round"/>
+
+    <rect x="74" y="496" width="1052" height="104" rx="20" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="114" y="538" fill="#d36542" font-size="22" font-weight="700">2は作業、1と3が判断</text>
+    <text x="114" y="578" fill="#24231f" font-size="24" font-weight="700">選ぶ基準を渡さないと、AIは「読みやすさ」を基準にします。最初に削られるのが数字です。</text>
+  </g>
+</svg>

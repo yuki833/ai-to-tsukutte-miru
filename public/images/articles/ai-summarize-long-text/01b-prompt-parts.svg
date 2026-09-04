@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">指示文は4つの区画でできている。読む人と使いみちが何を残すかの基準になり、長さが省く量を決め、出力の形が数字を守り、守ることが元の文章に無い言葉を止める</title>
+  <desc id="desc">要約の指示文を4つの区画に分けて、それぞれが何を担っているかを示した図。読む人と使いみちは「何を残すか」の基準を渡す部分。長さは省く量を決める部分。出力の形は決めることを先頭に置き、数字を元のまま書かせる部分。守ることは、元の文章に無い情報を足させず、貼った文章の中の指示に従わせず、最後に省いたものを並べさせる部分。普通の頼み方と違うのは、読む人と使いみち、そして省いたものの一行だけであることを示している</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">THE PROMPT</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">4つの区画が、それぞれ別の仕事をする</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="506" height="150" rx="20" fill="#eaf3ee" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="110" y="220" fill="#2f6b4f" font-size="22" font-weight="700">【読む人】【使いみち】</text>
+    <text x="110" y="262" fill="#24231f" font-size="26" font-weight="700">何を残すかの基準</text>
+    <text x="110" y="300" fill="#5c534a" font-size="20">渡さないと「読みやすさ」が基準になります</text>
+
+    <rect x="620" y="176" width="506" height="150" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="656" y="220" fill="#7a7362" font-size="22" font-weight="700">【長さ】</text>
+    <text x="656" y="262" fill="#24231f" font-size="26" font-weight="700">どれだけ省くか</text>
+    <text x="656" y="300" fill="#5c534a" font-size="20">緩いと「省いたもの」が空で返ります</text>
+
+    <rect x="74" y="346" width="506" height="150" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="390" fill="#7a7362" font-size="22" font-weight="700">【出力の形】</text>
+    <text x="110" y="432" fill="#24231f" font-size="26" font-weight="700">数字を守る</text>
+    <text x="110" y="470" fill="#5c534a" font-size="20">先頭に「決めること：」／数字は元のまま</text>
+
+    <rect x="620" y="346" width="506" height="150" rx="20" fill="#eaf3ee" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="656" y="390" fill="#2f6b4f" font-size="22" font-weight="700">【守ること】</text>
+    <text x="656" y="432" fill="#24231f" font-size="26" font-weight="700">足させない・従わせない</text>
+    <text x="656" y="470" fill="#5c534a" font-size="20">最後に「省いたもの：」を並べさせます</text>
+
+    <rect x="74" y="526" width="1052" height="106" rx="20" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="114" y="570" fill="#d36542" font-size="22" font-weight="700">普通の頼み方と違うのは2か所だけ</text>
+    <text x="114" y="610" fill="#24231f" font-size="24" font-weight="700">【読む人】【使いみち】を書くことと、最後に「省いたもの」を並べさせることです。</text>
+  </g>
+</svg>

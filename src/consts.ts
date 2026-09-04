@@ -38,6 +38,7 @@ export const OG_IMAGES: Record<string, string> = {
   'ai-excel-formula': '/og/ai-excel-formula.png',
   'ai-slide-outline': '/og/ai-slide-outline.png',
   'ai-presentation-slides': '/og/ai-presentation-slides.png',
+  'ai-summarize-long-text': '/og/ai-summarize-long-text.png',
 };
 
 export const CATEGORIES = {

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">この記事の前に読むのは議事録の記事、あとに読むのはプレゼン資料の記事、あわせて読むのはAIの答えを確かめた記事で、次に書くのは会社の情報を貼ってよいかの記事</title>
+  <desc id="desc">この記事と他の記事のつながりを示した図。左に、要約する元の文章を作る側として議事録の記事。中央に今読んでいる要約の記事。右に、要約した内容を資料にする側としてプレゼン資料の記事。下に、それらしい言葉で埋まって気づけない形の例としてAIの答えを確かめた記事と、次に書く予定の会社の情報を貼ってよいかの記事を置いている</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">WHAT NEXT</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">前の工程と、次の工程</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="330" height="180" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="220" fill="#7a7362" font-size="20" font-weight="700">前に読む</text>
+    <text x="106" y="262" fill="#24231f" font-size="26" font-weight="700">議事録を</text>
+    <text x="106" y="298" fill="#24231f" font-size="26" font-weight="700">AIに書かせる</text>
+    <text x="106" y="334" fill="#5c534a" font-size="19">要約する元の文章を作る</text>
+
+    <rect x="436" y="176" width="330" height="180" rx="20" fill="#eaf3ee" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="468" y="220" fill="#2f6b4f" font-size="20" font-weight="700">いまここ</text>
+    <text x="468" y="262" fill="#24231f" font-size="26" font-weight="700">長い文章を</text>
+    <text x="468" y="298" fill="#24231f" font-size="26" font-weight="700">要約させる</text>
+    <text x="468" y="334" fill="#5c534a" font-size="19">数字と決めごとを残す</text>
+
+    <rect x="798" y="176" width="330" height="180" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="830" y="220" fill="#7a7362" font-size="20" font-weight="700">あとに読む</text>
+    <text x="830" y="262" fill="#24231f" font-size="26" font-weight="700">プレゼン資料を</text>
+    <text x="830" y="298" fill="#24231f" font-size="26" font-weight="700">AIに作らせる</text>
+    <text x="830" y="334" fill="#5c534a" font-size="19">要約をそのまま1枚目へ</text>
+
+    <path d="M410 266 L430 266" stroke="#b8ae9b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M772 266 L792 266" stroke="#b8ae9b" stroke-width="4" stroke-linecap="round"/>
+
+    <rect x="74" y="386" width="506" height="150" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="430" fill="#7a7362" font-size="20" font-weight="700">あわせて読む</text>
+    <text x="110" y="472" fill="#24231f" font-size="24" font-weight="700">AIの「たぶん壊れています」を確かめたら</text>
+    <text x="110" y="510" fill="#5c534a" font-size="19">それらしい言葉を信じかけた記録</text>
+
+    <rect x="620" y="386" width="506" height="150" rx="20" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="656" y="430" fill="#d36542" font-size="20" font-weight="700">次に書く</text>
+    <text x="656" y="472" fill="#24231f" font-size="24" font-weight="700">AIに会社の情報を貼っていいのか</text>
+    <text x="656" y="510" fill="#5c534a" font-size="19">要約はいちばん多く貼る使い方</text>
+
+    <rect x="74" y="566" width="1052" height="66" rx="20" fill="#eaf3ee" stroke="#2f6b4f" stroke-width="2"/>
+    <text x="114" y="608" fill="#24231f" font-size="24" font-weight="700">まず2通りの頼み方で1回ずつ送って、並べてください。並べるまでは違いが見えません。</text>
+  </g>
+</svg>
