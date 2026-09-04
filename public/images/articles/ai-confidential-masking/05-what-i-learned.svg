@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">伏せる作業は隠す作業ではなく、この相談に本当に要るものを選ぶ作業。社名を消しても案は変わらず、金額を消すと案が消える。危ないのは金額と日付が揃うほう</title>
+  <desc id="desc">やってみて分かったことをまとめた図。社名を消しても案の中身は変わらなかったが、金額を消すと案の中身が消えた。つまりこの相談の中身は金額のほうにあった。そして危ないのも金額のほうで、金額と日付と部署名が揃うと社名が無くても案件は特定できる。だから日付の粒度を落とし、契約番号は書かない。社名だけ消して安心するのがいちばん危ない状態であることを示している</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">WHAT I LEARNED</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">伏せるのは、隠す作業ではなかった</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="510" height="196" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="222" fill="#7a7362" font-size="20" font-weight="700">社名を消す</text>
+    <text x="106" y="270" fill="#24231f" font-size="30" font-weight="700">案は変わらない</text>
+    <text x="106" y="316" fill="#5c534a" font-size="20">3案とも、そのまま会議に出せる</text>
+    <text x="106" y="348" fill="#5c534a" font-size="20">形で返ってきました</text>
+
+    <rect x="616" y="176" width="510" height="196" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="648" y="222" fill="#2f6b4f" font-size="20" font-weight="700">金額を消す</text>
+    <text x="648" y="270" fill="#24231f" font-size="30" font-weight="700">案の中身が消える</text>
+    <text x="648" y="316" fill="#5c534a" font-size="20">つまり、この相談の中身は</text>
+    <text x="648" y="348" fill="#5c534a" font-size="20">金額のほうにありました</text>
+
+    <rect x="74" y="404" width="1052" height="196" rx="20" fill="#fff" stroke="#d36542" stroke-width="3"/>
+    <text x="106" y="450" fill="#d36542" font-size="20" font-weight="700">そして、危ないのも金額のほう</text>
+    <text x="106" y="500" fill="#24231f" font-size="30" font-weight="700">金額と日付と部署名が揃うと、社名が無くても特定できる</text>
+    <text x="106" y="546" fill="#5c534a" font-size="20">だから日付の粒度を落とし、契約番号は書きません</text>
+    <text x="106" y="580" fill="#24231f" font-size="22" font-weight="700">社名だけ消して安心するのが、いちばん危ない状態です</text>
+  </g>
+</svg>

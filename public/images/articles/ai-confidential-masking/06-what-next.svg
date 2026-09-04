@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">この記事の前に読むのは要約と議事録の記事、あとに読むのは資料作成の記事、あわせて読むのはAIの答えを確かめた記事</title>
+  <desc id="desc">この記事の前後に読む記事を並べた図。前に読むのは長い文章をAIに要約させる記事と議事録をAIに書かせる記事で、どちらも社名と人名がそのまま並ぶ文章を丸ごとAIへ渡す場面。あとに読むのは資料作成をAIに頼む記事で、決まった3案の比較がそのまま1枚のスライドになる。あわせて読むのはAIのたぶん壊れていますを確かめた記事で、それらしい言葉で埋まっていて気づけない形が同じであることを示している</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">WHAT NEXT</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">前に読む・あとに読む・あわせて読む</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="330" height="300" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="222" fill="#7a7362" font-size="20" font-weight="700">前に読む</text>
+    <text x="106" y="268" fill="#24231f" font-size="26" font-weight="700">長い文章を</text>
+    <text x="106" y="302" fill="#24231f" font-size="26" font-weight="700">要約させる</text>
+    <text x="106" y="340" fill="#5c534a" font-size="19">元の文章を丸ごと渡す</text>
+    <text x="106" y="368" fill="#5c534a" font-size="19">場面です</text>
+    <text x="106" y="416" fill="#24231f" font-size="26" font-weight="700">議事録を書かせる</text>
+    <text x="106" y="454" fill="#5c534a" font-size="19">社名と人名が並びます</text>
+
+    <rect x="436" y="176" width="330" height="300" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="468" y="222" fill="#2f6b4f" font-size="20" font-weight="700">この記事</text>
+    <text x="468" y="270" fill="#24231f" font-size="28" font-weight="700">社名と金額を</text>
+    <text x="468" y="306" fill="#24231f" font-size="28" font-weight="700">伏せて貼る</text>
+    <text x="468" y="352" fill="#5c534a" font-size="19">置き換え表を作り</text>
+    <text x="468" y="382" fill="#5c534a" font-size="19">貼る前に検索で確かめ</text>
+    <text x="468" y="412" fill="#5c534a" font-size="19">答えを表の逆で戻す</text>
+
+    <rect x="798" y="176" width="330" height="300" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="830" y="222" fill="#7a7362" font-size="20" font-weight="700">あとに読む</text>
+    <text x="830" y="268" fill="#24231f" font-size="26" font-weight="700">資料作成を</text>
+    <text x="830" y="302" fill="#24231f" font-size="26" font-weight="700">AIに頼む</text>
+    <text x="830" y="340" fill="#5c534a" font-size="19">3案の比較は、そのまま</text>
+    <text x="830" y="368" fill="#5c534a" font-size="19">1枚のスライドになります</text>
+
+    <path d="M410 326 L430 326" stroke="#b9ae99" stroke-width="4"/>
+    <path d="M772 326 L792 326" stroke="#b9ae99" stroke-width="4"/>
+
+    <rect x="74" y="508" width="1052" height="110" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="552" fill="#7a7362" font-size="20" font-weight="700">あわせて読む</text>
+    <text x="106" y="594" fill="#24231f" font-size="24" font-weight="700">AIの「たぶん壊れています」を確かめたら、壊れていなかった</text>
+    <text x="700" y="552" fill="#5c534a" font-size="19">それらしい言葉で埋まっていて</text>
+    <text x="700" y="594" fill="#5c534a" font-size="19">気づけない形が、同じです</text>
+  </g>
+</svg>

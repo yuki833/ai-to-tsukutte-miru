@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">元の言葉が残るのは件名と署名、戻すときは表の右の言葉でもう一度検索する、答えが一般論なら数字を戻すか比率にする。症状ごとに直す場所が決まる</title>
+  <desc id="desc">うまくいかないときの3つの症状と、それぞれ直す場所を並べた図。1つ目は元の言葉が1つだけ残っていた場合で、残りやすいのは本文ではなく件名と署名。直すのは貼る前に置き換え表の左の言葉で1つずつ検索すること。2つ目は戻すときにうまく置き換わらない場合で、取引先Aが取引先A社になっていると単純な置換では戻らない。直すのは戻したあとに表の右の言葉でもう一度検索すること。3つ目は答えが一般論になる場合で、原因は消しすぎ。直すのは判断に使う数字を戻すか、原価を100とした比率にすることを示している</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">TROUBLESHOOTING</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">症状で、直す場所が決まります</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="1052" height="140" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="222" fill="#a8562f" font-size="23" font-weight="700">元の言葉が1つだけ残っていた</text>
+    <text x="106" y="262" fill="#5c534a" font-size="20">残りやすいのは本文ではなく、件名と署名</text>
+    <text x="620" y="222" fill="#2f6b4f" font-size="20" font-weight="700">直す場所</text>
+    <text x="620" y="262" fill="#24231f" font-size="22" font-weight="700">貼る前に、表の左の言葉で1つずつ検索</text>
+    <text x="620" y="294" fill="#7a7362" font-size="19">目で読み返しても見つかりません</text>
+
+    <rect x="74" y="336" width="1052" height="140" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="382" fill="#a8562f" font-size="23" font-weight="700">戻すときに置き換わらない</text>
+    <text x="106" y="422" fill="#5c534a" font-size="20">「取引先A」が「取引先A社」になっている</text>
+    <text x="620" y="382" fill="#2f6b4f" font-size="20" font-weight="700">直す場所</text>
+    <text x="620" y="422" fill="#24231f" font-size="22" font-weight="700">戻したあと、表の右の言葉でもう一度検索</text>
+    <text x="620" y="454" fill="#7a7362" font-size="19">1件でも残っていたら戻し漏れです</text>
+
+    <rect x="74" y="496" width="1052" height="140" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="542" fill="#a8562f" font-size="23" font-weight="700">答えが一般論になる</text>
+    <text x="106" y="582" fill="#5c534a" font-size="20">原因は消しすぎ。金額まで消しています</text>
+    <text x="620" y="542" fill="#2f6b4f" font-size="20" font-weight="700">直す場所</text>
+    <text x="620" y="582" fill="#24231f" font-size="22" font-weight="700">判断に使う数字を戻す。または比率にする</text>
+    <text x="620" y="614" fill="#7a7362" font-size="19">原価100 / 現在150 / 希望125 / 他社163</text>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">置き換え表は左に元の言葉、右に貼るときの言葉を書く。取引先名・人名・契約番号は置き換え、日付は粒度を落とし、金額はそのまま残す</title>
+  <desc id="desc">置き換え表の中身を3つの扱いに分けた図。置き換えるものは取引先の名前と人の名前で、取引先Aや先方の購買責任者に直す。書かないものは自分の名前と契約番号。粒度を落とすものは日付で、2026年11月30日を今年の11月末にする。そのまま残すものは金額で、原価320万円や希望400万円はAIが案を作るための材料になるため消さないことを示している</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">WHAT TO HIDE</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">全部消すのではなく、4つに分ける</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="252" height="330" rx="20" fill="#fff" stroke="#d36542" stroke-width="3"/>
+    <text x="102" y="222" fill="#d36542" font-size="20" font-weight="700">置き換える</text>
+    <text x="102" y="266" fill="#24231f" font-size="25" font-weight="700">取引先の名前</text>
+    <text x="102" y="300" fill="#5c534a" font-size="19">ホシノ精機</text>
+    <text x="102" y="330" fill="#2f6b4f" font-size="19">→ 取引先A</text>
+    <text x="102" y="380" fill="#24231f" font-size="25" font-weight="700">人の名前</text>
+    <text x="102" y="414" fill="#5c534a" font-size="19">大西部長</text>
+    <text x="102" y="444" fill="#2f6b4f" font-size="19">→ 先方の</text>
+    <text x="102" y="472" fill="#2f6b4f" font-size="19">　 購買責任者</text>
+
+    <rect x="356" y="176" width="252" height="330" rx="20" fill="#fff" stroke="#d36542" stroke-width="3"/>
+    <text x="384" y="222" fill="#d36542" font-size="20" font-weight="700">書かない</text>
+    <text x="384" y="266" fill="#24231f" font-size="25" font-weight="700">自分の名前</text>
+    <text x="384" y="300" fill="#5c534a" font-size="19">署名も消します</text>
+    <text x="384" y="350" fill="#24231f" font-size="25" font-weight="700">契約番号</text>
+    <text x="384" y="384" fill="#5c534a" font-size="19">HS-2231</text>
+    <text x="384" y="424" fill="#7a7362" font-size="18">1つで案件が</text>
+    <text x="384" y="452" fill="#7a7362" font-size="18">特定できます</text>
+
+    <rect x="638" y="176" width="252" height="330" rx="20" fill="#fff" stroke="#c9a227" stroke-width="3"/>
+    <text x="666" y="222" fill="#a8811a" font-size="20" font-weight="700">粒度を落とす</text>
+    <text x="666" y="266" fill="#24231f" font-size="25" font-weight="700">日付</text>
+    <text x="666" y="300" fill="#5c534a" font-size="19">2026年11月30日</text>
+    <text x="666" y="330" fill="#2f6b4f" font-size="19">→ 今年の11月末</text>
+    <text x="666" y="386" fill="#7a7362" font-size="18">金額と日付と部署名が</text>
+    <text x="666" y="414" fill="#7a7362" font-size="18">揃うと、社名が無くても</text>
+    <text x="666" y="442" fill="#7a7362" font-size="18">案件は特定できます</text>
+
+    <rect x="920" y="176" width="206" height="330" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="948" y="222" fill="#2f6b4f" font-size="20" font-weight="700">そのまま残す</text>
+    <text x="948" y="266" fill="#24231f" font-size="25" font-weight="700">金額</text>
+    <text x="948" y="300" fill="#5c534a" font-size="19">原価 320万</text>
+    <text x="948" y="330" fill="#5c534a" font-size="19">現在 480万</text>
+    <text x="948" y="360" fill="#5c534a" font-size="19">希望 400万</text>
+    <text x="948" y="410" fill="#7a7362" font-size="18">消すと、案の</text>
+    <text x="948" y="438" fill="#7a7362" font-size="18">中身も消えます</text>
+
+    <text x="74" y="576" fill="#24231f" font-size="24" font-weight="700">出したくない金額は、原価を100とした比率に直します（100 / 150 / 125 / 163）</text>
+    <text x="74" y="618" fill="#5c534a" font-size="20">関係だけが残り、実額は出ません</text>
+  </g>
+</svg>

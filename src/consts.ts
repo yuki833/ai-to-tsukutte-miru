@@ -39,6 +39,7 @@ export const OG_IMAGES: Record<string, string> = {
   'ai-slide-outline': '/og/ai-slide-outline.png',
   'ai-presentation-slides': '/og/ai-presentation-slides.png',
   'ai-summarize-long-text': '/og/ai-summarize-long-text.png',
+  'ai-confidential-masking': '/og/ai-confidential-masking.png',
 };
 
 export const CATEGORIES = {

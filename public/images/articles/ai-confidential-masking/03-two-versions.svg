@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">社名だけ伏せた版は金額で説明された3案が返るが、数字まで消した版は案の名前だけが残り判断の材料が消える。伏せるのは相手が誰かで、いくらかではない</title>
+  <desc id="desc">同じ相談を2通りの伏せ方で送った結果を左右に並べた図。左は社名だけを伏せた版で、案が3つ返り、それぞれ金額で利点と欠点が説明され、3年契約や訪問年8回といった条件の具体例まで出て、そのまま会議に出せる。右は金額と原価まで消した版で、案の名前は同じ3つだが中身が消え、原価と利益率を確認してくださいという一般的な注意だけが返り、会議には出せない。伏せる対象は相手が誰かであって、いくらかではないことを示している</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">TWO VERSIONS</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">消しすぎると、案の中身が消える</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="510" height="368" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="106" y="222" fill="#2f6b4f" font-size="20" font-weight="700">社名だけ伏せた版</text>
+    <text x="106" y="268" fill="#24231f" font-size="28" font-weight="700">そのまま会議に出せる</text>
+    <text x="106" y="318" fill="#24231f" font-size="21" font-weight="700">案1　400万円を受け入れない</text>
+    <text x="106" y="350" fill="#5c534a" font-size="19">取引先Bの520万円との整合が保てる</text>
+    <text x="106" y="392" fill="#24231f" font-size="21" font-weight="700">案2　400万円を受け入れる</text>
+    <text x="106" y="424" fill="#5c534a" font-size="19">80万円の粗利は残る</text>
+    <text x="106" y="466" fill="#24231f" font-size="21" font-weight="700">案3　条件を付けて400万円にする</text>
+    <text x="106" y="498" fill="#5c534a" font-size="19">3年契約・訪問を年12回から年8回へ</text>
+
+    <rect x="616" y="176" width="510" height="368" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="648" y="222" fill="#a8562f" font-size="20" font-weight="700">金額まで消した版</text>
+    <text x="648" y="268" fill="#24231f" font-size="28" font-weight="700">会議には出せない</text>
+    <text x="648" y="318" fill="#24231f" font-size="21" font-weight="700">案1　現行価格を維持する</text>
+    <text x="648" y="358" fill="#24231f" font-size="21" font-weight="700">案2　値下げに応じる</text>
+    <text x="648" y="398" fill="#24231f" font-size="21" font-weight="700">案3　条件付きで応じる</text>
+    <text x="648" y="450" fill="#7a7362" font-size="19">「原価と利益率を確認し、他の</text>
+    <text x="648" y="478" fill="#7a7362" font-size="19">取引先への影響を考慮したうえで」</text>
+    <text x="648" y="512" fill="#a8562f" font-size="19" font-weight="700">消した情報が、質問として返ってくる</text>
+
+    <text x="74" y="602" fill="#24231f" font-size="26" font-weight="700">伏せる対象は「相手が誰か」。「いくらか」ではありません</text>
+  </g>
+</svg>
