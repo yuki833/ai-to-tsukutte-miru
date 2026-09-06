@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">この記事の前に読むのは伏せ方の記事、同じ形の記事は要約、あとに読むのは議事録と資料作成、あわせて読むのはAIの答えを確かめた記事</title>
+  <desc id="desc">この記事とほかの記事のつながりを示した図。前に読むのは社内の資料をAIに貼っていいのかという伏せ方の記事で、英文メールにも社名と金額が入るため訳させる前に伏せる。同じ形なのは長い文章をAIに要約させる記事で、頼み方だけを変えて2回送り並べるという確かめ方が同じ。あとに読むのは議事録をAIに書かせる記事と資料作成をAIに頼む記事。あわせて読むのはAIのたぶん壊れていますを確かめた記事で、もっともらしい出力を確かめずに信じた記録が残っている</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">WHAT NEXT</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">この記事の前後に読むもの</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="180" width="330" height="150" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="104" y="222" fill="#7a7362" font-size="19" font-weight="700">前に読む</text>
+    <text x="104" y="264" fill="#24231f" font-size="23" font-weight="700">社内の資料を</text>
+    <text x="104" y="296" fill="#24231f" font-size="23" font-weight="700">AIに貼っていいのか</text>
+
+    <rect x="435" y="180" width="330" height="150" rx="18" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="465" y="222" fill="#2f6b4f" font-size="19" font-weight="700">いまここ</text>
+    <text x="465" y="264" fill="#24231f" font-size="23" font-weight="700">英文メールを</text>
+    <text x="465" y="296" fill="#24231f" font-size="23" font-weight="700">AIに翻訳させる</text>
+
+    <rect x="796" y="180" width="330" height="150" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="826" y="222" fill="#7a7362" font-size="19" font-weight="700">あとに読む</text>
+    <text x="826" y="264" fill="#24231f" font-size="23" font-weight="700">議事録をAIに書かせる</text>
+    <text x="826" y="296" fill="#24231f" font-size="23" font-weight="700">資料作成をAIに頼む</text>
+
+    <text x="404" y="266" fill="#b7ac99" font-size="28" font-weight="700">→</text>
+    <text x="765" y="266" fill="#b7ac99" font-size="28" font-weight="700">→</text>
+
+    <rect x="74" y="374" width="510" height="152" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="104" y="416" fill="#7a7362" font-size="19" font-weight="700">同じ確かめ方の記事</text>
+    <text x="104" y="458" fill="#24231f" font-size="23" font-weight="700">長い文章をAIに要約させる</text>
+    <text x="104" y="496" fill="#5c534a" font-size="19">頼み方だけを変えて2回送り、並べる</text>
+
+    <rect x="616" y="374" width="510" height="152" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="646" y="416" fill="#7a7362" font-size="19" font-weight="700">あわせて読む</text>
+    <text x="646" y="458" fill="#24231f" font-size="23" font-weight="700">AIの「たぶん壊れています」</text>
+    <text x="646" y="496" fill="#5c534a" font-size="19">もっともらしい出力を信じかけた記録</text>
+
+    <text x="74" y="600" fill="#24231f" font-size="26" font-weight="700">英文メールにも、社名と金額はそのまま入ります</text>
+  </g>
+</svg>

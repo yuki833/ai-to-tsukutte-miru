@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">相手が受け取る意味を書かせると、素のまま訳した版だけが納期・単価・決定の3点とも原文とずれていることが出る</title>
+  <desc id="desc">この英文を読んだ相手は何と理解しますかと聞いた結果を表にした図。納期について、素のまま訳した版はまだ11月の可能性があると読まれ、背景を書いた版は11月は不可能で最短12月中旬と読まれ、書き手が伝えたかったのは11月は不可能。単価について、素のまま訳した版は相談に応じてもらえそう、背景を書いた版は下げられることが確定で金額は金曜、書き手が伝えたかったのは下げられる。社内の決定について、素のまま訳した版はほぼ決まっている、背景を書いた版はまだ承認されていない、書き手が伝えたかったのはまだ決まっていない。3点とも素のまま訳した版だけがずれていることを示している</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="70" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">WHAT THE READER GETS</text>
+  <text x="74" y="122" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">相手の理解を書かせると、ずれが出る</text>
+
+  <g font-family="sans-serif">
+    <line x1="74" y1="176" x2="1126" y2="176" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="84" y="212" fill="#7a7362" font-size="19" font-weight="700">聞いた3点</text>
+    <text x="300" y="212" fill="#a8562f" font-size="19" font-weight="700">素のまま訳した版</text>
+    <text x="640" y="212" fill="#2f6b4f" font-size="19" font-weight="700">背景を書いた版</text>
+    <text x="930" y="212" fill="#7a7362" font-size="19" font-weight="700">書き手が伝えたかったこと</text>
+    <line x1="74" y1="232" x2="1126" y2="232" stroke="#d8d0bf" stroke-width="2"/>
+
+    <text x="84" y="292" fill="#24231f" font-size="23" font-weight="700">納期</text>
+    <text x="300" y="292" fill="#a8562f" font-size="21">まだ11月の可能性がある</text>
+    <text x="640" y="292" fill="#24231f" font-size="21">11月は不可能</text>
+    <text x="640" y="322" fill="#5c534a" font-size="19">最短で12月中旬</text>
+    <text x="930" y="292" fill="#24231f" font-size="21">11月は不可能</text>
+    <line x1="74" y1="352" x2="1126" y2="352" stroke="#efe9dc" stroke-width="2"/>
+
+    <text x="84" y="412" fill="#24231f" font-size="23" font-weight="700">単価</text>
+    <text x="300" y="412" fill="#a8562f" font-size="21">相談に応じてもらえそう</text>
+    <text x="640" y="412" fill="#24231f" font-size="21">下げられることは確定</text>
+    <text x="640" y="442" fill="#5c534a" font-size="19">金額は金曜に届く</text>
+    <text x="930" y="412" fill="#24231f" font-size="21">下げられる</text>
+    <line x1="74" y1="472" x2="1126" y2="472" stroke="#efe9dc" stroke-width="2"/>
+
+    <text x="84" y="532" fill="#24231f" font-size="23" font-weight="700">社内の決定</text>
+    <text x="300" y="532" fill="#a8562f" font-size="21">ほぼ決まっている</text>
+    <text x="640" y="532" fill="#24231f" font-size="21">まだ承認されていない</text>
+    <text x="930" y="532" fill="#24231f" font-size="21">まだ決まっていない</text>
+    <line x1="74" y1="562" x2="1126" y2="562" stroke="#d8d0bf" stroke-width="2"/>
+
+    <text x="74" y="626" fill="#24231f" font-size="26" font-weight="700">3点とも、ずれているのは左の版だけです</text>
+  </g>
+</svg>

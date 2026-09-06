@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">指示文は相手・目的・形・守ることの4つの区画でできている。効くのは守ることの3行で、あいまいな言い方をどう扱うかを先に決めている</title>
+  <desc id="desc">英訳を頼むときの指示文を4つの区画に分けて示した図。1つ目は相手で、誰が読むかと日本語が分かるかどうかを書く。2つ目は目的で、この1通で相手に何を分かってほしいかを書く。3つ目は形で、件名と本文、結論を先に書き、番号付きの3点にまとめると指定する。4つ目は守ることで、決まっていないことは決まっていないと書く、原文に無い約束を足さない、英文に入れなかったことを最後に並べる、の3行を書く。この4つ目だけが訳の中身を変えることを示している</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">FOUR BLOCKS</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">指示文の4区画。効くのは最後の3行</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="180" width="510" height="140" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="104" y="222" fill="#a8562f" font-size="20" font-weight="700">相手</text>
+    <text x="104" y="262" fill="#24231f" font-size="22">誰が読むか。日本語が分かるか</text>
+    <text x="104" y="296" fill="#5c534a" font-size="19">例：海外の取引先の購買担当者</text>
+
+    <rect x="616" y="180" width="510" height="140" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="646" y="222" fill="#a8562f" font-size="20" font-weight="700">目的</text>
+    <text x="646" y="262" fill="#24231f" font-size="22">この1通で何を分かってほしいか</text>
+    <text x="646" y="296" fill="#5c534a" font-size="19">例：11月は無理・単価は下げられる</text>
+
+    <rect x="74" y="344" width="510" height="140" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="104" y="386" fill="#a8562f" font-size="20" font-weight="700">形</text>
+    <text x="104" y="426" fill="#24231f" font-size="22">件名と本文。結論を先に</text>
+    <text x="104" y="460" fill="#5c534a" font-size="19">番号付きの3点にまとめる</text>
+
+    <rect x="616" y="344" width="510" height="196" rx="18" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="646" y="386" fill="#2f6b4f" font-size="20" font-weight="700">守ること（ここが効く）</text>
+    <text x="646" y="426" fill="#24231f" font-size="21">決まっていないことは「決まっていない」</text>
+    <text x="646" y="462" fill="#24231f" font-size="21">原文に無い約束を足さない</text>
+    <text x="646" y="498" fill="#24231f" font-size="21">入れなかったことを最後に並べる</text>
+
+    <text x="74" y="600" fill="#24231f" font-size="26" font-weight="700">上の3つは体裁を変えます。訳の中身を変えるのは4つ目だけです</text>
+  </g>
+</svg>

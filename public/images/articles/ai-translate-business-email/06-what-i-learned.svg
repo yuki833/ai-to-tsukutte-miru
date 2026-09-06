@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">あいまいさは日本語の側にある。訳が下手なのではなく、原文が省いた分だけ相手に届かない。だから直す場所は英文ではなく、頼むときに書く背景</title>
+  <desc id="desc">この記事の結論を3段で示した図。上段は思っていたことで、英訳がうまくいかないのは訳の質が低いからだと考えていた。中段は実際に起きていたことで、あいまいさは日本語の原文の側にあり、日本語の読み手は文脈で補って読むが英語の読み手には補う材料が無い。下段は結論で、直す場所は返ってきた英文ではなく、頼むときに書く背景のほうだと示している。英文をいくら直しても、原文が省いたことは戻ってこないと下に添えている</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">WHAT I LEARNED</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">直す場所は、英文ではありませんでした</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="180" width="1052" height="112" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="222" fill="#7a7362" font-size="20" font-weight="700">思っていたこと</text>
+    <text x="106" y="264" fill="#24231f" font-size="24">英訳がうまく伝わらないのは、訳の質が低いから</text>
+
+    <text x="600" y="322" fill="#b7ac99" font-size="30" font-weight="700">↓</text>
+
+    <rect x="74" y="340" width="1052" height="150" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="382" fill="#7a7362" font-size="20" font-weight="700">実際に起きていたこと</text>
+    <text x="106" y="424" fill="#24231f" font-size="24">あいまいさは、日本語の原文の側にありました</text>
+    <text x="106" y="462" fill="#5c534a" font-size="20">日本語の読み手は文脈で補います。英語の読み手には、補う材料がありません</text>
+
+    <text x="600" y="520" fill="#b7ac99" font-size="30" font-weight="700">↓</text>
+
+    <rect x="74" y="538" width="1052" height="104" rx="18" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="106" y="580" fill="#2f6b4f" font-size="20" font-weight="700">だからこうする</text>
+    <text x="106" y="620" fill="#24231f" font-size="24" font-weight="700">直すのは英文ではなく、頼むときに書く背景のほうです</text>
+  </g>
+</svg>

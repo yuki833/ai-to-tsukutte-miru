@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">素のまま訳した版はconsidering positivelyやslightly severeという語が残り、背景を書いた版はcannotとnot approved yetに変わる。どちらも英語としては正しい</title>
+  <desc id="desc">同じ日本語メールを2通りの頼み方で英訳させた結果を左右に並べた図。左は次の文を英語にしてくださいとだけ頼んだ版で、前向きに検討しておりますがwe are considering it positively、少々厳しい状況ですがa slightly severe situation、可能性がございますがthere is a possibilityとそのまま残っている。右は背景と守ることを書いた版で、11月は不可能がwe cannot meet a November delivery、まだ承認されていないがhas not been approved yetと言い切る形に変わり、単価を下げられることと金曜日に金額を送ることが明記されている。どちらの英文も文法的には正しく、読み比べても誤りは見つからないことを下段に書いている</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">TWO VERSIONS</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">同じ原文から、言い切りかどうかが変わる</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="510" height="330" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="220" fill="#a8562f" font-size="20" font-weight="700">「次の文を英語にしてください」だけ</text>
+    <text x="106" y="266" fill="#24231f" font-size="26" font-weight="700">あいまいさが残る</text>
+    <text x="106" y="316" fill="#5c534a" font-size="20">considering it positively</text>
+    <text x="106" y="352" fill="#5c534a" font-size="20">a slightly severe situation</text>
+    <text x="106" y="388" fill="#5c534a" font-size="20">there is a possibility</text>
+    <text x="106" y="424" fill="#5c534a" font-size="20">consultation to some extent</text>
+    <text x="106" y="474" fill="#a8562f" font-size="20" font-weight="700">言い切っている文が1つも無い</text>
+
+    <rect x="616" y="176" width="510" height="330" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="648" y="220" fill="#2f6b4f" font-size="20" font-weight="700">背景と「守ること」を書いた版</text>
+    <text x="648" y="266" fill="#24231f" font-size="26" font-weight="700">言い切る形に変わる</text>
+    <text x="648" y="316" fill="#5c534a" font-size="20">we cannot meet a November delivery</text>
+    <text x="648" y="352" fill="#5c534a" font-size="20">the earliest is mid-December</text>
+    <text x="648" y="388" fill="#5c534a" font-size="20">we can lower the unit price</text>
+    <text x="648" y="424" fill="#5c534a" font-size="20">has not been approved yet</text>
+    <text x="648" y="474" fill="#2f6b4f" font-size="20" font-weight="700">決まっていないことも言い切っている</text>
+
+    <text x="74" y="570" fill="#24231f" font-size="26" font-weight="700">どちらも英語としては正しい文です</text>
+    <text x="74" y="614" fill="#5c534a" font-size="21">読み比べても、左の英文に誤りは見つかりません</text>
+  </g>
+</svg>

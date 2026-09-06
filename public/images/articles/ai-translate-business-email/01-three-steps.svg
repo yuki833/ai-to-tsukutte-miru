@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">背景を書いて訳させ、返ってきた英文をそのまま送らず、相手が何と理解するかを書かせる3つの流れ。大事なのは3で、訳文を見比べてもずれは見つからない</title>
+  <desc id="desc">英文メールをAIに訳させるときの3つの手順を左から順に並べた図。1は背景を書いてから訳させる手順で、相手が誰か、何を伝えたいか、決まっていることと決まっていないことを先に書く。2は返ってきた英文をそのまま相手へ送らないという手順。3はこの英文を読んだ相手は何と理解しますかとAIに聞く手順で、この3が最も大事だと示している。訳文どうしを見比べてもずれは見つからず、相手が受け取る意味を書かせて初めてずれが出ることを下段に書いている</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">THREE STEPS</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">訳させて、送らずに、相手の理解を聞く</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="182" width="330" height="300" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="232" fill="#d36542" font-size="26" font-weight="700">1</text>
+    <text x="106" y="278" fill="#24231f" font-size="25" font-weight="700">背景を書いて</text>
+    <text x="106" y="312" fill="#24231f" font-size="25" font-weight="700">訳させる</text>
+    <text x="106" y="362" fill="#5c534a" font-size="19">相手は誰か</text>
+    <text x="106" y="394" fill="#5c534a" font-size="19">何を伝えたいか</text>
+    <text x="106" y="426" fill="#5c534a" font-size="19">決まっていないことは何か</text>
+
+    <text x="424" y="332" fill="#b7ac99" font-size="34" font-weight="700">→</text>
+
+    <rect x="470" y="182" width="240" height="300" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="502" y="232" fill="#d36542" font-size="26" font-weight="700">2</text>
+    <text x="502" y="278" fill="#24231f" font-size="25" font-weight="700">そのまま</text>
+    <text x="502" y="312" fill="#24231f" font-size="25" font-weight="700">送らない</text>
+    <text x="502" y="362" fill="#5c534a" font-size="19">英文は正しく見える</text>
+    <text x="502" y="394" fill="#5c534a" font-size="19">それが落とし穴</text>
+
+    <text x="730" y="332" fill="#b7ac99" font-size="34" font-weight="700">→</text>
+
+    <rect x="776" y="182" width="350" height="300" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="808" y="232" fill="#2f6b4f" font-size="26" font-weight="700">3</text>
+    <text x="808" y="278" fill="#24231f" font-size="25" font-weight="700">相手は何と</text>
+    <text x="808" y="312" fill="#24231f" font-size="25" font-weight="700">理解するかを聞く</text>
+    <text x="808" y="362" fill="#2f6b4f" font-size="19" font-weight="700">ここでずれが出る</text>
+    <text x="808" y="400" fill="#5c534a" font-size="19">納期・価格・決定の</text>
+    <text x="808" y="432" fill="#5c534a" font-size="19">3点で聞く</text>
+
+    <text x="74" y="556" fill="#24231f" font-size="26" font-weight="700">訳文どうしを見比べても、ずれは見つかりません</text>
+    <text x="74" y="600" fill="#5c534a" font-size="21">どちらの英文も、英語としては正しいからです</text>
+  </g>
+</svg>

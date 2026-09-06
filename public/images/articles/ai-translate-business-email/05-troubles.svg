@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">結論が最後に来るなら形の指定が足りない、社名が残っているなら伏せる作業を先にする、日本語へ戻しても見つからないなら戻す先の日本語も同じであいまいだから</title>
+  <desc id="desc">うまくいかないときの症状と直す場所を3組並べた図。1つ目の症状は結論が最後に来て読んでもらえないというもので、直す場所は指示文の形の区画。結論を先にと番号付きの3点にを書き足す。2つ目の症状は社名と担当者名がそのまま英文に入っているというもので、直す場所は貼る前の作業。置き換え表を作ってから訳させる。3つ目の症状は英文を日本語へ戻して確かめてもずれが見つからないというもので、原因は戻した日本語も原文と同じであいまいなため。だから訳文ではなく、相手が何と理解するかを聞くと書いている</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">WHEN IT FAILS</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">症状ごとに、直す場所が決まっています</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="180" width="1052" height="120" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="224" fill="#a8562f" font-size="21" font-weight="700">結論が最後に来て、読んでもらえない</text>
+    <text x="106" y="266" fill="#5c534a" font-size="20">直す場所は指示文の「形」。結論を先に・番号付きの3点に、を書き足す</text>
+
+    <rect x="74" y="320" width="1052" height="120" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="364" fill="#a8562f" font-size="21" font-weight="700">社名と担当者名が、そのまま英文に入っている</text>
+    <text x="106" y="406" fill="#5c534a" font-size="20">直す場所は貼る前。置き換え表を作ってから訳させる</text>
+
+    <rect x="74" y="460" width="1052" height="140" rx="18" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="106" y="504" fill="#2f6b4f" font-size="21" font-weight="700">日本語へ戻して確かめても、ずれが見つからない</text>
+    <text x="106" y="546" fill="#5c534a" font-size="20">戻した日本語も、原文と同じであいまいだからです</text>
+    <text x="106" y="582" fill="#24231f" font-size="21" font-weight="700">だから訳文ではなく、相手が何と理解するかを聞きます</text>
+  </g>
+</svg>
