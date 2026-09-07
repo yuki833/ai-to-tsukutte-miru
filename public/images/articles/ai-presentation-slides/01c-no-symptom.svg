@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">形の崩れは読み込んだ時点で目に見えるが、渡していない数字や担当者が混ざっても症状は出ず、きれいな5枚のスライドになる</title>
+  <desc id="desc">アウトラインの間違いを2種類に分けた図。左は形の崩れで、全部が1枚になる、日本語が化けるといった症状がその場で目に見えること。右は中身の混ざりで、渡していない数字や担当者が入っていても、正しく5枚に分かれて正しい日本語で表示されるため、見ただけでは気づけないこと。だから読み込む前にAI自身へ挙げさせることを示している</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">NO SYMPTOM</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">見て分かる間違いと、分からない間違い</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="506" height="322" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="222" fill="#7a7362" font-size="20" font-weight="700">形の崩れは</text>
+    <text x="110" y="264" fill="#24231f" font-size="32" font-weight="700">読み込めば見える</text>
+
+    <rect x="110" y="294" width="434" height="72" rx="12" fill="#fdf6f3" stroke="#d36542" stroke-width="3"/>
+    <text x="132" y="326" fill="#d36542" font-size="22" font-weight="700">全部が1枚になる</text>
+    <text x="132" y="354" fill="#24231f" font-size="21" font-weight="700">改行を直せばよい</text>
+
+    <rect x="110" y="380" width="434" height="72" rx="12" fill="#fdf6f3" stroke="#d36542" stroke-width="3"/>
+    <text x="132" y="412" fill="#d36542" font-size="22" font-weight="700">日本語が化ける</text>
+    <text x="132" y="440" fill="#24231f" font-size="21" font-weight="700">文字コードを直せばよい</text>
+
+    <text x="110" y="482" fill="#5c534a" font-size="19">どちらも、画面を見た瞬間に分かります。</text>
+
+    <rect x="620" y="176" width="506" height="322" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="656" y="222" fill="#7a7362" font-size="20" font-weight="700">中身の混ざりは</text>
+    <text x="656" y="264" fill="#24231f" font-size="32" font-weight="700">症状が出ない</text>
+
+    <rect x="656" y="294" width="434" height="72" rx="12" fill="#eaf3ee" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="678" y="326" fill="#2f6b4f" font-size="22" font-weight="700">きれいな5枚になる</text>
+    <text x="678" y="354" fill="#24231f" font-size="21" font-weight="700">日本語も正しい</text>
+
+    <rect x="656" y="380" width="434" height="72" rx="12" fill="#fdf6f3" stroke="#d36542" stroke-width="3"/>
+    <text x="678" y="412" fill="#d36542" font-size="22" font-weight="700">渡していない数字・担当者</text>
+    <text x="678" y="440" fill="#24231f" font-size="21" font-weight="700">事実だけが違う</text>
+
+    <text x="656" y="482" fill="#5c534a" font-size="19">スライドを見ても、気づけません。</text>
+
+    <rect x="74" y="528" width="1052" height="104" rx="20" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="114" y="570" fill="#d36542" font-size="22" font-weight="700">だから、貼る前に1回止まる</text>
+    <text x="114" y="610" fill="#24231f" font-size="24" font-weight="700">メモに無い数字・日付・担当者・効果を、AI自身に挙げさせてから読み込みます。</text>
+  </g>
+</svg>
