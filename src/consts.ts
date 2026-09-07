@@ -41,6 +41,7 @@ export const OG_IMAGES: Record<string, string> = {
   'ai-summarize-long-text': '/og/ai-summarize-long-text.png',
   'ai-confidential-masking': '/og/ai-confidential-masking.png',
   'ai-translate-business-email': '/og/ai-translate-business-email.png',
+  'ai-write-announcement': '/og/ai-write-announcement.png',
 };
 
 export const CATEGORIES = {
