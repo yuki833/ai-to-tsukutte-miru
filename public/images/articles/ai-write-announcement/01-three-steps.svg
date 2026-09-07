@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">決まっている事実を箇条書きで先に書き出し、それを渡して書かせ、最後に材料に無いことを並べさせる3つの流れ。大事なのは1で、飛ばすとAIが足りない部分を自分で埋める</title>
+  <desc id="desc">社内のお知らせ文をAIに書かせるときの3つの手順を左から順に並べた図。1は決まっている事実を箇条書きで先に書き出す手順で、日付、対象の範囲、理由、まだ決まっていないことを並べる。2はその箇条書きを渡して書かせる手順。3は書き上がった文を貼り直して、材料に無いことを並べてとAIに聞く手順。1が最も大事で、ここを飛ばすとAIが足りない部分を自分で埋めてしまい、埋めた部分は日本語として自然なので読んでも分からないことを下段に書いている。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">THREE STEPS</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">材料を書き出して、書かせて、照合する</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="182" width="350" height="300" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="106" y="232" fill="#2f6b4f" font-size="26" font-weight="700">1</text>
+    <text x="106" y="278" fill="#24231f" font-size="25" font-weight="700">決まっている事実を</text>
+    <text x="106" y="312" fill="#24231f" font-size="25" font-weight="700">箇条書きにする</text>
+    <text x="106" y="362" fill="#2f6b4f" font-size="19" font-weight="700">ここを飛ばすと埋められる</text>
+    <text x="106" y="400" fill="#5c534a" font-size="19">日付・対象・理由</text>
+    <text x="106" y="432" fill="#5c534a" font-size="19">決まっていないこと</text>
+
+    <text x="444" y="332" fill="#b7ac99" font-size="34" font-weight="700">→</text>
+
+    <rect x="490" y="182" width="240" height="300" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="522" y="232" fill="#d36542" font-size="26" font-weight="700">2</text>
+    <text x="522" y="278" fill="#24231f" font-size="25" font-weight="700">箇条書きを</text>
+    <text x="522" y="312" fill="#24231f" font-size="25" font-weight="700">渡して書かせる</text>
+    <text x="522" y="362" fill="#5c534a" font-size="19">組み立ては数秒</text>
+    <text x="522" y="394" fill="#5c534a" font-size="19">ここは速い</text>
+
+    <text x="750" y="332" fill="#b7ac99" font-size="34" font-weight="700">→</text>
+
+    <rect x="796" y="182" width="330" height="300" rx="20" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="828" y="232" fill="#d36542" font-size="26" font-weight="700">3</text>
+    <text x="828" y="278" fill="#24231f" font-size="25" font-weight="700">材料に無いことを</text>
+    <text x="828" y="312" fill="#24231f" font-size="25" font-weight="700">並べさせる</text>
+    <text x="828" y="362" fill="#5c534a" font-size="19">文は読み返さない</text>
+    <text x="828" y="394" fill="#5c534a" font-size="19">日付・固有名詞・数字</text>
+
+    <text x="74" y="556" fill="#24231f" font-size="26" font-weight="700">埋めた部分は、読んでも分かりません</text>
+    <text x="74" y="600" fill="#5c534a" font-size="21">日本語として自然だからです</text>
+  </g>
+</svg>

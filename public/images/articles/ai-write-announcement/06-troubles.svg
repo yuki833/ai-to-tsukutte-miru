@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">材料を渡しても混ざるなら材料の側が決めきれていない、固すぎるなら形の指定を足す、時間がかかるなら読む人が多い文だけに使う</title>
+  <desc id="desc">うまくいかないときの3つの症状と直し方を並べた図。1つ目は材料を渡したのにまだ書いていないことが混ざる場合で、原因は材料の中に10月ごろのような幅のある行が残っていること。幅のまま書いてほしいならそう材料へ書く。2つ目は文が固すぎて社内の空気に合わない場合で、形の指定を足して調整する。材料を減らして調整すると、また埋められる。3つ目は材料を書き出すほうが時間がかかる場合で、この手順が効くのは読む人が多く、後から聞いていないと言われると面倒な文だけ。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">TROUBLES</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">うまくいかないときの3つ</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="182" width="1052" height="130" rx="16" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="228" fill="#d36542" font-size="23" font-weight="700">まだ書いていないことが混ざる</text>
+    <text x="106" y="274" fill="#24231f" font-size="22">材料に「10月ごろ」のような幅のある行が残っています。幅のまま書いてほしいなら、そう材料へ書く</text>
+
+    <rect x="74" y="332" width="1052" height="130" rx="16" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="378" fill="#d36542" font-size="23" font-weight="700">文が固すぎて、社内の空気に合わない</text>
+    <text x="106" y="424" fill="#24231f" font-size="22">【形】の指定を足します。材料を減らして調整しないでください。減らすと、また埋められます</text>
+
+    <rect x="74" y="482" width="1052" height="130" rx="16" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="528" fill="#d36542" font-size="23" font-weight="700">材料を書き出すほうが時間がかかる</text>
+    <text x="106" y="574" fill="#24231f" font-size="22">そのとおりです。効くのは、読む人が多くて「聞いていない」と言われると面倒な文だけです</text>
+  </g>
+</svg>

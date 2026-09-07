@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">何も渡さない版は総務部・来月1日・2週間前という語が出てくるが、材料を渡した版は10月1日・小会議室A/B・6割に変わる。どちらも日本語としては正しい</title>
+  <desc id="desc">同じお知らせを2通りの頼み方で書かせた結果を左右に並べた図。左は何も渡さずに頼んだ版で、総務部という部署名、来月1日という開始日、2週間前から受け付けるというルール、有効活用のためという理由が出てくるが、どれも実在しない。右は材料を渡した版で、10月1日木曜、3階の小会議室AとB、2時間から1時間へ、予約の6割が1時間以内という実在する中身に変わる。どちらの文も日本語としては正しく、読み比べても誤りは見つからない。違うのは中身が実在するかどうかだけ。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">TWO VERSIONS</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">違うのは、中身が実在するかどうかだけ</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="182" width="500" height="352" rx="20" fill="#fff" stroke="#d36542" stroke-width="3"/>
+    <text x="106" y="230" fill="#d36542" font-size="23" font-weight="700">何も渡さない版</text>
+    <text x="106" y="286" fill="#24231f" font-size="22">「総務部です」</text>
+    <text x="106" y="330" fill="#24231f" font-size="22">「来月1日より」</text>
+    <text x="106" y="374" fill="#24231f" font-size="22">「2週間前から受け付けます」</text>
+    <text x="106" y="418" fill="#24231f" font-size="22">「有効に活用するための措置」</text>
+    <text x="106" y="486" fill="#d36542" font-size="21" font-weight="700">4つとも、実在しません</text>
+
+    <rect x="626" y="182" width="500" height="352" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="658" y="230" fill="#2f6b4f" font-size="23" font-weight="700">材料を渡した版</text>
+    <text x="658" y="286" fill="#24231f" font-size="22">「10月1日（木）から」</text>
+    <text x="658" y="330" fill="#24231f" font-size="22">「3階の小会議室A・B」</text>
+    <text x="658" y="374" fill="#24231f" font-size="22">「2時間から1時間へ」</text>
+    <text x="658" y="418" fill="#24231f" font-size="22">「予約の6割が1時間以内」</text>
+    <text x="658" y="486" fill="#2f6b4f" font-size="21" font-weight="700">4つとも、材料にあります</text>
+
+    <text x="74" y="596" fill="#24231f" font-size="26" font-weight="700">どちらの文にも、日本語の誤りはありません</text>
+    <text x="74" y="638" fill="#5c534a" font-size="21">読み比べても「ここが間違い」とは言えません</text>
+  </g>
+</svg>

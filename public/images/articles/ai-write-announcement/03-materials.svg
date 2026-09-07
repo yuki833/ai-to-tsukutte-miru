@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">材料7行のうち変わることは1行だけで、残る5行は対象の範囲・理由・抜け道・決まっていないこと・問い合わせ先。この5行が読んだ人の質問を先に潰す</title>
+  <desc id="desc">お知らせ文に渡す材料の内訳を示した図。材料は7行あるが、変更そのものを書いた行は1行だけで、予約時間が2時間から1時間になるという内容。残りは開始日が10月1日、対象が3階の小会議室AとBの2部屋だけで大会議室は変わらないこと、理由は予約の6割が1時間以内に終わっていること、1時間を超えたい場合はもう1枠取れば申請なしで使えること、大会議室を同じルールにするかは未定であること、問い合わせ先は施設担当の内線2210であること。この変更以外の行が、読んだ人の質問を先に潰す役割を持つ。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">MATERIALS</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">変更そのものは、7行のうち1行だけ</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="182" width="1052" height="86" rx="14" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="106" y="218" fill="#2f6b4f" font-size="19" font-weight="700">変わること（1行）</text>
+    <text x="106" y="250" fill="#24231f" font-size="25" font-weight="700">1回の予約は 2時間 → 1時間</text>
+
+    <text x="74" y="316" fill="#5c534a" font-size="21" font-weight="700">残る6行は、質問を先に潰すためのもの</text>
+
+    <rect x="74" y="342" width="340" height="104" rx="14" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="102" y="378" fill="#d36542" font-size="18" font-weight="700">いつから</text>
+    <text x="102" y="414" fill="#24231f" font-size="22">10月1日（木）</text>
+
+    <rect x="430" y="342" width="340" height="104" rx="14" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="458" y="378" fill="#d36542" font-size="18" font-weight="700">どこまで</text>
+    <text x="458" y="414" fill="#24231f" font-size="22">3階の小会議室A・Bだけ</text>
+
+    <rect x="786" y="342" width="340" height="104" rx="14" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="814" y="378" fill="#d36542" font-size="18" font-weight="700">なぜ</text>
+    <text x="814" y="414" fill="#24231f" font-size="22">予約の6割が1時間以内</text>
+
+    <rect x="74" y="462" width="340" height="104" rx="14" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="102" y="498" fill="#d36542" font-size="18" font-weight="700">超えたいとき</text>
+    <text x="102" y="534" fill="#24231f" font-size="22">もう1枠取る・申請なし</text>
+
+    <rect x="430" y="462" width="340" height="104" rx="14" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="458" y="498" fill="#d36542" font-size="18" font-weight="700">まだ決まっていない</text>
+    <text x="458" y="534" fill="#24231f" font-size="22">大会議室は未定</text>
+
+    <rect x="786" y="462" width="340" height="104" rx="14" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="814" y="498" fill="#d36542" font-size="18" font-weight="700">どこへ聞く</text>
+    <text x="814" y="534" fill="#24231f" font-size="22">施設担当（内線2210）</text>
+
+    <text x="74" y="624" fill="#24231f" font-size="24" font-weight="700">「まだ決まっていない」の行が無いと、決まったことのように書かれます</text>
+  </g>
+</svg>

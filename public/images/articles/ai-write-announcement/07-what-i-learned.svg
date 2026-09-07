@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">AIが肩代わりしたのは文章を組み立てる作業だけ。何を伝えるかを決める作業は人に残る。だから材料が書けない状態では、同じところで止まる</title>
+  <desc id="desc">やってみて分かったことを示した図。作業を2つに分けている。左は何を伝えるかを決める作業で、材料の7行を思い出したり調べたりする段階。ここに時間がかかり、人に残る。右は文章を組み立てる作業で、材料を渡したあとは数秒で文になる。ここをAIが肩代わりする。だから文章を書くのが苦手だから頼むという理由は、苦手なのが言葉を並べることなら効くが、何を書けばいいか分からないという意味なら、材料の段階で同じところで止まる。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">WHAT I LEARNED</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">遅いのは、書くところではありませんでした</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="182" width="500" height="300" rx="20" fill="#fff" stroke="#d36542" stroke-width="3"/>
+    <text x="106" y="230" fill="#d36542" font-size="23" font-weight="700">何を伝えるかを決める</text>
+    <text x="106" y="286" fill="#24231f" font-size="24" font-weight="700">人に残った</text>
+    <text x="106" y="342" fill="#5c534a" font-size="21">材料の7行を書き出す</text>
+    <text x="106" y="380" fill="#5c534a" font-size="21">思い出す・調べる・聞く</text>
+    <text x="106" y="436" fill="#d36542" font-size="21" font-weight="700">ここに時間がかかった</text>
+
+    <text x="594" y="332" fill="#b7ac99" font-size="34" font-weight="700">→</text>
+
+    <rect x="626" y="182" width="500" height="300" rx="20" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="658" y="230" fill="#2f6b4f" font-size="23" font-weight="700">文章を組み立てる</text>
+    <text x="658" y="286" fill="#24231f" font-size="24" font-weight="700">AIが肩代わりした</text>
+    <text x="658" y="342" fill="#5c534a" font-size="21">件名を決める</text>
+    <text x="658" y="380" fill="#5c534a" font-size="21">順番を並べる・敬語にする</text>
+    <text x="658" y="436" fill="#2f6b4f" font-size="21" font-weight="700">数秒で終わった</text>
+
+    <text x="74" y="560" fill="#24231f" font-size="26" font-weight="700">「何を書けばいいか分からない」なら、材料の段階で同じところで止まります</text>
+    <text x="74" y="604" fill="#5c534a" font-size="21">効くのは、苦手なのが「言葉を並べること」のときです</text>
+  </g>
+</svg>
