@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">つまずいた4つと、それぞれの直し方</title>
+  <desc id="desc">「読み取れません」ばかり出る、やることの期限が空になる、長すぎる、固有名詞が違う、という4つのつまずきと、それぞれの直し方を左右に並べた図</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">TROUBLES</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">つまずいた4つと、直し方</text>
+
+  <g font-family="sans-serif">
+    <text x="88" y="168" fill="#7a7362" font-size="19" font-weight="700">こうなったら</text>
+    <text x="630" y="168" fill="#7a7362" font-size="19" font-weight="700">こう直す</text>
+
+    <rect x="74" y="182" width="470" height="96" rx="16" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="240" fill="#24231f" font-size="25" font-weight="700">「読み取れません」ばかり</text>
+    <path d="M560 230 L602 230" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M594 222 L606 230 L594 238 Z" fill="#b8ae9a"/>
+    <rect x="616" y="182" width="510" height="96" rx="16" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="648" y="222" fill="#24231f" font-size="23" font-weight="700">日時と参加者は、指示文に</text>
+    <text x="648" y="254" fill="#24231f" font-size="23" font-weight="700">自分で書いてしまう</text>
+
+    <rect x="74" y="298" width="470" height="96" rx="16" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="356" fill="#24231f" font-size="25" font-weight="700">「やること」の期限が空</text>
+    <path d="M560 346 L602 346" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M594 338 L606 346 L594 354 Z" fill="#b8ae9a"/>
+    <rect x="616" y="298" width="510" height="96" rx="16" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="648" y="338" fill="#24231f" font-size="23" font-weight="700">出たあとに聞き直して、</text>
+    <text x="648" y="370" fill="#24231f" font-size="23" font-weight="700">表を埋め直させる</text>
+
+    <rect x="74" y="414" width="470" height="96" rx="16" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="472" fill="#24231f" font-size="25" font-weight="700">長すぎる・細かすぎる</text>
+    <path d="M560 462 L602 462" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M594 454 L606 462 L594 470 Z" fill="#b8ae9a"/>
+    <rect x="616" y="414" width="510" height="96" rx="16" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="648" y="454" fill="#24231f" font-size="23" font-weight="700">「決まったことを5行以内に」</text>
+    <text x="648" y="486" fill="#24231f" font-size="23" font-weight="700">と続けて頼む</text>
+
+    <rect x="74" y="530" width="470" height="96" rx="16" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="106" y="588" fill="#24231f" font-size="25" font-weight="700">固有名詞が違う</text>
+    <path d="M560 578 L602 578" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M594 570 L606 578 L594 586 Z" fill="#b8ae9a"/>
+    <rect x="616" y="530" width="510" height="96" rx="16" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="648" y="570" fill="#24231f" font-size="23" font-weight="700">貼る前に一括置換する。</text>
+    <text x="648" y="602" fill="#d36542" font-size="23" font-weight="700">ここは人が直すところ</text>
+  </g>
+</svg>

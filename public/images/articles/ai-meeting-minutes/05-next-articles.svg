@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">この記事から続く3本と、確かめ方の1本</title>
+  <desc id="desc">1本目の議事録から、2本目のExcelの式、3本目の資料の構成案、4本目の社内のお知らせ文へ続くこと、そしてAIの答えの確かめ方の記事が別にあることを並べた図</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">NEXT</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">この記事から続く3本</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="182" width="248" height="150" rx="18" fill="#d36542"/>
+    <text x="106" y="228" fill="#f6d9cf" font-size="19" font-weight="700">1本目・この記事</text>
+    <text x="106" y="274" fill="#fff" font-size="27" font-weight="700">議事録を</text>
+    <text x="106" y="308" fill="#fff" font-size="27" font-weight="700">書かせる</text>
+
+    <path d="M334 258 L376 258" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M368 250 L380 258 L368 266 Z" fill="#b8ae9a"/>
+
+    <rect x="390" y="182" width="248" height="150" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="422" y="228" fill="#7a7362" font-size="19" font-weight="700">2本目</text>
+    <text x="422" y="274" fill="#24231f" font-size="27" font-weight="700">Excelの式を</text>
+    <text x="422" y="308" fill="#24231f" font-size="27" font-weight="700">書かせる</text>
+
+    <path d="M650 258 L692 258" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M684 250 L696 258 L684 266 Z" fill="#b8ae9a"/>
+
+    <rect x="706" y="182" width="248" height="150" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="738" y="228" fill="#7a7362" font-size="19" font-weight="700">3本目</text>
+    <text x="738" y="274" fill="#24231f" font-size="27" font-weight="700">資料の構成案</text>
+    <text x="738" y="308" fill="#24231f" font-size="27" font-weight="700">を作らせる</text>
+
+    <path d="M830 348 L830 386" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M822 378 L830 390 L838 378 Z" fill="#b8ae9a"/>
+
+    <rect x="706" y="400" width="248" height="150" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="738" y="446" fill="#7a7362" font-size="19" font-weight="700">4本目</text>
+    <text x="738" y="492" fill="#24231f" font-size="27" font-weight="700">お知らせ文を</text>
+    <text x="738" y="526" fill="#24231f" font-size="27" font-weight="700">書かせる</text>
+
+    <rect x="74" y="400" width="564" height="150" rx="18" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="106" y="446" fill="#d36542" font-size="19" font-weight="700">そのまま信じる前に</text>
+    <text x="106" y="492" fill="#24231f" font-size="27" font-weight="700">AIの答えの確かめ方は、</text>
+    <text x="106" y="526" fill="#24231f" font-size="27" font-weight="700">別の1本にまとめています</text>
+
+    <text x="74" y="608" fill="#7a7362" font-size="22" font-weight="700">どれも「毎回やっているのに、毎回ゼロから書いている」仕事です。</text>
+  </g>
+</svg>

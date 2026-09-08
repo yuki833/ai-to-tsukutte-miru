@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">出てくるのは8割の下書き。残りの2割を人がやる</title>
+  <desc id="desc">議事録づくりのうち、決まったこと・やることの整理はAIが速く、固有名詞や日時の修正と「書かないでおく」判断は人がやる、という8対2の分担を示した図</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">8 : 2</text>
+  <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">出てくるのは、8割の下書き</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="842" height="76" rx="14" fill="#d36542"/>
+    <text x="495" y="224" fill="#fff" font-size="27" font-weight="700" text-anchor="middle">AIが作る（8割）</text>
+    <rect x="926" y="176" width="200" height="76" rx="14" fill="#fff" stroke="#d36542" stroke-width="3"/>
+    <text x="1026" y="224" fill="#d36542" font-size="27" font-weight="700" text-anchor="middle">人（2割）</text>
+
+    <rect x="74" y="292" width="1052" height="106" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="112" y="336" fill="#7a7362" font-size="20" font-weight="700">決まったこと・やることの整理</text>
+    <text x="112" y="374" fill="#24231f" font-size="27" font-weight="700">AIのほうが速い。抜けも少ない</text>
+
+    <rect x="74" y="414" width="1052" height="106" rx="18" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="112" y="458" fill="#7a7362" font-size="20" font-weight="700">固有名詞・日時・参加者</text>
+    <text x="112" y="496" fill="#24231f" font-size="27" font-weight="700">人が直す必要がある</text>
+
+    <rect x="74" y="536" width="1052" height="106" rx="18" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="112" y="580" fill="#7a7362" font-size="20" font-weight="700">「これは書かないでおこう」の判断</text>
+    <text x="112" y="618" fill="#24231f" font-size="27" font-weight="700">人にしかできない</text>
+  </g>
+</svg>
