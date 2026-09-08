@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">間違えた原因は三つの取り違え</title>
+  <desc id="desc">「出ていない」を「起きていない」と読んだこと、同じことを2回試して根拠にしたこと、正常なときの数字を知らなかったこと。この三つの取り違えが重なって、壊れていないものを直しにいった。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <g font-family="sans-serif">
+    <text x="70" y="86" fill="#d36542" font-size="36" font-weight="700" letter-spacing="4">MISREADINGS</text>
+    <text x="70" y="152" fill="#24231f" font-size="52" font-weight="700">三つの取り違え</text>
+    <rect x="70" y="195" width="1060" height="130" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <circle cx="135" cy="260" r="38" fill="#d36542"/>
+    <text x="135" y="260" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="44" font-weight="700">1</text>
+    <text x="200" y="250" fill="#24231f" font-size="40" font-weight="700">「出ていない」を「起きていない」と読んだ</text>
+    <text x="200" y="300" fill="#7a7362" font-size="36">本当は「まだ出ていない」だけだった</text>
+    <rect x="70" y="355" width="1060" height="130" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <circle cx="135" cy="420" r="38" fill="#d36542"/>
+    <text x="135" y="420" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="44" font-weight="700">2</text>
+    <text x="200" y="410" fill="#24231f" font-size="40" font-weight="700">同じことを2回試して、根拠にした</text>
+    <text x="200" y="460" fill="#7a7362" font-size="36">遅れを2回見ただけ。別の確認ではない</text>
+    <rect x="70" y="515" width="1060" height="130" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <circle cx="135" cy="580" r="38" fill="#d36542"/>
+    <text x="135" y="580" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="44" font-weight="700">3</text>
+    <text x="200" y="570" fill="#24231f" font-size="40" font-weight="700">正常なときの数字を知らなかった</text>
+    <text x="200" y="620" fill="#7a7362" font-size="36">普段は1〜2秒。そこを知らずに30分待った</text>
+  </g>
+</svg>

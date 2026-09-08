@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">確かめる時間のほうが、直す時間より短かった</title>
+  <desc id="desc">この記事のまとめ。もっともらしさは正しさの証拠にならない、症状と原因は別物、対処の前に記録で一つだけ確かめる、正常なときの数字を知っておく、分からないことは分からないまま書き残す。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <g font-family="sans-serif">
+    <text x="70" y="86" fill="#d36542" font-size="36" font-weight="700" letter-spacing="4">SUMMARY</text>
+    <text x="70" y="154" fill="#24231f" font-size="52" font-weight="700">確かめる時間のほうが、直す時間より短い</text>
+    <path d="M70 190 H1130" fill="none" stroke="#d8d0bf" stroke-width="3"/>
+    <circle cx="92" cy="248" r="13" fill="#d36542"/>
+    <text x="132" y="262" fill="#24231f" font-size="40">もっともらしさは、正しさの証拠にならない</text>
+    <circle cx="92" cy="338" r="13" fill="#d36542"/>
+    <text x="132" y="352" fill="#24231f" font-size="40">症状と原因は別物。「出ていない」は症状</text>
+    <circle cx="92" cy="428" r="13" fill="#d36542"/>
+    <text x="132" y="442" fill="#24231f" font-size="40">対処の前に、記録で一つだけ確かめる</text>
+    <circle cx="92" cy="518" r="13" fill="#d36542"/>
+    <text x="132" y="532" fill="#24231f" font-size="40">正常なときの数字を知っておく</text>
+    <circle cx="92" cy="608" r="13" fill="#d36542"/>
+    <text x="132" y="622" fill="#24231f" font-size="40">分からないことは、分からないまま残す</text>
+  </g>
+</svg>
