@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">6つ入れると、7つ返る</title>
+  <desc id="desc">販売価格・1件あたりの経費・作業時間・固定費・販売見込み数・目標利益の6つを入れると、1件あたりの利益・利益率・実質時給・月間利益・黒字化に必要な販売数・目標利益に必要な販売数・10パーセント値上げの効果の7つが返る。計算はブラウザーの中で行い、入力した数字はサーバーへ送らない</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="22" font-weight="700" letter-spacing="3">INPUT &#8594; OUTPUT</text>
+  <text x="74" y="128" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">6つ入れると、7つ返る</text>
+
+  <g font-family="sans-serif">
+    <rect x="74" y="176" width="470" height="378" rx="18" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="224" fill="#7a7362" font-size="22" font-weight="700">入れるもの（6つ）</text>
+    <g fill="#24231f" font-size="25">
+      <text x="110" y="278">販売価格</text>
+      <text x="110" y="322">1件あたりの経費</text>
+      <text x="110" y="366">作業時間</text>
+      <text x="110" y="410">固定費</text>
+      <text x="110" y="454">販売見込み数</text>
+      <text x="110" y="498">目標利益</text>
+    </g>
+
+    <path d="M566 360 L616 360" stroke="#b8ae9a" stroke-width="3" fill="none"/>
+    <path d="M608 351 L622 360 L608 369 Z" fill="#b8ae9a"/>
+
+    <rect x="644" y="176" width="482" height="378" rx="18" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
+    <text x="680" y="224" fill="#7a7362" font-size="22" font-weight="700">返るもの（7つ）</text>
+    <g fill="#24231f" font-size="25">
+      <text x="680" y="272">1件あたりの利益</text>
+      <text x="680" y="312">利益率</text>
+      <text x="680" y="352">実質時給</text>
+      <text x="680" y="392">月間利益</text>
+      <text x="680" y="432">黒字化に必要な販売数</text>
+      <text x="680" y="472">目標利益に必要な販売数</text>
+      <text x="680" y="512">10%値上げしたときの効果</text>
+    </g>
+
+    <rect x="74" y="580" width="1052" height="66" rx="16" fill="#24231f"/>
+    <text x="600" y="622" text-anchor="middle" fill="#fff" font-size="25" font-weight="700">計算はブラウザーの中。入れた数字はサーバーへ送らない</text>
+  </g>
+</svg>
