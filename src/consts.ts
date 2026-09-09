@@ -19,7 +19,13 @@ export const BING_SITE_VERIFICATION = 'C058177F68DA892C4270A29503A02EEC';
 // Search Consoleの「HTMLタグ」方式で表示される content の値だけをここへ入れる。
 // 例: <meta name="google-site-verification" content="ABC123..." /> なら 'ABC123...' の部分。
 // 空文字のときはタグを出力しない。扱いは Bing と同じ（SAFE-01）。
-export const GOOGLE_SITE_VERIFICATION = 'L00MyHArE7fVl9XqMM2M49fgajpoTcXY4oepTcaN9fo';
+// 2026-09-09（BG-0058）に差し替えた。前の値では所有権の確認が通らなかった——
+// 人間が Search Console でプロパティを登録し直したところ、画面が求めるコードが変わっていた
+// （ASK-H-059 → HR-084「でていなかった↑がMETAタグ」・HR-090「サイトがまだ登録されて
+// いなかったので、いま登録した」）。RUN-0183 が本番・ソース・人間の値の3つを突き合わせて
+// 「本番とソースは一致・人間の値とは食い違い」と実測し、ここは blog-hourly の場所なので
+// 差し替えを引き渡していた（MULTI_ROUTINE_RULES.md 決まり1）。前の値は履歴に残る。
+export const GOOGLE_SITE_VERIFICATION = 'mBdYzi-_0z9WvYFs7ovGUVmb6h7qUqDeWeqD3Kd0jSE';
 
 // SNSと検索結果で使うカード画像。1200x630のPNGだけを指定する（SVGはX・Facebookが表示しない）。
 export const DEFAULT_OG_IMAGE = '/og/default.png';
