@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">やってみて分かったこと</title>
+  <desc id="desc">削って並べ直すのはAIのほうが速い。何を削ったかを言わせるのは指示文しだいで、一覧を求めなければ気づけない。足りない情報を用意するのは人にしかできない。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <g font-family="sans-serif">
+    <text x="70" y="86" fill="#d36542" font-size="36" font-weight="700" letter-spacing="4">RESULT</text>
+    <text x="70" y="152" fill="#24231f" font-size="52" font-weight="700">やってみて分かったこと</text>
+
+    <rect x="70" y="200" width="1060" height="140" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="258" fill="#2f6b4f" font-size="42" font-weight="700">AIのほうが速い</text>
+    <text x="110" y="310" fill="#24231f" font-size="36">削って並べ直す。相手と時間を渡すだけ</text>
+
+    <rect x="70" y="360" width="1060" height="140" rx="24" fill="#fff" stroke="#d36542" stroke-width="4"/>
+    <text x="110" y="418" fill="#d36542" font-size="42" font-weight="700">指示文しだい</text>
+    <text x="110" y="470" fill="#24231f" font-size="36">何を削ったかを言うこと。求めないと出ない</text>
+
+    <rect x="70" y="520" width="1060" height="140" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="578" fill="#24231f" font-size="42" font-weight="700">人にしかできない</text>
+    <text x="110" y="630" fill="#24231f" font-size="36">足りない情報を用意する。今回は3件出た</text>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">作り直しの指示文は4つの塊でできている</title>
+  <desc id="desc">元のスライドにはアウトラインからコピーした文字を貼る。新しい条件には相手・目的・時間・ページ数を書く。出力の形では落としたものと足りない情報を分けて書かせる。守ることで黙って消させない。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <g font-family="sans-serif">
+    <text x="70" y="86" fill="#d36542" font-size="36" font-weight="700" letter-spacing="4">PROMPT</text>
+    <text x="70" y="152" fill="#24231f" font-size="52" font-weight="700">作り直しの指示文は4つの塊</text>
+
+    <rect x="70" y="195" width="1060" height="110" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="263" fill="#d36542" font-size="40" font-weight="700">【元】</text>
+    <text x="400" y="263" fill="#24231f" font-size="36">いまあるスライドの文字</text>
+
+    <rect x="70" y="315" width="1060" height="110" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="383" fill="#d36542" font-size="40" font-weight="700">【条件】</text>
+    <text x="400" y="383" fill="#24231f" font-size="36">相手・目的・時間・ページ数</text>
+
+    <rect x="70" y="435" width="1060" height="110" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="503" fill="#d36542" font-size="40" font-weight="700">【出力】</text>
+    <text x="400" y="503" fill="#24231f" font-size="36">落としたもの／足りない情報</text>
+
+    <rect x="70" y="555" width="1060" height="110" rx="24" fill="#fff" stroke="#2f6b4f" stroke-width="3"/>
+    <text x="110" y="623" fill="#2f6b4f" font-size="40" font-weight="700">【守る】</text>
+    <text x="400" y="623" fill="#24231f" font-size="36">黙って消させない</text>
+  </g>
+</svg>
