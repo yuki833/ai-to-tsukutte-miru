@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">この記事の前に読むのは資料作成の記事、材料をそろえるなら議事録の記事、あわせて読むのはAIの答えを確かめた記事で、次に書くのは要約の記事</title>
-  <desc id="desc">この記事の前後関係を示した図。前の工程は資料作成をAIに頼む記事で、そこで作った構成案がこの記事の材料になる。さらに前の材料をそろえるのが議事録の記事。あわせて読むのはAIの答えを確かめた記事で、動いているように見えるものを信じない話が共通している。次に書くのは長い文章の要約の記事</desc>
+  <title id="title">この記事の前に読むのは資料作成の記事、材料をそろえるなら議事録の記事、あわせて読むのはAIの答えを確かめた記事で、そのあと書いたのは要約の記事</title>
+  <desc id="desc">この記事の前後関係を示した図。前の工程は資料作成をAIに頼む記事で、そこで作った構成案がこの記事の材料になる。さらに前の材料をそろえるのが議事録の記事。あわせて読むのはAIの答えを確かめた記事で、動いているように見えるものを信じない話が共通している。そのあと書いたのは長い文章の要約の記事</desc>
   <rect width="1200" height="675" fill="#f6f2e9"/>
   <text x="74" y="74" fill="#d36542" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">WHAT NEXT</text>
   <text x="74" y="126" fill="#24231f" font-family="sans-serif" font-size="39" font-weight="700">材料をそろえる → 順番を作る → 流し込む</text>
@@ -33,7 +33,7 @@
     <text x="106" y="500" fill="#5c534a" font-size="19">動いているように見えるものを、そのまま信じない</text>
 
     <rect x="624" y="376" width="502" height="152" rx="18" fill="#fdf6f3" stroke="#e2b3a4" stroke-width="2"/>
-    <text x="656" y="418" fill="#d36542" font-size="18" font-weight="700">次に書く</text>
+    <text x="656" y="418" fill="#d36542" font-size="18" font-weight="700">そのあと書いた</text>
     <text x="656" y="458" fill="#24231f" font-size="24" font-weight="700">長い文章をAIに要約させる</text>
     <text x="656" y="500" fill="#5c534a" font-size="19">メール・資料・議事録のすべてに効きます</text>
 
