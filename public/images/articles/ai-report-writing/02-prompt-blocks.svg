@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">指示文は4つの区画でできている</title>
+  <desc id="desc">材料の区画にはメモと数字をそのまま貼る。書き方の区画では7つの見出しと数字の出どころの表を求める。守ることの1つ目は結果と解釈を別の見出しに分けること。守ることの2つ目は計算した数字に式を書かせ、比べられない数字は比べずに理由を書かせること。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <g font-family="sans-serif">
+    <text x="70" y="86" fill="#d36542" font-size="36" font-weight="700" letter-spacing="4">PROMPT</text>
+    <text x="70" y="152" fill="#24231f" font-size="52" font-weight="700">指示文は4つの区画</text>
+
+    <rect x="70" y="190" width="515" height="200" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="252" fill="#24231f" font-size="44" font-weight="700">材料</text>
+    <text x="110" y="306" fill="#24231f" font-size="36">メモと数字を</text>
+    <text x="110" y="352" fill="#8a8578" font-size="36">そのまま貼る</text>
+
+    <rect x="615" y="190" width="515" height="200" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="655" y="252" fill="#24231f" font-size="44" font-weight="700">書き方</text>
+    <text x="655" y="306" fill="#24231f" font-size="36">7つの見出しと</text>
+    <text x="655" y="352" fill="#8a8578" font-size="36">数字の出どころの表</text>
+
+    <rect x="70" y="410" width="515" height="200" rx="24" fill="#fff" stroke="#d36542" stroke-width="4"/>
+    <text x="110" y="472" fill="#d36542" font-size="44" font-weight="700">守ること①</text>
+    <text x="110" y="526" fill="#24231f" font-size="36">結果と解釈を</text>
+    <text x="110" y="572" fill="#8a8578" font-size="36">別の見出しに分ける</text>
+
+    <rect x="615" y="410" width="515" height="200" rx="24" fill="#fff" stroke="#d36542" stroke-width="4"/>
+    <text x="655" y="472" fill="#d36542" font-size="44" font-weight="700">守ること②</text>
+    <text x="655" y="526" fill="#24231f" font-size="36">計算した数字には式</text>
+    <text x="655" y="572" fill="#8a8578" font-size="36">比べられないなら理由</text>
+
+    <text x="70" y="660" fill="#24231f" font-size="36" font-weight="700">要点は下の2つ</text>
+  </g>
+</svg>

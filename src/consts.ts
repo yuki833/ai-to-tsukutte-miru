@@ -49,6 +49,7 @@ export const OG_IMAGES: Record<string, string> = {
   'ai-translate-business-email': '/og/ai-translate-business-email.png',
   'ai-write-announcement': '/og/ai-write-announcement.png',
   'ai-powerpoint-rewrite': '/og/ai-powerpoint-rewrite.png',
+  'ai-report-writing': '/og/ai-report-writing.png',
 };
 
 export const CATEGORIES = {

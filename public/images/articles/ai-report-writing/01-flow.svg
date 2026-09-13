@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">レポートを書かせる流れは3つ</title>
+  <desc id="desc">1つ目はメモと数字をまとめ直さずにそのまま貼る。2つ目は見出しと守ることを書いて送る。3つ目は本文に出た数字を、材料のどの行から取ったか1つずつ突き合わせる。大事なのは3つ目。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <g font-family="sans-serif">
+    <text x="70" y="86" fill="#d36542" font-size="36" font-weight="700" letter-spacing="4">FLOW</text>
+    <text x="70" y="152" fill="#24231f" font-size="52" font-weight="700">やることは3つ</text>
+
+    <rect x="70" y="190" width="1060" height="130" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="246" fill="#24231f" font-size="44" font-weight="700">1　メモと数字をそのまま貼る</text>
+    <text x="110" y="296" fill="#8a8578" font-size="36">自分でまとめ直してから渡さない</text>
+
+    <rect x="70" y="340" width="1060" height="130" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="396" fill="#24231f" font-size="44" font-weight="700">2　見出しと「守ること」を書いて送る</text>
+    <text x="110" y="446" fill="#8a8578" font-size="36">結果と解釈を、別の見出しに分けさせる</text>
+
+    <rect x="70" y="490" width="1060" height="130" rx="24" fill="#fff" stroke="#d36542" stroke-width="4"/>
+    <text x="110" y="546" fill="#d36542" font-size="44" font-weight="700">3　数字の出どころを突き合わせる</text>
+    <text x="110" y="596" fill="#24231f" font-size="36">本文の数字を、材料の行と1つずつ見比べる</text>
+
+    <text x="70" y="660" fill="#24231f" font-size="36" font-weight="700">大事なのは3つ目</text>
+  </g>
+</svg>
