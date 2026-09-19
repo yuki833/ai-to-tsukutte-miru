@@ -67,11 +67,15 @@ const jsonLd = {
   @media (max-width: 900px) { .article-grid { grid-template-columns: minmax(0, var(--reading)); } .article-grid aside { position: static; padding: 1rem 1.2rem; border: 1px solid var(--line); border-radius: 12px; background: #fff; } }
 </style>
 
-<!--
-  コード枠のコピーボタン。**中身は public/js/copy-code.js に置く。**
-  このサイトはCSPで script-src 'self' を出しており、.astro に <script> を書くと
+{/*
+  コード枠のコピーボタン。中身は public/js/copy-code.js に置く。
+  このサイトはCSPで script-src 'self' を出しており、.astro に script 要素を直接書くと
   Astroがインライン化して弾かれる（INC-042）。同一オリジンの外部ファイルなら通る。
--->
+
+  この注記は HTML コメントで書かないこと。HTML コメントは配信され、
+  読者のページに内部の事故番号とソースの置き場がそのまま出る（WANT-380・EXP-298）。
+  Astro のコメント（この形）は配信されない。見張りは node scripts/check-article-rendered.mjs
+*/}
 <script is:inline defer src="/js/copy-code.js"></script>
 
 
