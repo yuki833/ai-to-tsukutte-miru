@@ -1,6 +1,7 @@
-export const SITE_TITLE = 'AIと、つくってみる。';
+// 2026-09-21 に「AIと、つくってみる。」から改名（DEC-074）。URL と X の ID は変えていない。
+export const SITE_TITLE = 'ユキのAI教室';
 export const SITE_DESCRIPTION =
-  'AIで仕事や暮らしの困りごとを解決し、アイデアを形にする過程を紹介する実践ブログ。';
+  '生成AIを一度も使ったことがない人に、どのAIでも通じる使い方を基礎から順番に教える教室。お手本はChatGPTで、返ってきた答えの全文を見せます。';
 
 // astro.config.mjs の site と同じ値。Astro.site が未定義の場合のフォールバックに使う。
 export const SITE_URL = 'https://ai-to-tsukutte-miru.pages.dev';
@@ -50,6 +51,7 @@ export const OG_IMAGES: Record<string, string> = {
   'ai-write-announcement': '/og/ai-write-announcement.png',
   'ai-powerpoint-rewrite': '/og/ai-powerpoint-rewrite.png',
   'ai-report-writing': '/og/ai-report-writing.png',
+  'generative-ai-first-question': '/og/generative-ai-first-question.png',
 };
 
 export const CATEGORIES = {

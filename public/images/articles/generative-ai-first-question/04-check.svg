@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">言っていない材料が足されていた</title>
+  <desc id="desc">私が伝えたのは卵、玉ねぎ、ごはん。返ってきた答えには、言っていない油、塩とこしょう、しょうゆが足されていた。家に無ければ、続けて伝えれば直してもらえる。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <g font-family="sans-serif">
+    <text x="70" y="86" fill="#d36542" font-size="36" font-weight="700" letter-spacing="4">CHECK</text>
+    <text x="70" y="152" fill="#24231f" font-size="52" font-weight="700">言っていないものが入っていた</text>
+
+    <rect x="70" y="190" width="510" height="330" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="250" fill="#8a8578" font-size="38" font-weight="700">私が伝えたもの</text>
+    <text x="110" y="330" fill="#24231f" font-size="40" font-weight="700">卵</text>
+    <text x="110" y="395" fill="#24231f" font-size="40" font-weight="700">玉ねぎ</text>
+    <text x="110" y="460" fill="#24231f" font-size="40" font-weight="700">ごはん</text>
+
+    <rect x="620" y="190" width="510" height="330" rx="24" fill="#fff" stroke="#d36542" stroke-width="4"/>
+    <text x="660" y="250" fill="#d36542" font-size="38" font-weight="700">答えに足されたもの</text>
+    <text x="660" y="330" fill="#24231f" font-size="40" font-weight="700">油</text>
+    <text x="660" y="395" fill="#24231f" font-size="40" font-weight="700">塩・こしょう</text>
+    <text x="660" y="460" fill="#24231f" font-size="40" font-weight="700">しょうゆ</text>
+
+    <text x="70" y="590" fill="#24231f" font-size="38" font-weight="700">家に無ければ、続けて伝えればいい</text>
+    <text x="70" y="640" fill="#8a8578" font-size="34">例：「しょうゆがありません」</text>
+  </g>
+</svg>

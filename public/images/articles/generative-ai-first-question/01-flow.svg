@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">第1回でやることは4つ</title>
+  <desc id="desc">1つ目は生成AIが何をするものかを知る。2つ目は質問する前に守ることを1つ決める。3つ目はふだんの言葉で1つ質問する。4つ目は返ってきた答えを1か所だけ確かめる。大事なのは4つ目。</desc>
+  <rect width="1200" height="760" fill="#f6f2e9"/>
+  <g font-family="sans-serif">
+    <text x="70" y="86" fill="#d36542" font-size="36" font-weight="700" letter-spacing="4">FLOW</text>
+    <text x="70" y="152" fill="#24231f" font-size="52" font-weight="700">今日やることは4つ</text>
+
+    <rect x="70" y="185" width="1060" height="110" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="236" fill="#24231f" font-size="42" font-weight="700">1　生成AIが何をするものかを知る</text>
+    <text x="110" y="278" fill="#8a8578" font-size="34">文で話しかけると、答えの文が返る</text>
+
+    <rect x="70" y="310" width="1060" height="110" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="361" fill="#24231f" font-size="42" font-weight="700">2　守ることを1つだけ決める</text>
+    <text x="110" y="403" fill="#8a8578" font-size="34">本当の名前・住所・パスワードは打たない</text>
+
+    <rect x="70" y="435" width="1060" height="110" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="486" fill="#24231f" font-size="42" font-weight="700">3　ふだんの言葉で1つ質問する</text>
+    <text x="110" y="528" fill="#8a8578" font-size="34">友だちに聞くときと同じ書き方でよい</text>
+
+    <rect x="70" y="560" width="1060" height="110" rx="24" fill="#fff" stroke="#d36542" stroke-width="4"/>
+    <text x="110" y="611" fill="#d36542" font-size="42" font-weight="700">4　答えを1か所だけ確かめる</text>
+    <text x="110" y="653" fill="#24231f" font-size="34">自分が言っていないことが入っていないか</text>
+
+    <text x="70" y="730" fill="#24231f" font-size="36" font-weight="700">大事なのは4つ目</text>
+  </g>
+</svg>

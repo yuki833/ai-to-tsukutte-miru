@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
 import { SITE_AUTHOR, SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from '../consts';
+import { COURSE, COURSE_NAME, LESSON_COUNT, PUBLISHED_LESSON_COUNT } from '../course';
 
 const posts = (await getCollection('posts', ({ data }) => !data.draft))
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
@@ -23,59 +24,56 @@ const jsonLd = {
   <section class="hero">
     <div class="container hero-grid">
       <div>
-        <p class="eyebrow">TRY · MAKE · LEARN WITH AI</p>
-        <h1>AIで、こんなことまで。<br /><span>できた過程も、ぜんぶ見せる。</span></h1>
-        <p class="lead">仕事を少し楽にしたり、思いついたものを形にしたり。AIで実際に何ができるのかを、完成したもの、使ったプロンプト、つまずいたところと一緒に紹介する実践ブログです。</p>
+        <p class="eyebrow">YUKI'S AI CLASSROOM</p>
+        <h1>生成AIを、<br /><span>ゼロから。</span></h1>
+        <p class="lead">ChatGPTをまだ一度も開いたことがない人のための教室です。何を入力すればいいか、答えをどこまで信じていいか、何を入れてはいけないか。どの生成AIでも通じる使い方を、1回に1つずつ、順番に教えます。お手本はChatGPTで、返ってきた答えを全文そのまま見せます。</p>
         <div class="actions">
-          <a class="button" href="/articles/">AIでできたことを見る <span aria-hidden="true">→</span></a>
-          <a class="text-link" href="/about/">このサイトについて</a>
+          <a class="button" href="/course/">講座の目次を見る <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="/about/">この教室について</a>
         </div>
       </div>
       <aside class="scoreboard">
-        <p class="score-label">LATEST PROJECT</p>
-        <h2>AIと無料ツールを<br />つくってみた</h2>
-        <div class="status"><span></span> 公開・検証中</div>
+        <p class="score-label">COURSE</p>
+        <h2>{COURSE_NAME}</h2>
+        <div class="status"><span></span> {PUBLISHED_LESSON_COUNT > 0 ? `${PUBLISHED_LESSON_COUNT}回を公開中・全${LESSON_COUNT}回` : `全${LESSON_COUNT}回・準備中`}</div>
         <dl>
-          <div><dt>つくったもの</dt><dd>価格・利益診断</dd></div>
-          <div><dt>利用料金</dt><dd>無料</dd></div>
-          <div><dt>分担</dt><dd>AI＋人間</dd></div>
-          <div><dt>記録</dt><dd>プロンプト・失敗</dd></div>
+          {COURSE.map((ch) => <div><dt>第{ch.no}章</dt><dd>{ch.title}</dd></div>)}
         </dl>
       </aside>
     </div>
   </section>
 
   <section class="manifesto container">
-    <p class="eyebrow">THE RULE</p>
-    <h2>難しい説明より、<br />まずは一緒にやってみる。</h2>
-    <p>新しいAIの名前を覚えるだけではなく、実際に使うと何が変わるのかを確かめます。うまくいった結果だけでなく、AIへの頼み方、人が考えたこと、失敗して直したところまで残します。</p>
+    <p class="eyebrow">WHAT YOU LEARN</p>
+    <h2>ツールが変わっても使える、<br />生成AIの「土台」を。</h2>
+    <p>ChatGPTも、Geminiも、Copilotも、上手に使うための考え方は同じです。この教室では、ボタンの押し方より先に、その考え方を教えます。仕事でも、暮らしでも、学びでも使えるように、例は特定の職業に寄せません。</p>
   </section>
 
   <section class="rules">
     <div class="container">
-      <p class="eyebrow">WHAT WE PUBLISH</p>
+      <p class="eyebrow">HOW THE CLASS WORKS</p>
       <div class="rule-grid">
-        <article><span>01</span><h3>試してみる</h3><p>仕事、暮らし、趣味の中から、AIで助けられそうなことを実際に試します。</p></article>
-        <article><span>02</span><h3>形にする</h3><p>文章、画像、資料、Webサイトや小さなツールまで、完成したものを見せます。</p></article>
-        <article><span>03</span><h3>分かりやすくする</h3><p>使ったプロンプトと手順を整理し、初めての人にも分かる言葉で紹介します。</p></article>
-        <article><span>04</span><h3>失敗も残す</h3><p>AIが間違えたところや人が直したところも、次に試す人のために残します。</p></article>
+        <article><span>01</span><h3>伝える</h3><p>してほしいこと・材料・返してほしい形を、普通の言葉で伝えます。</p></article>
+        <article><span>02</span><h3>確かめる</h3><p>生成AIは、もっともらしい間違いを言います。見つけ方と確かめ方を教えます。</p></article>
+        <article><span>03</span><h3>守る</h3><p>名前・住所・パスワード・秘密。入れてはいけないものを最初に教えます。</p></article>
+        <article><span>04</span><h3>つまずきも教材に</h3><p>実際に返ってきた間違った答えと、その直し方を見せます。</p></article>
       </div>
     </div>
   </section>
 
   <section class="experiment container">
     <div>
-      <p class="eyebrow">ONE REAL EXAMPLE</p>
-      <h2>身近な困りごとを、<br />AIと一緒に形にする。</h2>
+      <p class="eyebrow">START HERE</p>
+      <h2>まだ触ったことがない人は、<br />第1回から。</h2>
     </div>
     <div>
-      <p>今回は「値段を決めても、本当に利益が残るか分かりにくい」という悩みをもとに、無料の価格・利益診断ツールを作りました。課題を調べるところから、AIとの制作、公開後の改善までを紹介します。</p>
-      <ul><li>どんな困りごとがあるか調べる</li><li>AIと必要な機能を考える</li><li>実際に使えるWebツールを作る</li><li>使われ方を見ながら少しずつ直す</li></ul>
-      <a class="button" href="/ai-lab/">今回つくったものを見る <span aria-hidden="true">→</span></a>
+      <p>講座は全{LESSON_COUNT}回。第1回では、生成AIが何かと、ChatGPTの開き方から始めます。前の回で覚えたことを使って、次の回へ進む順番に並んでいます。</p>
+      <ul>{COURSE.map((ch) => <li>第{ch.no}章　{ch.title}</li>)}</ul>
+      <a class="button" href="/course/">講座の目次を見る <span aria-hidden="true">→</span></a>
     </div>
   </section>
 
-  {posts.length > 0 && <section class="container posts"><div class="section-head"><div><p class="eyebrow">LOGBOOK</p><h2>これまでの記録</h2></div><a href="/articles/">すべて見る →</a></div><div class="post-grid">{posts.slice(0, 3).map((post) => <PostCard post={post} />)}</div></section>}
+  {posts.length > 0 && <section class="container posts"><div class="section-head"><div><p class="eyebrow">NEW</p><h2>新しい記事</h2></div><a href="/articles/">すべて見る →</a></div><div class="post-grid">{posts.slice(0, 3).map((post) => <PostCard post={post} />)}</div></section>}
 </BaseLayout>
 
 <style>

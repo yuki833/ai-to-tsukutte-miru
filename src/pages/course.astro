@@ -1,0 +1,74 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { COURSE, COURSE_NAME, COURSE_PROMISE, LESSON_COUNT, PRACTICE, PUBLISHED_LESSON_COUNT, REFERENCE } from '../course';
+
+const posts = await getCollection('posts', ({ data }) => !data.draft);
+const practice = PRACTICE.map((id) => posts.find((p) => p.id === id)).filter((p) => p !== undefined);
+---
+<BaseLayout title={`${COURSE_NAME}の目次`} description={`生成AIを一度も使ったことがない人のための講座です。ChatGPTを例に、どのAIでも通じる使い方を全${LESSON_COUNT}回で順番に教えます。`}>
+  <section class="reading course-head">
+    <p class="eyebrow">COURSE</p>
+    <h1>{COURSE_NAME}</h1>
+    <p class="promise"><strong>修了するとできること</strong>{COURSE_PROMISE}</p>
+    <p class="note">全{COURSE.length}章・{LESSON_COUNT}回。{PUBLISHED_LESSON_COUNT > 0 ? `いま読めるのは${PUBLISHED_LESSON_COUNT}回で、残りは準備中です。` : 'いま準備中です。第1回から順に公開します。'}お手本はChatGPTで見せますが、教える考え方はGeminiやCopilotなど、ほかの生成AIでも同じです。</p>
+    {REFERENCE.postId && <p class="note">ChatGPTをまだ開いたことがない人は、先に<a href={`/articles/${REFERENCE.postId}/`}>「{REFERENCE.title}」</a>を読んでください。</p>}
+  </section>
+
+  <section class="reading method">
+    <h2>この講座で身につける3つのこと</h2>
+    <ol>
+      <li><strong>伝える</strong>　してほしいこと・材料・返してほしい形を、普通の言葉で伝える。</li>
+      <li><strong>確かめる</strong>　もっともらしい間違いと抜けを見つけ、元の情報で確かめる。</li>
+      <li><strong>守る</strong>　名前・住所・パスワード・秘密を入れない。</li>
+    </ol>
+  </section>
+
+  <section class="reading chapters">
+    {COURSE.map((ch) => (
+      <div class="chapter">
+        <p class="ch-no">第{ch.no}章</p>
+        <h2>{ch.title}</h2>
+        <p class="goal">この章のゴール：{ch.goal}</p>
+        <ol class="lessons">
+          {ch.lessons.map((l) => (
+            <li class={l.postId ? '' : 'soon'}>
+              <span class="no">第{l.no}回</span>
+              {l.postId ? <a href={`/articles/${l.postId}/`}>{l.title}</a> : <span>{l.title}</span>}
+              {!l.postId && <span class="badge">準備中</span>}
+            </li>
+          ))}
+        </ol>
+      </div>
+    ))}
+  </section>
+
+  <section class="reading practice">
+    <p class="ch-no">基礎のあとに</p>
+    <h2>用途別の実践編</h2>
+    <p class="goal">基礎講座で身につけたことを、具体的な場面で使う記事です。自分に近い場面から読んでください。</p>
+    <ul class="lessons">
+      {practice.map((p) => <li><a href={`/articles/${p.id}/`}>{p.data.title}</a></li>)}
+    </ul>
+    <p class="more"><a href="/ai-lab/">ケーススタディ（AIと一緒に作った記録）も読む →</a></p>
+  </section>
+</BaseLayout>
+<style>
+  .course-head { padding-top: 5rem; }
+  h1 { margin: 0; font-size: clamp(2.2rem, 6vw, 3.8rem); line-height: 1.3; letter-spacing: -.05em; }
+  .promise { margin-top: 2rem; padding: 1.4rem 1.6rem; border-left: 4px solid var(--tech); border-radius: 0 14px 14px 0; background: #f1e6ce; line-height: 1.9; }
+  .promise strong { display: block; margin-bottom: .3rem; font-size: .85rem; }
+  .note { color: var(--muted); }
+  .method { margin-top: 3rem; } .method ol { padding-left: 1.3rem; line-height: 2; }
+  .chapter, .practice { margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--line); }
+  .ch-no { margin: 0; color: var(--accent); font: 800 .75rem ui-monospace, monospace; letter-spacing: .12em; }
+  .chapter h2, .practice h2 { margin: .4rem 0 .6rem; font-size: 1.6rem; }
+  .goal { margin: 0 0 1.2rem; color: var(--muted); font-size: .92rem; }
+  .lessons { margin: 0; padding: 0; list-style: none; }
+  .lessons li { display: flex; flex-wrap: wrap; align-items: baseline; gap: .7rem; padding: .75rem 0; border-bottom: 1px dashed var(--line); }
+  .lessons .no { min-width: 3.6rem; color: var(--muted); font: 700 .8rem ui-monospace, monospace; }
+  .lessons a { font-weight: 700; }
+  .lessons .soon { color: var(--muted); }
+  .badge { padding: .1rem .55rem; border: 1px solid var(--line); border-radius: 99px; font-size: .72rem; }
+  .more { margin-top: 1.5rem; font-size: .9rem; }
+</style>

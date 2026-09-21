@@ -1,7 +1,30 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { COURSE_NAME, LESSON_COUNT } from '../course';
 ---
-<BaseLayout title="About" description="AIでできることを、完成したものと試行錯誤から分かりやすく紹介する理由。">
-  <section class="reading about"><p class="eyebrow">ABOUT THIS PROJECT</p><h1>AIを、知って終わりではなく、<br />使えるところまで一緒に。</h1><div class="body"><p>「AIと、つくってみる。」は、AIで実際に何ができるのかを、完成したものと制作過程から紹介する実践ブログです。</p><p>AIに興味はあっても、何を頼めばよいのか、どこまで任せてよいのかは、使ってみないとなかなか分かりません。そこで、仕事や暮らしの身近な困りごと、ふと思いついたアイデアをAIと一緒に形にします。</p><aside><strong>完成した結果だけでなく、使ったプロンプト、人が考えたこと、つまずき、直し方まで紹介します。</strong></aside><h2>このブログで紹介すること</h2><ul><li>AIでどんなことができるか</li><li>使ったAIツールとプロンプト</li><li>実際に完成した文章、画像、サイト、ツール</li><li>AIに任せられたことと、人が判断したこと</li><li>うまくいかなかった理由と直し方</li></ul><h2>一緒に試すような気持ちで</h2><p>このサイト自体も、AIと相談しながら作りました。私自身が試し、迷い、直した過程を残すことで、初めてAIを使う人にも「これなら自分でもできそう」と思ってもらえる場所を目指します。</p><p>小さなビジネス作りも扱いますが、それだけがテーマではありません。仕事、暮らし、趣味、創作など、AIが役立つ場面を少しずつ増やしていきます。</p><p><a class="button" href="/articles/">AIでできたことを見る →</a></p></div></section>
+<BaseLayout title="About" description="ユキのAI教室は、生成AIを一度も使ったことがない人に、どのAIでも通じる使い方を基礎から順番に教える教室です。教え方と、教えないことを書いています。">
+  <section class="reading about"><p class="eyebrow">ABOUT THIS CLASSROOM</p><h1>生成AIの使い方を、<br />はじめの一歩から教えます。</h1><div class="body">
+    <p>「ユキのAI教室」は、生成AIをまだ使ったことがない人のための教室です。ChatGPTの名前は聞いたことがあるけれど、開いたことはない。何を入力すればいいのか分からない。間違ったことを言うらしいし、個人情報も心配。そんな人が、最初の一歩を踏み出せるように作りました。</p>
+    <p>ChatGPT、Gemini、Copilot。生成AIにはいくつも種類がありますが、上手に使うための考え方は同じです。この教室では、ボタンの押し方より先に、その考え方を教えます。お手本は、いちばん出会いやすいChatGPTで見せます。</p>
+    <aside><strong>身につけるのは「伝える・確かめる・守る」の3つです。</strong>してほしいことを伝え、返ってきた答えを確かめ、入れてはいけないものを守る。仕事でも、暮らしでも、学びでも、同じやり方で使えます。</aside>
+    <h2>この教室の教え方</h2>
+    <ul>
+      <li><strong>1回に1つずつ、順番に教えます。</strong>「{COURSE_NAME}」は全{LESSON_COUNT}回。前の回で覚えたことを使って、次の回へ進みます。</li>
+      <li><strong>例は、特定の職業に寄せません。</strong>各回に、暮らし・学び・仕事の置き換え例を添えます。</li>
+      <li><strong>お手本は、実際に返ってきた答えの全文です。</strong>作り話の例は載せません。使ったAIと日付も書きます。</li>
+      <li><strong>つまずきも教材にします。</strong>AIが間違えたところと、その直し方を見せます。</li>
+      <li><strong>専門の言葉は、あとから。</strong>最初は普通の言葉だけで説明します。</li>
+    </ul>
+    <h2>教えないこと</h2>
+    <ul>
+      <li>自分で試していないツールや使い方は教えません。ほかのAIで試していないことを「同じようにできます」とも書きません。</li>
+      <li>AIのニュースや、ツールのランキングは扱いません。</li>
+      <li>法律や規程については断定しません。確かめる先と、確かめ方を教えます。</li>
+      <li>安全に使うために必要なことは、すべて無料で読めるようにします。</li>
+    </ul>
+    <h2>先生のユキについて</h2>
+    <p>ユキは、生成AIを毎日使いながら、うまくいった頼み方と、つまずいたところを記録してきました。このサイトも、AIと相談しながら作っています。資格や肩書きで教えるのではなく、自分で試して確かめたやり方だけを教えます。</p>
+    <p><a class="button" href="/course/">講座の目次を見る →</a></p>
+  </div></section>
 </BaseLayout>
 <style>.about{padding-top:5rem}h1{margin:0;font-size:clamp(2.3rem,6vw,4.4rem);line-height:1.35;letter-spacing:-.055em}.body{margin-top:3rem;padding-top:2rem;border-top:1px solid var(--line);font-size:1.02rem;line-height:2.05}h2{margin-top:3.5rem;font-size:1.5rem}li+li{margin-top:.55rem}aside{margin:2.5rem 0;padding:1.7rem;border-left:4px solid var(--tech);border-radius:0 14px 14px 0;background:#f1e6ce}.button{margin-top:.5rem}</style>

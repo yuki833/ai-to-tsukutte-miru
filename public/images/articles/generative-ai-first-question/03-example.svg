@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">送った文と、返ってきた答えの形</title>
+  <desc id="desc">送った文には、いまあるもの、してほしいこと、自分のことの3つが入っている。返ってきた答えは、料理名、材料と分量、5つの手順、コツの順に並んでいた。</desc>
+  <rect width="1200" height="720" fill="#f6f2e9"/>
+  <g font-family="sans-serif">
+    <text x="70" y="86" fill="#d36542" font-size="36" font-weight="700" letter-spacing="4">EXAMPLE</text>
+    <text x="70" y="152" fill="#24231f" font-size="52" font-weight="700">1回送って、そろったもの</text>
+
+    <rect x="70" y="190" width="500" height="430" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="105" y="248" fill="#8a8578" font-size="38" font-weight="700">送った文に入れた</text>
+    <text x="105" y="330" fill="#24231f" font-size="38" font-weight="700">・いまあるもの</text>
+    <text x="105" y="430" fill="#24231f" font-size="38" font-weight="700">・してほしいこと</text>
+    <text x="105" y="530" fill="#24231f" font-size="38" font-weight="700">・自分のこと</text>
+
+    <text x="585" y="425" fill="#d36542" font-size="52" font-weight="700">→</text>
+
+    <rect x="640" y="190" width="490" height="430" rx="24" fill="#fff" stroke="#d36542" stroke-width="4"/>
+    <text x="675" y="248" fill="#d36542" font-size="38" font-weight="700">返ってきた答え</text>
+    <text x="675" y="330" fill="#24231f" font-size="38" font-weight="700">1　料理名</text>
+    <text x="675" y="400" fill="#24231f" font-size="38" font-weight="700">2　材料と分量</text>
+    <text x="675" y="470" fill="#24231f" font-size="38" font-weight="700">3　5つの手順</text>
+    <text x="675" y="540" fill="#24231f" font-size="38" font-weight="700">4　コツ</text>
+
+    <text x="70" y="685" fill="#24231f" font-size="36" font-weight="700">むずかしい言い方は使っていない</text>
+  </g>
+</svg>

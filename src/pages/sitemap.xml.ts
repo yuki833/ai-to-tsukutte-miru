@@ -28,6 +28,7 @@ export const GET: APIRoute = async ({ site }) => {
   const entries: Entry[] = [
     { path: '/', lastmod: newest, priority: '1.0' },
     { path: '/articles/', lastmod: newest, priority: '0.9' },
+    { path: '/course/', priority: '0.9' },
     { path: '/ai-lab/', priority: '0.8' },
     { path: '/about/', priority: '0.5' },
     ...Object.keys(CATEGORIES).map((category) => ({

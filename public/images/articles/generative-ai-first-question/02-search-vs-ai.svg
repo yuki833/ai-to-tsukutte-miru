@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">検索と生成AIのちがい</title>
+  <desc id="desc">検索は、言葉をいくつか打つと、ページの一覧が返ってくる。生成AIは、ふだんの文で話しかけると、答えの文が返ってくる。どちらも、最後に確かめるのは自分。</desc>
+  <rect width="1200" height="675" fill="#f6f2e9"/>
+  <g font-family="sans-serif">
+    <text x="70" y="86" fill="#d36542" font-size="36" font-weight="700" letter-spacing="4">DIFFERENCE</text>
+    <text x="70" y="152" fill="#24231f" font-size="52" font-weight="700">返ってくるものがちがう</text>
+
+    <rect x="70" y="190" width="510" height="390" rx="24" fill="#fff" stroke="#d8d0bf" stroke-width="2"/>
+    <text x="110" y="250" fill="#8a8578" font-size="44" font-weight="700">検索</text>
+    <text x="110" y="320" fill="#8a8578" font-size="34">打つもの</text>
+    <text x="110" y="366" fill="#24231f" font-size="38" font-weight="700">言葉をいくつか</text>
+    <text x="110" y="440" fill="#8a8578" font-size="34">返ってくるもの</text>
+    <text x="110" y="486" fill="#24231f" font-size="38" font-weight="700">ページの一覧</text>
+    <text x="110" y="550" fill="#8a8578" font-size="34">→ 自分で開いて読む</text>
+
+    <rect x="620" y="190" width="510" height="390" rx="24" fill="#fff" stroke="#d36542" stroke-width="4"/>
+    <text x="660" y="250" fill="#d36542" font-size="44" font-weight="700">生成AI</text>
+    <text x="660" y="320" fill="#8a8578" font-size="34">打つもの</text>
+    <text x="660" y="366" fill="#24231f" font-size="38" font-weight="700">ふだんの文</text>
+    <text x="660" y="440" fill="#8a8578" font-size="34">返ってくるもの</text>
+    <text x="660" y="486" fill="#24231f" font-size="38" font-weight="700">答えの文</text>
+    <text x="660" y="550" fill="#8a8578" font-size="34">→ 読んで確かめる</text>
+
+    <text x="70" y="640" fill="#24231f" font-size="36" font-weight="700">どちらも、最後に確かめるのは自分</text>
+  </g>
+</svg>

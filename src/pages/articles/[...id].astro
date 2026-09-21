@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { CATEGORIES, DEFAULT_OG_IMAGE, OG_IMAGES, SITE_AUTHOR, SITE_TITLE, SITE_URL } from '../../consts';
+import { CASE_STUDIES, COURSE_NAME, PRACTICE, findLesson } from '../../course';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts', ({ data }) => !data.draft);
@@ -14,6 +15,10 @@ const date = post.data.publishedAt.toLocaleDateString('ja-JP', { year: 'numeric'
 const origin = Astro.site?.origin ?? SITE_URL;
 const articleUrl = new URL(`/articles/${post.id}/`, origin).href;
 const ogImagePath = OG_IMAGES[post.id] ?? DEFAULT_OG_IMAGE;
+// 講座のどの回か（DEC-074）。講座に入っていない記事は null。
+const place = findLesson(post.id);
+const isCaseStudy = CASE_STUDIES.includes(post.id);
+const isPractice = PRACTICE.includes(post.id);
 
 // 検索エンジンへ記事の構造を伝える。個人情報・認証情報・診断入力値は入れない。
 const jsonLd = {
@@ -44,7 +49,13 @@ const jsonLd = {
 >
   <article>
     <header class="article-head reading">
-      <a class="pill" href={`/categories/${post.data.category}/`}>{CATEGORIES[post.data.category].label}</a>
+      {place
+        ? <a class="pill" href="/course/">{COURSE_NAME}　第{place.lesson.no}回（第{place.lesson.chapter.no}章「{place.lesson.chapter.title}」）</a>
+        : isPractice
+          ? <a class="pill" href="/course/">用途別の実践編（基礎講座のあとに）</a>
+          : isCaseStudy
+            ? <a class="pill" href="/ai-lab/">ケーススタディ</a>
+            : <a class="pill" href={`/categories/${post.data.category}/`}>{CATEGORIES[post.data.category].label}</a>}
       <h1>{post.data.title}</h1>
       <p class="description">{post.data.description}</p>
       <div class="meta"><time datetime={post.data.publishedAt.toISOString()}>{date}</time>{post.data.updatedAt && <><span>・</span><span>更新 <time datetime={post.data.updatedAt.toISOString()}>{post.data.updatedAt.toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' })}</time></span></>}<span>・</span><span>{post.data.tags.map((tag) => `#${tag}`).join('  ')}</span></div>
@@ -53,6 +64,13 @@ const jsonLd = {
       {headings.length > 0 && <aside><p>CONTENTS</p><ul>{headings.filter((h) => h.depth === 2).map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ul></aside>}
       <div class="prose"><Content /></div>
     </div>
+    {place && (
+      <nav class="lesson-nav reading" aria-label="講座の前後の回">
+        {place.prev ? <a href={`/articles/${place.prev.postId}/`}><small>前の回 第{place.prev.no}回</small>{place.prev.title}</a> : <span></span>}
+        <a class="toc" href="/course/"><small>講座</small>目次へ</a>
+        {place.next ? <a href={`/articles/${place.next.postId}/`}><small>次の回 第{place.next.no}回</small>{place.next.title}</a> : <span></span>}
+      </nav>
+    )}
   </article>
 </BaseLayout>
 <style is:global>
@@ -64,6 +82,15 @@ const jsonLd = {
   .prose table { display: block; width: 100%; overflow-x: auto; margin: 1.8rem 0; border-collapse: collapse; font-family: "BIZ UDPGothic", "Yu Gothic UI", sans-serif; font-size: .86rem; line-height: 1.65; }
   .prose th, .prose td { min-width: 9rem; padding: .8rem .9rem; border: 1px solid var(--line); text-align: left; vertical-align: top; }
   .prose th { background: var(--accent-soft); color: var(--accent-dark); }
+  /* 講座のお手本の全文は折りたたむ（AI_COURSE_CURRICULUM.md 3節の3） */
+  .prose details { margin: 1.8rem 0; padding: .9rem 1.3rem; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+  .prose summary { cursor: pointer; color: var(--accent-dark); font-family: "BIZ UDPGothic", "Yu Gothic UI", sans-serif; font-weight: 700; }
+  .prose details[open] summary { margin-bottom: .6rem; }
+  .lesson-nav { display: grid; grid-template-columns: 1fr auto 1fr; gap: 1rem; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--line); font-size: .9rem; }
+  .lesson-nav a { display: block; padding: 1rem 1.1rem; border: 1px solid var(--line); border-radius: 12px; background: #fff; font-weight: 700; text-decoration: none; }
+  .lesson-nav a:last-child { text-align: right; } .lesson-nav .toc { text-align: center; }
+  .lesson-nav small { display: block; color: var(--muted); font-size: .72rem; font-weight: 700; }
+  @media (max-width: 640px) { .lesson-nav { grid-template-columns: 1fr; } .lesson-nav a:last-child, .lesson-nav .toc { text-align: left; } }
   @media (max-width: 900px) { .article-grid { grid-template-columns: minmax(0, var(--reading)); } .article-grid aside { position: static; padding: 1rem 1.2rem; border: 1px solid var(--line); border-radius: 12px; background: #fff; } }
 </style>
 
